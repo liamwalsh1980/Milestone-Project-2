@@ -15,18 +15,50 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>The Euro Football Quiz</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <header>
-        Logo in text
-        NavBar
+        <nav id="header-color" class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" id="logo" href="index.html" aria-label="Jump to the Homepage">The Euro Football Quiz</a>
+                </div>
+                <div>
+                    <!-- toggle button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" id="menulist">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                aria-label="Jump to the Homepage">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tournaments.html" aria-label="Jump to the Tournaments page">Tournaments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html"
+                                aria-label="Jump to the Quiz page">Quiz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.html"
+                                aria-label="Jump to the Feedback page">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
     </header>
 
     <footer>
-        Copyright &copy;
-        Social Media icons
+       
     </footer>
     
 
