@@ -125,33 +125,35 @@ Date this project started: 3rd June 2020
 
 * As my target audience would be mainly football fans from all around Europe, I wanted the site to have fresh appeal with eye catching images, useful information, a video clip central to the winning teams of each tournament, a quiz that users would enjoy and a feedback form that users can complete. All this I believe would not only give users a good experience now, they would also want to return to the site in the future as the site content, quiz questions and future tournament information would be added over time with potential new features I.e., live chat for interaction with other users, links to purchase merchandise and tickets and competitions available to enter.  
 
+* When starting the design of the website the first thing I wanted to do was set the default font style, font colours and background colours within the body element for all HTML pages. Full details can be found below for reference: - 
+
+    - Font-family: 'Mukta', sans-serif; (fallback) will only be used if Mukta doesn't load) 
+    - Font colour - #000 (Black)
+    - Background Colour #409eb7 (Boston Blue)
+
 * To offer an attractive website for users to visit I decided to use the following fonts and colours 
 
-    - Main header font: - 
+    - Main header font-family: 'Bebas Neue', cursive (fallbacK)
     - Main header font size on mobile -  
     - Main header font size on tablet -  
-    - Main header font size on desktop -  
+    - Main header font size on desktop - 30px
  
-    - Sub header font: -  
+    - Sub header font-family: 'Mukta', sans-serif (fallback)
     - Sub header font size on mobile -  
     - Sub header font size on tablet -  
-    - Sub header font size on desktop -  
+    - Sub header font size on desktop - 20px
 
-    - Content font: - 
+    - Content font-family: 'Mukta', sans-serif (fallback)
     - Content header font size on mobile -  
     - Content header font size on tablet -  
     - Content header font size on desktop - 
 
     - Colour scheme: - 
-    - Header - 
-    - body - 
-    - Footer - 
+    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The navigation bar page titles change color when hovered over to #056b85 (Cyan). The same color is used to highlight which page the user is currently aswell. 
+    - body: - Background color is #409eb7 (Boston Blue) and font color is TBC
+    - Footer: - Background color is #e4e4e4 (light grey) and font color for the social media icons is #409eb7 (Boston Blue) and when any icon is hovered over the background color changes to #FFFF00 (Yellow) with the font color changing to #274c77(Blue). The copyright text header h5 is also in #274c77 (blue). 
 
-* When starting the design of the website the first thing I wanted to do was set the default font style, font colours and background colours within the body element for all HTML pages. Full details can be found below for reference: - 
 
-    - Font-family: Ubuntu - Sans-serif (fallback) will only be used if Ubuntu doesn't load) 
-    - Font colour - 
-    - Background Colour - 
 
 
         

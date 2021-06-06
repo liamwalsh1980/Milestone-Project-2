@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Mukta', sans-serif;
-    color: black;
+    color: #000;
     background-color: #409eb7;
 }
 
@@ -77,11 +77,15 @@ footer {
 
 footer .icons, a {
     text-align: center;
+    color: #409eb7;
+}
+
+.icons i:hover {
     color: #274c77;
 }
 
 .balls:hover {
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 .copyright {
@@ -89,3 +93,5 @@ footer .icons, a {
     color: #274c77;
     text-align: right;
 }
+
+/* media queries */
