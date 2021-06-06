@@ -52,6 +52,18 @@ body {
 
 /* homepage sections */
 
+#hero-image {
+    background: url("../images/hero-image.jpg") no-repeat center center;  
+    height: 600px; 
+    width: 100%;
+    background-size: cover; 
+    margin: 10px 10px 10px auto;
+}
+
+#section {
+    margin-top: 90px;
+}
+
 /* tournaments sections */
 
 /* quiz sections */
@@ -62,7 +74,7 @@ body {
 
 /* footer */
 
-.balls {
+.icon-balls {
     background-color: #e4e4e4;
     height: 40px;
     width: 40px;
@@ -84,12 +96,13 @@ footer .icons, a {
     color: #274c77;
 }
 
-.balls:hover {
+.icon-balls:hover {
     background-color: #FFFF00;
 }
 
 .copyright {
-    margin-right: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
     color: #274c77;
     text-align: right;
 }
