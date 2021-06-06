@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* fonts chosen using Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
-
-
+/* overall default css setup */
 * {
     margin: 0;
     padding: 0;
@@ -9,16 +9,21 @@
 }
 
 body {
-    font-family: 
-    color: #e1e1e1;
+    font-family: 'Mukta', sans-serif;
+    color: black;
     background-color: #409eb7;
 }
 
+/* header including text logo and navigation bar which is also a burger navbar for smaller devices */
+
+#header-color {
+    background-color: #e4e4e4;
+}
+
 #logo {
-    color: inherit;
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-size: 30px;
+    letter-spacing: 1px;
     float: left;
     padding-top: 10px;
     color: #409eb7;
@@ -29,22 +34,58 @@ body {
 }
 
 #menulist a {
-    font-size: 16px;
+    font-size: 20px;
     color: #409eb7;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 5px;
-    text-transform: uppercase;
+    font-weight: 500;  
 }
 
 #menulist a:hover {
-    color: red;
+    color: #056b85;
+    font-size: 30px;
 }
 
 #menulist .active {
-    border-bottom: 1px solid #326b7a;
-    color: #326b7a;
+    color: #056b85;
 }
 
-#header-color {
+/* homepage sections */
+
+/* tournaments sections */
+
+/* quiz sections */
+
+/* answers sections */
+
+/* feedback sections */
+
+/* footer */
+
+.balls {
+    background-color: #e4e4e4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 5px 10px auto;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer .icons, a {
+    text-align: center;
+    color: #274c77;
+}
+
+.balls:hover {
     background-color: yellow;
+}
+
+.copyright {
+    margin-right: 20px;
+    color: #274c77;
+    text-align: right;
 }
