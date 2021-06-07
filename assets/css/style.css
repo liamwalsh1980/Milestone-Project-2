@@ -56,27 +56,28 @@ body {
     background: url("../images/hero-image.jpg") no-repeat center center;  
     height: 600px; 
     width: 100%;
+    /* border-radius: 10%; */
     background-size: cover; 
     margin: 10px 10px 10px auto;
 }
 
-#section {
-    margin-top: 90px;
-}
-
 .sub-header {
     color: #082d58;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .timeline-title {
     color: #082d58;
     font-size: 20px;
+    text-align: center;
 }
 
 .timeline-item {
     padding: 4em 1em 0em;
     position: relative;
     border-left: 1px solid #082d58 ;
+    text-align: center;
 }
 
 .timeline-item h6 {
@@ -120,15 +121,29 @@ body {
     background: #082d58;
 }
 
-/* tournaments sections */
+#outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {
+    padding-top: 20px;
+   
+    text-align: center;
+}
 
-/* quiz sections */
+#find-out-more-btn, #quiz-btn, #feedback-btn {
+    background-color: #082d58;
+    border-radius: 20px; 
+    width: 150px
+}
 
-/* answers sections */
+.btn-color {
+    color: #409eb7;
+}
 
-/* feedback sections */
+.btn-color:hover {
+    color: #082d58;
+}
 
-/* footer */
+#find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover {
+    background-color: #FFFF00;
+}
 
 .icon-balls {
     background-color: #e4e4e4;
@@ -136,14 +151,11 @@ body {
     width: 40px;
     border-radius: 50%;
     padding: 10px;
-    margin: 10px 5px 10px auto;
+    margin: 30px 5px 10px auto;
+    display: inline-block;
 }
 
-footer {
-    margin: 20px;
-}
-
-footer .icons, a {
+.icons, a {
     text-align: center;
     color: #409eb7;
 }
@@ -156,11 +168,40 @@ footer .icons, a {
     background-color: #FFFF00;
 }
 
+/* tournaments sections */
+
+/* quiz sections */
+
+/* answers sections */
+
+/* feedback sections */
+
+/* footer */
+
+footer {
+    margin: 20px;
+    padding: 0 0 10px 0;
+}
+
 .copyright {
     margin-right: 10px;
     padding-top: 10px;
     color: #082d58;
-    text-align: right;
+    text-align: center;
 }
 
 /* media queries */
+
+@media screen and (max-width: 365px) {
+    #logo {
+        font-size: 24px;
+    }
+
+    .navbar-toggler {
+        padding: 0.4px 0.6px;      
+    }
+
+    .sub-header, .timeline-title {
+        font-size: 16px;
+    }
+}

@@ -149,15 +149,18 @@ Date this project started: 3rd June 2020
     - Content header font size on desktop - 
 
     - Colour scheme: - 
-    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The navigation bar page titles change color when hovered over to #056b85 (Cyan). The same color is used to highlight which page the user is currently on aswell. The font size also changes from 20px to 30px when a user hovers over one the page titles.
-    - Body: - Background color stays as #409eb7 (Boston Blue) and font color is changed from the default black to TBC
+    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The navigation bar page titles change color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. The font size also changes from 20px to 30px when a user hovers over one the page titles.
+    - Body: - Background color stays as #409eb7 (Boston Blue) and font color is changed from the default #000 (Black) to #082d58 (Dark Blue). 
     - Footer: - Background color is #e4e4e4 (light grey) and font color for the social media icons is #409eb7 (Boston Blue) and when any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #274c77(Blue). The copyright text header h5 is also in #274c77 (Blue). 
+    - #FFFF00 (Yellow) is also used when hovering over an event within the timeline on the homepage.
 
+[Back to top ⇧](#the-euro-football-quiz)
 
+## Credits
 
-    ## Credits
+Hero image on the homepage - Photo by Dom Le Roy from Pexels
+<a href="https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/" target="_blank">Click here to view image from its source</a>
 
-    Hero image on the homepage - Photo by Dom Le Roy from Pexels
 
 
 
