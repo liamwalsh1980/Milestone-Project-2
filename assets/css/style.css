@@ -42,12 +42,12 @@ body {
 }
 
 #menulist a:hover {
-    color: #056b85;
+    color: #082d58;
     font-size: 30px;
 }
 
 #menulist .active {
-    color: #056b85;
+    color: #082d58;
 }
 
 /* homepage sections */
@@ -62,6 +62,62 @@ body {
 
 #section {
     margin-top: 90px;
+}
+
+.sub-header {
+    color: #082d58;
+}
+
+.timeline-title {
+    color: #082d58;
+    font-size: 20px;
+}
+
+.timeline-item {
+    padding: 4em 1em 0em;
+    position: relative;
+    border-left: 1px solid #082d58 ;
+}
+
+.timeline-item h6 {
+    padding: 0;
+    margin: 0;
+    color: #082d58;
+}
+
+.timeline-link {
+    text-decoration: none;
+    text-align: left;
+}
+
+.timeline-item h6:hover {
+    color: #FFFF00;  
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 1.6em;
+    top: 1.5em;
+    display: block;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: #082d58;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #082d58;
 }
 
 /* tournaments sections */
@@ -93,7 +149,7 @@ footer .icons, a {
 }
 
 .icons i:hover {
-    color: #274c77;
+    color: #082d58;
 }
 
 .icon-balls:hover {
@@ -103,7 +159,7 @@ footer .icons, a {
 .copyright {
     margin-right: 10px;
     padding-top: 10px;
-    color: #274c77;
+    color: #082d58;
     text-align: right;
 }
 
