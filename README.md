@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 2
 
-![Image template]()
+![Image template](assets/images/responsive.png)
 
 <a href="https://liamwalsh1980.github.io/Milestone-Project-2/" target="_blank">Click here to view The Euro Football Quiz live</a>
 
@@ -43,7 +43,7 @@ Date this project started: 3rd June 2020
     - Who has won the tournament the most? 
     - Outstanding player of the tournaments  
     - Standout moments 
-    - Political moments ???
+    - Political moments related to the tournament ???
 
 * User friendly quiz page that gives users the chance to test their knowledge based on what they know about the Euro Championships.  
 
@@ -131,9 +131,9 @@ Date this project started: 3rd June 2020
     - Font colour: #000 (Black)
     - Background Colour: #409eb7 (Boston Blue)
 
-* To offer an attractive website for users to visit I decided to use the following fonts and colours 
+* To offer an attractive website for users to visit, I decided to use the following fonts and colours 
 
-    - Main header font-family: 'Bebas Neue', cursive (fallbacK)
+    - Main header font-family: 'Bebas Neue', cursive (fallback)
     - Main header font size on mobile -  
     - Main header font size on tablet -  
     - Main header font size on desktop - 30px
@@ -149,17 +149,55 @@ Date this project started: 3rd June 2020
     - Content header font size on desktop - 
 
     - Colour scheme: - 
-    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The navigation bar page titles change color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. The font size also changes from 20px to 30px when a user hovers over one the page titles.
-    - Body: - Background color stays as #409eb7 (Boston Blue) and font color is changed from the default #000 (Black) to #082d58 (Dark Blue). 
-    - Footer: - Background color is #e4e4e4 (light grey) and font color for the social media icons is #409eb7 (Boston Blue) and when any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #274c77(Blue). The copyright text header h5 is also in #274c77 (Blue). 
-    - #FFFF00 (Yellow) is also used when hovering over an event within the timeline on the homepage.
+    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The text logo and navigation bar page titles change color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. 
+    - Body: - Background color stays as default #409eb7 (Boston Blue) and font color is changed from the default #000 (Black) to #082d58 (Dark Blue). 
+    - Footer: - Background color stays the same as the default body color #409eb7 (Boston Blue). The social media icons is #409eb7 (Boston Blue) and placed in #e4e4e4 (light grey) circles. When any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #082d58 (Dark Blue). The copyright text header h5 is also in #082d58 (Dark Blue). 
+    - #FFFF00 (Yellow) is also used when hovering over an event within the timeline on the homepage indicated that these area links that can be clicked. 
+    - After carefully testing and researching colors that works well together i am confident that the above colors chosen work to provide good UX and easy on the eye with some good overall contrasts.
 
 [Back to top ⇧](#the-euro-football-quiz)
 
+## Design Process page by page
+
+### Header
+
+* The header across all pages is the same.
+* The test logo 'THE EURO FOOTBALL QUIZ' is at the top left in uppercase using the font-family: 'Bebas Neue', cursive (fall back). The color is Boston Blue and when hovered over will turn Dark Blue to show its a link to the homepage.
+* The navigation bar is positioned to the right and highlights all pages for the user to click on. The font styling is the default font-family: 'Mukta', sans-serif (fall back). The color for the page titles within the navigation bar is the default Boston Blue. When hovering over any of the page titles the color of the page title changes to Dark Blue and increased in size from 20px to 30px. 
+* The header is fixed to the top so that it will travel with the user as they scroll down the webpage. 
+* Bootstrap5 was used to create this header navigation bar with text logo.
+
+### Footer
+
+* The footer holds five social media icons found using <a href="https://www.fontawesome.com" target="_blank">Font Awesome</a> for the images. The images sit inside a small round light grey background. The color of all images is dark blue and when hovering over any of the icons the background color changes to yellow. Each icon image is linked to the relevant websites and when clicked will take the user to the whichever social media platform chosen. 
+* Below the social media icons there is some copyright text in the Dark Blue color.
+
+### Homepage design
+
+* I wanted to keep the homepage simple with a central welcome header and a stiking image of a football ground full of fans showing how popular the sport is. I found the perfect <a href="https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/" target="_blank">Image</a> at <a href="https://www.pexels.com" target="_blank">Pexels</a>. 
+
+* On bigger screen sizes users will see to the right of the hero image a sub title 'moments to remember', a short paragraph and a timeline of important moments throughout the tournamenets history in chronological order. All  information in the timeline is also a link to an external source for more reading. This is indicated when a user hovers over each moment, it turns yellow. On smaller screen sizes the timeline is below the image for better UX. All external sources of information on the timeline was sourced using Wikipedia. 
+
+* Below the hero image and timeline the user will find three buttons to click on. These buttons identical in size, shape, color (Dark blue background with boston blue font) and do the following: -
+
+    - Take the quiz (takes the user to the quiz.html page to start the multiple choice quiz)
+    - Leave feedback (takes the user to the feedback.html page to complete)
+    - Find out more (takes the user to the tournaments.html page for more information)
+
+* When a user hovers over any of these buttons the background color changes to Yellow and the font color changes to Dark Blue. 
+
+* Bootstrap column grid and Media queries is used to make sure that across all screen sizes the image, timeline, text and buttons work well. 
+
+## Technology Used
+
+* Font Awesome
+
 ## Credits
 
-Hero image on the homepage - Photo by Dom Le Roy from Pexels
+* Hero image on the homepage - Photo by Dom Le Roy from Pexels
 <a href="https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/" target="_blank">Click here to view image from its source</a>
+
+* Wikipedia for all European Football history
 
 
 
