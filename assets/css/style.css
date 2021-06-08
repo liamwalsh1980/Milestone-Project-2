@@ -96,7 +96,6 @@ body {
     }
 }
 
-
 @media screen and (max-width: 767px) {
     #hero-image {
         height: 400px; 
@@ -134,7 +133,6 @@ body {
     padding: 0;
     margin: 0;
     color: #082d58;
-    font-size: 16px;
 }
 
 .timeline-link {
@@ -210,7 +208,8 @@ body {
 #find-out-more-btn, #quiz-btn, #feedback-btn {
     background-color: #082d58;
     border-radius: 20px; 
-    width: 150px
+    width: 250px;
+    height: auto;
 }
 
 .btn-color {

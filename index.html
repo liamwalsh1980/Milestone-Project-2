@@ -22,7 +22,7 @@
 
 <body class="d-flex flex-column h-100">
     <!--
-        Header includes a logo name at the top within the Navbar template from Bootstrap 5. Nav bar is fixed at the top of all pages. 
+        Header includes a logo name at the top within the Navbar template from Bootstrap 5. Nav bar is fixed at the top of all html pages. 
     -->
     <header>
         <nav id="header-color" class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -59,13 +59,17 @@
             </div>
         </nav>
     </header>
+    <!-- Main section starts here with a Sub-header title -->
     <section class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col-12">
                 <h3 class="sub-header">Welcome to The Euro Football Quiz</h3>
             </div>
         </div>
         <br>
+        <!-- 
+            Hero Image taking up two thirds of the row with a timeline created for one third of the same row. This is designed for big screens with full width on screens below 768px for both the image and timeline
+        -->
         <div class="row">
             <div class="col-12 col-md-8">
                 <div id="hero-image"></div>
@@ -74,8 +78,8 @@
                 <div class="row">
                     <div class="col-12">
                         <p class="timeline-title">
-                            To celebrate 60 years of the European Championships, give this quiz a try and see how much
-                            you know about European Championships. Below is a timeline of some important moments to remember.
+                            To celebrate 60 years of the European Championships, give this quiz a try and find out how much
+                            you know about European Championships. Below is a timeline of some important moments to remember. Feel free to click on the moments in history for more information.
                         </p>
                     </div>
                 </div>
@@ -88,7 +92,7 @@
                 <div class="timeline-item" data-dates="1968">
                     <a class="timeline-link" href="https://en.wikipedia.org/wiki/UEFA_Euro_1968"
                         aria-label="Read more about the tournament changing names (opens in new tab)" target="_blank">
-                        <p>Tournament renamed to the UEFA European Football Championship</p>
+                        <p>Tournament re-named to the UEFA European Football Championship</p>
                     </a>
                 </div>
                 <div class="timeline-item" data-dates="1980">
@@ -122,8 +126,7 @@
                     </a>
                 </div>
                 <div class="timeline-item" data-dates="2020/2021">
-                    <a class="timeline-link"
-                        href="https://en.wikipedia.org/wiki/UEFA_Euro_2020"
+                    <a class="timeline-link" href="https://en.wikipedia.org/wiki/UEFA_Euro_2020"
                         aria-label="Read more about the Tournament being postponed due to the Covid-19 Pandemic (opens in new tab)"
                         target="_blank">
                         <p>First time the tournament is postponed</p>
@@ -133,6 +136,11 @@
         </div>
         <br>
         <hr>
+
+        <!-- 
+            three buttons for users to click on to take them to the tournaments, quiz, feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On screen sizes below 768px the buttons are sitting vertically. This is done using the Bootstrap grid
+        -->
+
         <div class="row">
             <div class="col col-md-4" id="outer-quiz-btn">
                 <button id="quiz-btn"><a class="nav-link" href="quiz.html" aria-label="Take the quiz"><span
@@ -152,11 +160,9 @@
         </div>
     </section>
 
-    <!-- Footer includes a h5 header for copyright using the shortcut &copy; -->
+    <!-- Footer includes social media icons sourced from fontawesome and a paragraph for copyright using the shortcut &copy; -->
 
     <footer class="mt-auto">
-        <!-- Social media sourced from fontawesome which has been moved from footer for alignment -->
-
         <div>
             <div class=icons>
                 <div class="icon-balls">

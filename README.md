@@ -141,12 +141,12 @@ Date this project started: 3rd June 2020
     - Sub header font-family: 'Mukta', sans-serif (fallback)
     - Sub header font size on mobile -  
     - Sub header font size on tablet -  
-    - Sub header font size on desktop - 20px
+    - Sub header font size on desktop - h3 header
 
     - Content font-family: 'Mukta', sans-serif (fallback)
     - Content header font size on mobile -  
     - Content header font size on tablet -  
-    - Content header font size on desktop - 
+    - Content header font size on desktop - 16px
 
     - Colour scheme: - 
     - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The text logo and navigation bar page titles change color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. 
@@ -154,6 +154,8 @@ Date this project started: 3rd June 2020
     - Footer: - Background color stays the same as the default body color #409eb7 (Boston Blue). The social media icons is #409eb7 (Boston Blue) and placed in #e4e4e4 (light grey) circles. When any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #082d58 (Dark Blue). The copyright text header h5 is also in #082d58 (Dark Blue). 
     - #FFFF00 (Yellow) is also used when hovering over an event within the timeline on the homepage indicated that these area links that can be clicked. 
     - After carefully testing and researching colors that works well together i am confident that the above colors chosen work to provide good UX and easy on the eye with some good overall contrasts.
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 * I took a little time testing different fonts and colours and at one point decided to use Yellow for the header and footer backgrounds. This looked good but looked to similar to other well-known brands like Aviva and EE. I therefore, reverting back to using a teal/turquoise with a light grey which looks elegant and attractive.
 
@@ -182,21 +184,27 @@ Date this project started: 3rd June 2020
 
 * I wanted to keep the homepage simple with a central welcome header and a stiking image of a football ground full of fans showing how popular the sport is. I found the perfect <a href="https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/" target="_blank">Image</a> at <a href="https://www.pexels.com" target="_blank">Pexels</a>. I decided to add a thin yellow boarder around the image to make it stand out more and with a little curve finish to each corner this image now looks great. 
 
-* On bigger screen sizes users will see to the right of the hero image a sub title 'moments to remember', a short paragraph and a timeline of important moments throughout the tournamenets history in chronological order. All  information in the timeline is also a link to an external source for more reading. This is indicated when a user hovers over each moment, it turns yellow. On smaller screen sizes the timeline is below the image for better UX. All external sources of information on the timeline was sourced using Wikipedia. 
+* On bigger screen sizes users will see to the right of the hero image a sub title paragraph and a timeline of important moments throughout the tournamenets history in chronological order. All information in the timeline is also a link to an external source for more reading. This is indicated when a user hovers over any timeline sentence,to find it turns yellow. On smaller screen sizes the timeline is below the image for better UX. All external sources of information on the timeline was sourced using Wikipedia. 
 
-* Below the hero image and timeline the user will find three buttons to click on. These buttons identical in size, shape, color (Dark blue background with boston blue font) and do the following: -
+* Below the hero image and timeline the user will find three buttons to click on. These buttons are identical in size, shape and color (Dark blue background with boston blue font) and do the following: -
 
     - Take the quiz (takes the user to the quiz.html page to start the multiple choice quiz)
     - Leave feedback (takes the user to the feedback.html page to complete)
     - Find out more (takes the user to the tournaments.html page for more information)
 
-* When a user hovers over any of these buttons the background color changes to Yellow and the font color changes to Dark Blue. 
+* When a user hovers over any of these buttons the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
 * Bootstrap column grid and Media queries is used to make sure that across all screen sizes the image, timeline, text and buttons work well. 
 
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Tournament page design
+
+* 
+
 ## Technology Used
 
-* Font Awesome
+* Font Awesome (link to add)
 
 ## Credits
 
@@ -209,13 +217,13 @@ Date this project started: 3rd June 2020
 * Wikipedia image for the 
 <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved=2ahUKEwif26nwlIjxAhX-gc4BHRXLDEMQ2-cCegQIABAA&oq=uefa+euro+2020+trophy&gs_lcp=CgNpbWcQAzICCAAyBAgAEBgyBAgAEBg6BAgjECc6BggAEAcQHjoGCAAQCBAeUMZoWKSMAWCajQFoBnAAeACAAUWIAbkGkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=XHO_YJ-9L_6Dur4PlZazmAQ&bih=821&biw=1440&rlz=1C5CHFA_enGB821GB821#imgrc=JJyZWk_7mb5qgM" target="_blank">Euro 2020 logo</a>
 
-Wikipedia page where the
+* Wikipedia page where the
 <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2020" target="_blank">Euro 2020 logo</a> came from.
 
-I sourced the paragraph content for the tournaments page from 
+* I sourced the paragraph content for the tournaments page from 
 <a href="https://www.worldsoccer.com/euro-2020/past-european-championship-hosts-409195" target="_blank">World Soccer</a> 
 
-I sourced the <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a> 
+* I sourced the <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a> 
 
 
 
