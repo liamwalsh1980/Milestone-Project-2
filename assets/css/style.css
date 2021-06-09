@@ -247,6 +247,14 @@ body {
     margin-bottom: 15px;
 }
 
+#past-hosts {
+    height: 400px;
+    width: auto;
+    border: solid 2px #FFFF00;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
 /* footer */
 
 footer {

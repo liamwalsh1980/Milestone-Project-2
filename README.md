@@ -186,7 +186,7 @@ Date this project started: 3rd June 2020
 
 * On bigger screen sizes users will see to the right of the hero image a sub title paragraph and a timeline of important moments throughout the tournamenets history in chronological order. All information in the timeline is also a link to an external source for more reading. This is indicated when a user hovers over any timeline sentence,to find it turns yellow. On smaller screen sizes the timeline is below the image for better UX. All external sources of information on the timeline was sourced using Wikipedia. 
 
-* Below the hero image and timeline the user will find three buttons to click on. These buttons are identical in size, shape and color (Dark blue background with boston blue font) and do the following: -
+* Below the hero image and timeline users will find three buttons to click on. These buttons are identical in size, shape and color (Dark blue background with boston blue font) and do the following: -
 
     - Take the quiz (takes the user to the quiz.html page to start the multiple choice quiz)
     - Leave feedback (takes the user to the feedback.html page to complete)
@@ -200,7 +200,27 @@ Date this project started: 3rd June 2020
 
 ### Tournament page design
 
-* 
+* The tournament page is where you will find all the past, present and future information about this football tournament. I wanted to make sure that the design of this page was easy to navigate through and therefore i used the Bootstrap grid system, rows and columns to position images, paragraphs, media clip and google map.
+
+* I kept the color scheme, fonts and font sizing the same as the homepage for good overall UX.
+
+* Below the sub header at the top of the page users will see the Euro 2020 logo with paragraphs giving an introduction and general information about the tournament.
+This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved=2ahUKEwif26nwlIjxAhX-gc4BHRXLDEMQ2-cCegQIABAA&oq=uefa+euro+2020+trophy&gs_lcp=CgNpbWcQAzICCAAyBAgAEBgyBAgAEBg6BAgjECc6BggAEAcQHjoGCAAQCBAeUMZoWKSMAWCajQFoBnAAeACAAUWIAbkGkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=XHO_YJ-9L_6Dur4PlZazmAQ&bih=821&biw=1440&rlz=1C5CHFA_enGB821GB821#imgrc=JJyZWk_7mb5qgM" target="_blank">image</a> was sourced using <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2020" target="_blank">Wikipedia</a>, The paragraphs were also sourced using <a href="https://en.wikipedia.org/wiki/UEFA_European_Championship" target="_blank">Wikipedia</a>.
+
+* Below there is more information about who hosted the tournament since its started in 1960. Image to be added to complete this row. The content for this part of the page was sourced from <a href="https://www.worldsoccer.com/euro-2020/past-european-championship-hosts-409195" target="_blank">World Soccer</a>
+
+* Below is a media clip showing all winners from 1960 to 2016. The media clip was sourced on YouTube. I made sure this took up the whole row using Bootstrap columns accordingly with good space either side. The <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> was sourced from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a>. 
+
+* Below is a ordered list (alphabetical) of cities that are due to host the Euro 2020. On the same row to compliment the list is a interactive google map. The map is rendered using an API key from Google Maps Platform. The map also has markers and clusters in place showering users where in Europe these cities are. The content for this row was sourced from the official <a href="https://www.uefa.com/uefaeuro-2020/news/0255-0d9f2f2c93bf-ad932fd5ee55-1000--euro-all-you-need-to-know/" target="_blank">UEFA Euro 2020</a> website.
+
+* Below the map users will find two buttons to click on. These buttons are identical in size, shape and color (Dark blue background with boston blue font) and do the following: -
+
+    - Take the quiz (takes the user to the quiz.html page to start the multiple choice quiz)
+    - Leave feedback (takes the user to the feedback.html page to complete)
+
+* When a user hovers over either of these buttons the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 ## Technology Used
 
@@ -220,14 +240,16 @@ Date this project started: 3rd June 2020
 * Wikipedia page where the
 <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2020" target="_blank">Euro 2020 logo</a> came from.
 
-* I sourced the paragraph content for the tournaments page from 
+* I sourced the paragraph content for previous hosts from 
 <a href="https://www.worldsoccer.com/euro-2020/past-european-championship-hosts-409195" target="_blank">World Soccer</a> 
 
 * I sourced the <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a> 
 
+* I sourced the content to support the Google Map image in the tournament page using <a href="https://www.uefa.com/uefaeuro-2020/news/0255-0d9f2f2c93bf-ad932fd5ee55-1000--euro-all-you-need-to-know/" target="_blank">UEFA Euro 2020</a> website.
+
 ## Bugs
 
-* API key issues
+* API key issues 
 https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
 
 
