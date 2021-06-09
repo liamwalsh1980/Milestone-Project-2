@@ -225,6 +225,11 @@ Date this project started: 3rd June 2020
 
 * I sourced the <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a> 
 
+## Bugs
+
+* API key issues
+https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
+
 
 
 
