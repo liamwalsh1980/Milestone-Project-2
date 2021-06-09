@@ -92,7 +92,8 @@ body {
 
 @media screen and (min-width: 768px) {
     #euro-logo {
-        margin: 0;
+        margin: 15px;
+        height: 350px;
     }
 }
 
@@ -192,9 +193,14 @@ body {
     text-align: center;
 }
 
-/* paragraphs */
+.host-sub-header {
+    color: #082d58;
+    padding-bottom: 20px;
+}
 
-.para-content {
+/* paragraphs and ordered list */
+
+.para-content, .ol-content {
     color: #082d58;
 }
 
@@ -229,6 +235,16 @@ body {
 #media-clip {
     border: solid 2px #FFFF00;
     padding: 0;
+}
+
+/* google map API key used - AIzaSyAQda9xmJ0kfmy2w5QsV2WTol9pY-iTWxo sourced from Google Maps Cloud Platform*/
+
+#map2020 {
+    height: 400px;
+    width: auto;
+    border: solid 2px #FFFF00;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 /* footer */
@@ -272,6 +288,7 @@ footer {
         font-size: 15px;
     }
 }
+
 
 
 
