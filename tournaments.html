@@ -33,7 +33,7 @@
     -->
     <header>
         <nav id="header-color" class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div>
                     <a class="navbar-brand" id="logo" href="index.html" aria-label="Jump to the Homepage">The Euro
                         Football Quiz</a>
@@ -70,25 +70,26 @@
     <section class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h3 class="sub-header">The Euro's: <div>History, Hosts, and Future Tournaments</div>
+                <h3 class="sub-header">The Euro's: <div>History, the Trophy, Hosts, and Future Tournaments</div>
                 </h3>
             </div>
         </div>
         <br>
         <!-- EURO 2020 image taking up one third on big screens and full width on screens below 992px -->
         <div class="row container-fluid">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-xl-4">
                 <div id="euro-logo"></div>
             </div>
             <!-- 
                 Paragraphs with intro and general information about the tournament taking up two thirds on big screens and full width on screens below 992px 
             -->
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-xl-8">
                 <p class="para-content">
                     The 2020 UEFA European Football Championship, commonly referred to as 2020 UEFA European
                     Championship, UEFA Euro 2020, or simply Euro 2020, is scheduled to be the 16th UEFA European
                     Championship, the quadrennial international men's football championship of Europe organised by the
-                    Union of European Football Associations (UEFA). Please see a full list of cities hosting the Euro 2020. 
+                    Union of European Football Associations (UEFA). Please see a full list of cities hosting the Euro
+                    2020.
                 </p>
                 <p class="para-content">
                     The tournament, to be held in 11 cities in 11 UEFA countries, was originally scheduled from 12 June
@@ -120,7 +121,7 @@
         -->
 
         <div class="row container-fluid">
-            <div class="col-12 col-xxl-6">
+            <div class="col-12 col-md-6">
                 <p class="para-content">
                     Originally called the European Nations Cup, the first tournament in 1960 was held in France and the
                     games were shared between Paris and Marseille. Spain hosted the 1964 tournament with all the matches
@@ -144,10 +145,10 @@
                 </p>
             </div>
 
-            <!-- Google map with markers to be added here -->
+            <!-- image of the Euro trophy -->
 
-            <div class="col-12 col-xxl-6">
-                <div id="past-hosts"></div>
+            <div class="col-12 col-md-6">
+                <div id="euro-trophy"></div>
             </div>
         </div>
 
@@ -194,15 +195,13 @@
         <br>
         <hr>
         <br>
-        <div class="row">
-            <div class="col-12 col-xxl-6">
-                <div id="map2020"></div>
-            </div>
-            <div class="col-12 col-xxl-6">
+        <div class="row container-fluid">
+            <div class="col-12 col-xl-6">
                 <h4 class="host-sub-header">
-                    UEFA EURO 2020 is being held across the continent for the first time in the competition's 60-year
+                    UEFA EURO 2020 is being held across Europe for the first time in the competition's 60-year
                     history, with 11 host cities in all.
                 </h4>
+                <!-- changing the ordered list default numbers to uppercase letters -->
                 <ol type="A" class="ol-content">
                     <li>
                         Final and semi-finals, two round of 16 games, three group games
@@ -250,8 +249,32 @@
                     </li>
                 </ol>
             </div>
+            <div class="col-12 col-xl-6">
+                <div id="map2020"></div>
+            </div>
         </div>
         <hr>
+        <br>
+        <div class="row container-fluid">
+            <div class="col-12 col-xxl-12"></div>
+            <h4 class="host-sub-header">
+                Future European Championship Tournaments
+            </h4>
+            <p class="para-content">
+                The 2024 UEFA European Football Championship, commonly referred to as UEFA Euro 2024 or simply Euro
+                2024, will be the 17th edition of the UEFA European Championship, the quadrennial international men's
+                football championship of Europe organised by UEFA. Germany will host the tournament, scheduled from 14
+                June to 14 July 2024.
+            </p>
+            <p class="para-content">
+                The 2028 UEFA European Football Championship, commonly referred to as UEFA Euro 2028 or simply Euro
+                2028, will be the 18th edition of the UEFA European Championship, the quadrennial international men’s
+                football championship of Europe organised by UEFA. Should the selection process and timeline used for
+                Euro 2024 be applied again, the host(s) would be chosen in the autumn of 2022.
+            </p>
+        </div>
+        <hr>
+
         <!-- 
             two buttons for users to click on to take them to the quiz and/or feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On screen sizes below 768px the buttons are sitting vertically. This is done using the Bootstrap grid
         -->

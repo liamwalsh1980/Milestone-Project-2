@@ -88,6 +88,15 @@ body {
     margin-bottom: 15px;
 }
 
+#euro-trophy {
+    background: url("../images/eurotrophy.webp") no-repeat center center;
+    height: 400px;
+    width: auto;
+    background-size: cover;
+    border: solid 2px #FFFF00;
+    margin-bottom: 15px;
+}
+
 /* media queries for hero image on smaller screen sizes */
 
 @media screen and (min-width: 768px) {
@@ -112,6 +121,27 @@ body {
 @media screen and (max-width: 365px) {
     .navbar-toggler {
         padding: 0.4px 0.6px;      
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    #euro-trophy {
+        height: 700px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 992px) {
+    #euro-trophy {
+        height: 600px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #euro-trophy {
+        height: 500px;
+        margin-top: 20px;
     }
 }
 
@@ -240,14 +270,6 @@ body {
 /* google map API key used - AIzaSyAQda9xmJ0kfmy2w5QsV2WTol9pY-iTWxo sourced from Google Maps Cloud Platform*/
 
 #map2020 {
-    height: 400px;
-    width: auto;
-    border: solid 2px #FFFF00;
-    margin-left: 10px;
-    margin-bottom: 15px;
-}
-
-#past-hosts {
     height: 400px;
     width: auto;
     border: solid 2px #FFFF00;
