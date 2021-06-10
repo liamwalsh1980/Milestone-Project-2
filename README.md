@@ -172,6 +172,7 @@ Date this project started: 3rd June 2020
 * The navigation bar is positioned to the right and highlights all pages for the user to click on. The font styling is the default font-family: 'Mukta', sans-serif (fall back). The color for the page titles within the navigation bar is the default Boston Blue. When hovering over any of the page titles the color of the page title changes to Dark Blue and increased in size from 20px to 30px. 
 * The header is fixed to the top so that it will travel with the user as they scroll down the webpage. 
 * Bootstrap5 was used to create this header navigation bar with text logo.
+* I decided to add the bootstrap class container-fluid to the header for improved responsiveness on all screen sizes.
 
 ### Footer
 
