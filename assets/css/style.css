@@ -120,8 +120,6 @@ body {
     }
 }
 
-
-
 /* media queries for euro logo image on smaller and screen sizes */
 
 @media screen and (max-width: 375px) {
@@ -283,6 +281,13 @@ body {
     border: solid 2px #FFFF00;
     margin-left: 10px;
     margin-bottom: 15px;
+}
+
+/* quiz */
+
+.quiz-question {
+    color: #082d58;
+    padding-bottom: 20px;
 }
 
 /* footer */
