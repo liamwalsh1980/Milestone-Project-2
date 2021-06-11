@@ -286,8 +286,26 @@ body {
 /* quiz */
 
 .quiz-question {
-    color: #082d58;
+    color: #e4e4e4;
+    text-align: center;
     padding-bottom: 20px;
+}
+
+.quiz-center {
+    color: #082d58;
+    text-align: center;
+}
+
+#quiz-image-one {
+    background: url("../images/eurotrophy.webp") no-repeat center center;
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    border: solid 2px #FFFF00;
+    margin: 15px 10px 15px 15px;
+
+    
+
 }
 
 /* footer */
