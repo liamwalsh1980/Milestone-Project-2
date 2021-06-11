@@ -115,6 +115,15 @@ body {
     margin-top: 20px;
 }
 
+#quiz-image-four {
+    background: url("../images/quiz-question-four.jpg") no-repeat center center;
+    height: 325px;
+    width: auto;
+    background-size: cover;
+    border: solid 2px #FFFF00;
+    margin-top: 20px;
+}
+
 /* media queries for euro logo image on bigger screen sizes */
 
 @media screen and (min-width: 768px) {
@@ -280,27 +289,35 @@ body {
     color: #082d58;
 }
 
-#find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, #quiz-btn-one-one:hover, #quiz-btn-one-two:hover, #quiz-btn-one-three:hover, #quiz-btn-two-one:hover, #quiz-btn-two-two:hover, #quiz-btn-two-three:hover, #quiz-btn-three-one:hover, #quiz-btn-three-two:hover, #quiz-btn-three-three:hover {
+#find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, 
+#quiz-btn-one-one:hover, #quiz-btn-one-two:hover, #quiz-btn-one-three:hover, 
+#quiz-btn-two-one:hover, #quiz-btn-two-two:hover, #quiz-btn-two-three:hover, 
+#quiz-btn-three-one:hover, #quiz-btn-three-two:hover, #quiz-btn-three-three:hover,
+#quiz-btn-four-one:hover, #quiz-btn-four-two:hover, #quiz-btn-four-three:hover {
     background-color: #FFFF00;
 }
 
 /* quiz buttons */
 
-#outer-quiz-btn-one-one, #outer-quiz-btn-one-two, #outer-quiz-btn-one-three, #outer-quiz-btn-two-one, #outer-quiz-btn-two-two, #outer-quiz-btn-two-three, #outer-quiz-btn-three-one, #outer-quiz-btn-three-two, #outer-quiz-btn-three-three {
+#outer-quiz-btn-one-one, #outer-quiz-btn-one-two, #outer-quiz-btn-one-three, 
+#outer-quiz-btn-two-one, #outer-quiz-btn-two-two, #outer-quiz-btn-two-three,
+#outer-quiz-btn-three-one, #outer-quiz-btn-three-two, #outer-quiz-btn-three-three, 
+#outer-quiz-btn-four-one, #outer-quiz-btn-four-two, #outer-quiz-btn-four-three {
     padding-top: 20px;
     text-align: center;
 }
 
-#quiz-btn-one-one, #quiz-btn-one-two, #quiz-btn-one-three, #quiz-btn-two-one, #quiz-btn-two-two, #quiz-btn-two-three, #quiz-btn-three-one, #quiz-btn-three-two, #quiz-btn-three-three {
+#quiz-btn-one-one, #quiz-btn-one-two, #quiz-btn-one-three, 
+#quiz-btn-two-one, #quiz-btn-two-two, #quiz-btn-two-three, 
+#quiz-btn-three-one, #quiz-btn-three-two, #quiz-btn-three-three,
+#quiz-btn-four-one, #quiz-btn-four-two, #quiz-btn-four-three {
     background-color: #082d58;
     border-radius: 20px; 
     width: 250px;
     height: auto;
 } 
 
-/* #quiz-btn-three-three {
-    margin-bottom: 20px;
-} */
+
 
 
 /* media clip */
