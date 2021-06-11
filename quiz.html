@@ -55,8 +55,8 @@
                                 aria-label="Jump to the Tournaments page">Tournaments</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="quiz.html" aria-label="Jump to the Quiz page">Quiz<span
-                                class="sr-only">(current)</span></a>
+                            <a class="nav-link active" aria-current="page" href="quiz.html"
+                                aria-label="Jump to the Quiz page">Quiz<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="feedback.html" aria-label="Jump to the Feedback page">Feedback</a>
@@ -66,8 +66,8 @@
             </div>
         </nav>
     </header>
-    <!-- Main section starts here with a Sub-header title -->
-    <section>
+    <!-- Main section starts here with a Sub-header title. Bootstrap container used for structure -->
+    <section class="container-fluid">
         <div class="row">
             <div class="col">
                 <h3 class="sub-header">The Euros - Quiz
@@ -75,136 +75,137 @@
             </div>
         </div>
         
-        <hr class="container">
-        <br>
-
-        <div class="row container-fluid">
-            <div class="col-12 col-md-6">
-                <h4 class="quiz-question">
-                    Question 1: 
-                </h4>
-                <h5 class="quiz-center">
-                    What year did the tournement begin?
-                </h5>
-                <div class="col" id="outer-feedback-btn">
-                    <button id="feedback-btn"><a class="nav-link" href="feedback.html"
-                            aria-label="leave your feedback"><span class="btn-color">Leave feedback</span></a>
-                    </button>
-                    <div class="col" id="outer-feedback-btn">
-                        <button id="feedback-btn"><a class="nav-link" href="feedback.html"
-                                aria-label="leave your feedback"><span class="btn-color">Leave feedback</span></a>
-                        </button>
-                    </div>
-                    <div class="col" id="outer-feedback-btn">
-                        <button id="feedback-btn"><a class="nav-link" href="feedback.html"
-                                aria-label="leave your feedback"><span class="btn-color">Leave feedback</span></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div id="quiz-image-one"></div>
-            </div>
-        </div>
-
-        <br>
-        <hr class="container">
-        <br>
-
-        <div class="row container-fluid">
-            <div class="col-12 col-md-6">
-                <h4 class="quiz-question">
-                    Question 1: 
-                </h4>
-                <h5 class="quiz-center">
-                    What year did the tournement begin?
-                </h5>
-                <div class="col" id="outer-feedback-btn">
-                    <button id="feedback-btn"><a class="nav-link" href="feedback.html"
-                            aria-label="leave your feedback"><span class="btn-color">Leave feedback</span></a>
-                    </button>
-                    <div class="col" id="outer-feedback-btn">
-                        <button id="feedback-btn"><a class="nav-link" href="feedback.html"
-                                aria-label="leave your feedback"><span class="btn-color">Leave feedback</span></a>
-                        </button>
-                    </div>
-                    <div class="col" id="outer-feedback-btn">
-                        <button id="feedback-btn"><a class="nav-link" href="feedback.html"
-                                aria-label="leave your feedback"><span class="btn-color">Leave feedback</span></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div id="quiz-image-one"></div>
-            </div>
-        </div>
-
-        <hr class="container">
-        <br>
-
-        <div class="row">
-            <div class="col-12 col-xl-12">
-                <h4 class="quiz-question">
-                    Question 1: 
-                </h4>
-                <h5 class="quiz-center">
-                    What year did the tournement begin?
-                </h5>
-            </div>
-        </div>
-
-        <hr class="container">
-        <br>
-
-        <div class="row">
-            <div class="col-12 col-xl-12">
-                <h4 class="quiz-question">
-                    Question 1: 
-                </h4>
-                <h5 class="quiz-center">
-                    What year did the tournement begin?
-                </h5>
-            </div>
-        </div>
-
-        <hr class="container">
-        <br>
-
-        <div class="row">
-            <div class="col-12 col-xl-12">
-                <h4 class="quiz-question">
-                    Question 1: 
-                </h4>
-                <h5 class="quiz-center">
-                    What year did the tournement begin?
-                </h5>
-            </div>
-        </div>
-
-        <hr class="container">
-        <br>
-
-        <div class="row">
-            <div class="col-12 col-xl-12">
-                <h4 class="quiz-question">
-                    Question 1: 
-                </h4>
-                <h5 class="quiz-center">
-                    What year did the tournement begin?
-                </h5>
-            </div>
-        </div>
-
-        <hr class="container">
-        <br>
-
         <hr>
-
+        <br>
+    <!-- 
+        quiz question 1 with image to help the user get to the right answer. Bootstrap rows and columns used for good UX and responsiveness  
+    -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h4 class="quiz-question">
+                    Question 1: 
+                </h4>
+                <h5 class="quiz-center">
+                    Who won the first European?
+                </h5>
+                <div class="col" id="outer-quiz-btn-one-one">
+                    <button id="quiz-btn-one-one"><a class="nav-link" href=""
+                            aria-label="question 1, answer 1"><span class="btn-color">France</span></a>
+                    </button>
+                    <div class="col" id="outer-quiz-btn-one-two">
+                        <button id="quiz-btn-one-two"><a class="nav-link" href=""
+                                aria-label="question 1, answer 2"><span class="btn-color">England</span></a>
+                        </button>
+                    </div>
+                    <div class="col" id="outer-quiz-btn-one-three">
+                        <button id="quiz-btn-one-three"><a class="nav-link" href=""
+                                aria-label="question 1, answer 3"><span class="btn-color">Sovient Union</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div id="quiz-image-one"></div>
+            </div>
+            <div class="col-12 col-md-1"></div>
+        </div>
+        
+        <br>
+        <hr>
         <!-- 
-            two buttons for users to click on to take them to the quiz and/or feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On screen sizes below 768px the buttons are sitting vertically. This is done using the Bootstrap grid
+            quiz question 2 with image to help the user get to the right answer. Bootstrap rows and columns used for good UX and responsiveness  
         -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h4 class="quiz-question">
+                    Question 2: 
+                </h4>
+                <h5 class="quiz-center">
+                    Why has UEFA chose to host Euro 2020 across multiple European nations?
+                </h5>
+                <div class="col" id="outer-quiz-btn-two-one">
+                    <button id="quiz-btn-two-one"><a class="nav-link" href=""
+                            aria-label="question 2, answer 1"><span class="btn-color">Safety because of Covid-19</span></a>
+                    </button>
+                    <div class="col" id="outer-quiz-btn-two-two">
+                        <button id="quiz-btn-two-two"><a class="nav-link" href=""
+                                aria-label="question 2, answer 2"><span class="btn-color">60 year anniversary</span></a>
+                        </button>
+                    </div>
+                    <div class="col" id="outer-quiz-btn-two-three">
+                        <button id="quiz-btn-two-three"><a class="nav-link" href=""
+                                aria-label="question 2, answer 3"><span class="btn-color">To save money</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div id="quiz-image-two"></div>
+            </div>
+            <div class="col-12 col-md-1"></div>
+        </div>
 
+        <br>
+        <hr>
+        <!-- 
+            quiz question 3 is central and with no image this time. Bootstrap rows and columns used for good UX and responsiveness  
+        -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h4 class="quiz-question">
+                    Question 3: 
+                </h4>
+                <h5 class="quiz-center">
+                    There has been 10 countries that have won the European Championships since it began. Which two teams have been the most successful and won the competition three times each?
+                </h5>
+                <div class="col" id="outer-quiz-btn-three-one">
+                    <button id="quiz-btn-three-one"><a class="nav-link" href=""
+                            aria-label="question 3, answer 1"><span class="btn-color">Spain and Germany</span></a>
+                    </button>
+                    <div class="col" id="outer-quiz-btn-three-two">
+                        <button id="quiz-btn-three-two"><a class="nav-link" href=""
+                                aria-label="question 3, answer 2"><span class="btn-color">Spain and France</span></a>
+                        </button>
+                    </div>
+                    <div class="col" id="outer-quiz-btn-three-three">
+                        <button id="quiz-btn-three-three"><a class="nav-link" href=""
+                                aria-label="question 3, answer 3"><span class="btn-color">Germany and Italy</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h4 class="quiz-question">
+                    Question 4: 
+                </h4>
+                <h5 class="quiz-center">
+                    There has been 10 countries that have won the European Championships since it began. Which two teams have been the most successful and won the competition three times each?
+                </h5>
+                <div class="col" id="outer-quiz-btn-three-one">
+                    <button id="quiz-btn-three-one"><a class="nav-link" href=""
+                            aria-label="question 3, answer 1"><span class="btn-color">answer 1</span></a>
+                    </button>
+                    <div class="col" id="outer-quiz-btn-three-two">
+                        <button id="quiz-btn-three-two"><a class="nav-link" href=""
+                                aria-label="question 3, answer 2"><span class="btn-color">answer 2</span></a>
+                        </button>
+                    </div>
+                    <div class="col" id="outer-quiz-btn-three-three">
+                        <button id="quiz-btn-three-three"><a class="nav-link" href=""
+                                aria-label="question 3, answer 3"><span class="btn-color">answer 3</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+    
+        <!-- 
+            One button for users to click on to take them to the feedback page.
+        -->
+    
         <div class="row">
             <div class="col" id="outer-feedback-btn">
                 <button id="feedback-btn"><a class="nav-link" href="feedback.html"
@@ -213,6 +214,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Footer includes social media icons sourced from fontawesome and a paragraph for copyright using the shortcut &copy; -->
 
