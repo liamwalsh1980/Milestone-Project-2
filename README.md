@@ -227,6 +227,13 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 [Back to top ⇧](#the-euro-football-quiz)
 
+## Quiz page
+
+Question 1 - <a href="https://cultofcalcio.com/the-history-of-the-uefa-euro-1960-the-humble-beginnings/" target="_blank">image</a>
+
+Question 2 - <a href="https://www.thesundaily.my/sport/romania-expects-quarter-full-stadium-for-euro-2020-games-BE7314838" target="_blank">image</a>
+
+
 ## Technology Used
 
 * Font Awesome (link to add)
