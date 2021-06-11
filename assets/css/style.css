@@ -99,7 +99,7 @@ body {
 
 #quiz-image-one {
     background: url("../images/quiz-question-one.jpg") no-repeat center center;
-    height: 250px;
+    height: 325px;
     width: auto;
     background-size: cover;
     border: solid 2px #FFFF00;
@@ -108,7 +108,16 @@ body {
 
 #quiz-image-two {
     background: url("../images/quiz-question-two.jpg") no-repeat center center;
-    height: 250px;
+    height: 325px;
+    width: auto;
+    background-size: cover;
+    border: solid 2px #FFFF00;
+    margin-top: 20px;
+}
+
+#quiz-image-three {
+    background: url("../images/quiz-question-three.png") no-repeat center center;
+    height: 425px;
     width: auto;
     background-size: cover;
     border: solid 2px #FFFF00;
@@ -117,6 +126,15 @@ body {
 
 #quiz-image-four {
     background: url("../images/quiz-question-four.jpg") no-repeat center center;
+    height: 325px;
+    width: auto;
+    background-size: cover;
+    border: solid 2px #FFFF00;
+    margin-top: 20px;
+}
+
+#quiz-image-five {
+    background: url("../images/quiz-question-five.jpg") no-repeat center center;
     height: 325px;
     width: auto;
     background-size: cover;
