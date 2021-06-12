@@ -99,46 +99,49 @@ body {
 
 #quiz-image-one {
     background: url("../images/quiz-question-one.jpg") no-repeat center center;
-    height: 325px;
+    height: 250px;
     width: auto;
-    background-size: cover;
-    border: solid 2px #FFFF00;
+    background-size: contain;
     margin-top: 20px;
 }
 
 #quiz-image-two {
     background: url("../images/quiz-question-two.jpg") no-repeat center center;
-    height: 325px;
+    height: 250px;
     width: auto;
-    background-size: cover;
-    border: solid 2px #FFFF00;
+    background-size: contain;
     margin-top: 20px;
 }
 
 #quiz-image-three {
-    background: url("../images/quiz-question-three.png") no-repeat center center;
-    height: 425px;
+    background: url("../images/quiz-question-three.webp") no-repeat center center;
+    height: 250px;
     width: auto;
-    background-size: cover;
-    border: solid 2px #FFFF00;
+    background-size: contain;
     margin-top: 20px;
 }
 
 #quiz-image-four {
     background: url("../images/quiz-question-four.jpg") no-repeat center center;
-    height: 325px;
+    height: 250px;
     width: auto;
-    background-size: cover;
-    border: solid 2px #FFFF00;
+    background-size: contain;
     margin-top: 20px;
 }
 
 #quiz-image-five {
     background: url("../images/quiz-question-five.jpg") no-repeat center center;
-    height: 325px;
+    height: 250px;
     width: auto;
-    background-size: cover;
-    border: solid 2px #FFFF00;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+#quiz-image-six {
+    background: url("../images/quiz-question-six.png") no-repeat center center;
+    height: 250px;
+    width: auto;
+    background-size: contain;
     margin-top: 20px;
 }
 
@@ -193,6 +196,20 @@ body {
     #euro-trophy {
         height: 500px;
         margin-top: 20px;
+    }
+}
+
+/* media queries for quiz image one on smaller screen sizes */
+
+@media screen and (max-width: 375px) {
+    #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 769px) and (max-width: 1200px) {
+    #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five {
+        margin-top: 50px;
     }
 }
 
@@ -311,7 +328,9 @@ body {
 #quiz-btn-one-one:hover, #quiz-btn-one-two:hover, #quiz-btn-one-three:hover, 
 #quiz-btn-two-one:hover, #quiz-btn-two-two:hover, #quiz-btn-two-three:hover, 
 #quiz-btn-three-one:hover, #quiz-btn-three-two:hover, #quiz-btn-three-three:hover,
-#quiz-btn-four-one:hover, #quiz-btn-four-two:hover, #quiz-btn-four-three:hover {
+#quiz-btn-four-one:hover, #quiz-btn-four-two:hover, #quiz-btn-four-three:hover,
+#quiz-btn-five-one:hover, #quiz-btn-five-two:hover, #quiz-btn-five-three:hover,
+#quiz-btn-six-one:hover, #quiz-btn-six-two:hover, #quiz-btn-six-three:hover {
     background-color: #FFFF00;
 }
 
@@ -320,7 +339,9 @@ body {
 #outer-quiz-btn-one-one, #outer-quiz-btn-one-two, #outer-quiz-btn-one-three, 
 #outer-quiz-btn-two-one, #outer-quiz-btn-two-two, #outer-quiz-btn-two-three,
 #outer-quiz-btn-three-one, #outer-quiz-btn-three-two, #outer-quiz-btn-three-three, 
-#outer-quiz-btn-four-one, #outer-quiz-btn-four-two, #outer-quiz-btn-four-three {
+#outer-quiz-btn-four-one, #outer-quiz-btn-four-two, #outer-quiz-btn-four-three,
+#outer-quiz-btn-five-one, #outer-quiz-btn-five-two, #outer-quiz-btn-five-three,
+#outer-quiz-btn-six-one, #outer-quiz-btn-six-two, #outer-quiz-btn-six-three {
     padding-top: 20px;
     text-align: center;
 }
@@ -328,15 +349,14 @@ body {
 #quiz-btn-one-one, #quiz-btn-one-two, #quiz-btn-one-three, 
 #quiz-btn-two-one, #quiz-btn-two-two, #quiz-btn-two-three, 
 #quiz-btn-three-one, #quiz-btn-three-two, #quiz-btn-three-three,
-#quiz-btn-four-one, #quiz-btn-four-two, #quiz-btn-four-three {
+#quiz-btn-four-one, #quiz-btn-four-two, #quiz-btn-four-three,
+#quiz-btn-five-one, #quiz-btn-five-two, #quiz-btn-five-three,
+#quiz-btn-six-one, #quiz-btn-six-two, #quiz-btn-six-three {
     background-color: #082d58;
     border-radius: 20px; 
     width: 250px;
     height: auto;
 } 
-
-
-
 
 /* media clip */
 
