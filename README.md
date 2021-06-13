@@ -229,17 +229,27 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 ## Quiz page
 
-Question 1 - <a href="https://cultofcalcio.com/the-history-of-the-uefa-euro-1960-the-humble-beginnings/" target="_blank">image</a>
+* Designing this page was the most challenging part of this project. I started with just adding a sub-header with questions and three possible answers to select from as each question would be multiple choice. I seperated each question/answers with a horizonal line but there was something missing. I decided to add an image clue to each question which not only would assist the user but also offers a better overal look. 
 
-Question 2 - <a href="https://www.thesundaily.my/sport/romania-expects-quarter-full-stadium-for-euro-2020-games-BE7314838" target="_blank">image</a>
+* I kept the color scheme and overall structure the same as the homepage and tournament page for good overall UX.
 
-Question 3 - <a href="https://www.vecteezy.com/vector-art/2153351-european-football-2020-tournament-flag-set-vector-country-flag-set-for-soccer-championship" target="_blank">image</a>
+* The questions were written in h5 header HTML with the answers in the form of buttons. All buttons have been given unique IDs for the purpose of Javascript. 
 
-Question 4 - <a href="https://www.eurosport.co.uk/football/euro-icons-1992-peter-schmeichel-the-great-dane_sto7776495/story.shtml" target="_blank">image</a>
+* I structured each question and selection of answers on the left side of laptop screen sizes and above and made sure that on smaller screen sizes the format would be veritcal with the question first then 3 possible answer buttons below with the image clue to finish. The horizontal line is very important here to seperate each question/answers/image. This was done using Bootstrap columns. 
 
-Question 5 - <a href="https://www.google.com/search?q=euro+2028+&tbm=isch&ved=2ahUKEwjZwbGnvpDxAhUE2xoKHVn9CNkQ2-cCegQIABAA&oq=euro+2028+&gs_lcp=CgNpbWcQAzICCAAyAggAMgQIABAeMgYIABAFEB4yBggAEAUQHjIECAAQHjIECAAQGDIECAAQGDIECAAQGDIECAAQGFDptBlY6bQZYNm9GWgAcAB4AIABlwGIAZcBkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=jNDDYNlLhLZr2fqjyA0&rlz=1C5CHFA_enGB821GB821#imgrc=8qk901TzJpe8HM" target="_blank">image</a>
+* All images were found online from different sources. Full details can be found in the credits section with links to each source. 
 
-Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:UEFA_Euro_2004_logo.svg" target="_blank">image</a>
+* Below the questions, users will find the submit answers button to click on once all questions have been selected with an answer. If this button is clicked with any question(s) not answered the user will be shown an error message indicating that at least one question in the quiz hasn't been answered yet. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). 
+
+* JAVASCRIPT DOCUMENTATION TO BE ADDED HERE - users score and try again
+
+* Below the user score and try again buttons users will find another buttons to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and quiz page (answer buttons) and do the following: -
+
+    - Leave feedback (takes the user to the feedback.html page to complete)
+
+* When a user hovers over either of these buttons the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
+
+* I used Horizontal Rules and Line Breaks to seperate all the secionts within the body of this webpage to make sure it was easier to read and to acheieve better UX. Also used is bootstrap container-fluid on all rows with paragraphs for structure and consistency.
 
 ## Technology Used
 
@@ -270,10 +280,24 @@ Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:U
 
 * The <a href="https://www.uefa.com/uefaeuro-2020/news/0258-0e51de1a172f-12472925ce41-1000/" target="_blank"> trophy image</a> was sourced from the official UEFA Euro 2020 website.
 
+* Quiz Question 1 - <a href="https://cultofcalcio.com/the-history-of-the-uefa-euro-1960-the-humble-beginnings/" target="_blank">image</a> 
+
+* Quiz Question 2 - <a href="https://www.thesundaily.my/sport/romania-expects-quarter-full-stadium-for-euro-2020-games-BE7314838" target="_blank">image</a>
+
+* Quiz Question 3 - <a href="https://www.vecteezy.com/vector-art/2153351-european-football-2020-tournament-flag-set-vector-country-flag-set-for-soccer-championship" target="_blank">image</a>
+
+* Quiz Question 4 - <a href="https://www.eurosport.co.uk/football/euro-icons-1992-peter-schmeichel-the-great-dane_sto7776495/story.shtml" target="_blank">image</a>
+
+* Quiz Question 5 - <a href="https://www.google.com/search?q=euro+2028+&tbm=isch&ved=2ahUKEwjZwbGnvpDxAhUE2xoKHVn9CNkQ2-cCegQIABAA&oq=euro+2028+&gs_lcp=CgNpbWcQAzICCAAyAggAMgQIABAeMgYIABAFEB4yBggAEAUQHjIECAAQHjIECAAQGDIECAAQGDIECAAQGDIECAAQGFDptBlY6bQZYNm9GWgAcAB4AIABlwGIAZcBkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=jNDDYNlLhLZr2fqjyA0&rlz=1C5CHFA_enGB821GB821#imgrc=8qk901TzJpe8HM" target="_blank">image</a>
+
+* Quiz Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:UEFA_Euro_2004_logo.svg" target="_blank">image</a>
+
 ## Bugs
 
 * API key issues 
 https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
+
+* Borders around quiz question images. Using the background size property with the cover value would cause an issue with the images on smaller screen sizes. I changed the value for all images from cover to contain which worked for what i wanted to acheieve which was to make sure that all of the image is shown on screen sizes. 
 
 
 

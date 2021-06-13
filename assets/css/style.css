@@ -46,7 +46,7 @@ body {
 }
 
 #menulist a:hover {
-    color: #082d58;
+    color: #f2993e;
     font-size: 30px;
 }
 
@@ -93,7 +93,6 @@ body {
     height: 400px;
     width: auto;
     background-size: cover;
-    border: solid 2px #FFFF00;
     margin-bottom: 15px;
 }
 
@@ -304,7 +303,7 @@ body {
 
 /* buttons */
 
-#outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {
+#outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn, #outer-submit-answers-btn {
     padding-top: 20px;
     text-align: center;
 }
@@ -316,6 +315,18 @@ body {
     height: auto;
 }
 
+#submit-answers-btn {
+    background-color: #f2993e;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    font-size: 20px;
+}
+
+.submit-btn-color {
+    color: #082d58;
+}
+
 .btn-color {
     color: #409eb7;
 }
@@ -324,7 +335,7 @@ body {
     color: #082d58;
 }
 
-#find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, 
+#find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, #submit-answers-btn:hover, 
 #quiz-btn-one-one:hover, #quiz-btn-one-two:hover, #quiz-btn-one-three:hover, 
 #quiz-btn-two-one:hover, #quiz-btn-two-two:hover, #quiz-btn-two-three:hover, 
 #quiz-btn-three-one:hover, #quiz-btn-three-two:hover, #quiz-btn-three-three:hover,
