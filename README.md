@@ -7,7 +7,53 @@
 <a href="https://liamwalsh1980.github.io/Milestone-Project-2/" target="_blank">Click here to view The Euro Football Quiz live</a>
 
 ## Table of contents
-{to be completed} 
+1. [Introduction](#introduction)
+1. [UX](#ux)
+   * [User demographic](#user-demographic)
+   * [Main aims](#main-aims)
+   * [User Stories](#user-stories)
+1. [Development Process](#development-process)
+    * [Strategy Plane](#strategy-plane)
+    * [Scope Plane](#scope-plane)
+    * [Structure Plane](#structure-plane)
+    * [Skeleton Plane](#skeleton-plane)
+        * [Balsamiq Wireframes](#balsamiq-wireframes)
+            * [Homepage wireframe](#homepage---wireframe)
+            * [Tournament page wireframe](#tournament-page---wireframe)
+            * [Quiz page wireframe](#quiz-page---wireframe)
+            * [Feedback page wireframe](#feedback-page---wireframe)
+    * [Surface Plane](#surface-plane)
+1. [Design Process page by page](#design-process-page-by-page)
+    * [Header](#header)
+    * [Footer](#footer)
+    * [Homepage design](#homepage-design)
+    * [Tournament page design](#tournament-page-design)
+    * [Quiz page](#quiz-page)
+    * [Media Queries](#media-queries)
+1. [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Header](#header)
+        * [Footer](#footer)
+        * [Homepage design](#homepage-design)
+        * [Tournament page design](#tournament-page-design)
+        * [Quiz page](#quiz-page)
+    * [Features Left to Implement](#features-left-to-implement)
+1. [Technology Used](#technology-used)
+    * [Languages Used](#languages)
+    * [Frameworks and other Technologies](#frameworks-and-other-technologies)
+1. [Testing](#testing)
+1. [Deployment](#deployment)
+    * [Github pages](#github-pages)
+    * [Forking the GitHub Repository](#forking-the-github-repository)
+    * [Making a Local Clone](#making-a-local-clone)
+1. [Credits](#credits)
+    * [Content](#content)
+    * [Code](#code)
+    * [Media clip](#media-clip)
+    * [Images](#images)
+    * [Other](#other)
+1. [Acknowledgements](#acknowledgements)
+1. [Notes](#notes)
 
 ## Introduction
 This Milestone project is the second of four that continues to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project are to design an Interactive front-end website that responds to users’ actions, allowing users to actively engage on the website with purposeful decisions made which will alter the way the site displays the information and ultimately achieve the users’ goals. The main technologies that need to be used to achieve this is HTML, CSS and JavaScript with the option of using jQuery, other JavaScript libraries and external APIs.
@@ -227,7 +273,7 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 [Back to top ⇧](#the-euro-football-quiz)
 
-## Quiz page
+### Quiz page
 
 * Designing this page was the most challenging part of this project. I started with just adding a sub-header with questions and three possible answers to select from as each question would be multiple choice. I seperated each question/answers with a horizonal line but there was something missing. I decided to add an image clue to each question which not only would assist the user but also offers a better overal look. 
 
@@ -251,9 +297,13 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * I used Horizontal Rules and Line Breaks to seperate all the secionts within the body of this webpage to make sure it was easier to read and to acheieve better UX. Also used is bootstrap container-fluid on all rows with paragraphs for structure and consistency.
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 ## Technology Used
 
 * Font Awesome (link to add)
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 ## Credits
 
@@ -292,12 +342,16 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * Quiz Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:UEFA_Euro_2004_logo.svg" target="_blank">image</a>
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 ## Bugs
 
 * API key issues 
 https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
 
 * Borders around quiz question images. Using the background size property with the cover value would cause an issue with the images on smaller screen sizes. I changed the value for all images from cover to contain which worked for what i wanted to acheieve which was to make sure that all of the image is shown on screen sizes. 
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 
 
