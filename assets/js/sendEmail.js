@@ -13,3 +13,5 @@ function sendMail (contactForm) {
         });
         return false;
 }
+
+// Source of code from CI

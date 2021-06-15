@@ -325,14 +325,12 @@ body {
 
 #submit-answers-btn {
     background-color: #f2993e;
+    color: #082d58;
     border-radius: 20px;
     width: 300px;
-    height: auto;
-    font-size: 20px;
-}
-
-.submit-btn-color {
-    color: #082d58;
+    height: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .btn-color {
@@ -344,39 +342,36 @@ body {
 }
 
 #find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, #submit-answers-btn:hover, 
-#submit-feedback-btn:hover,
-#quiz-btn-one-one:hover, #quiz-btn-one-two:hover, #quiz-btn-one-three:hover, 
-#quiz-btn-two-one:hover, #quiz-btn-two-two:hover, #quiz-btn-two-three:hover, 
-#quiz-btn-three-one:hover, #quiz-btn-three-two:hover, #quiz-btn-three-three:hover,
-#quiz-btn-four-one:hover, #quiz-btn-four-two:hover, #quiz-btn-four-three:hover,
-#quiz-btn-five-one:hover, #quiz-btn-five-two:hover, #quiz-btn-five-three:hover,
-#quiz-btn-six-one:hover, #quiz-btn-six-two:hover, #quiz-btn-six-three:hover {
+#submit-feedback-btn:hover {
     background-color: #FFFF00;
 }
 
 /* quiz buttons */
 
-#outer-quiz-btn-one-one, #outer-quiz-btn-one-two, #outer-quiz-btn-one-three, 
-#outer-quiz-btn-two-one, #outer-quiz-btn-two-two, #outer-quiz-btn-two-three,
-#outer-quiz-btn-three-one, #outer-quiz-btn-three-two, #outer-quiz-btn-three-three, 
-#outer-quiz-btn-four-one, #outer-quiz-btn-four-two, #outer-quiz-btn-four-three,
-#outer-quiz-btn-five-one, #outer-quiz-btn-five-two, #outer-quiz-btn-five-three,
-#outer-quiz-btn-six-one, #outer-quiz-btn-six-two, #outer-quiz-btn-six-three {
+.outer-quiz-btn {
     padding-top: 20px;
     text-align: center;
 }
 
-#quiz-btn-one-one, #quiz-btn-one-two, #quiz-btn-one-three, 
-#quiz-btn-two-one, #quiz-btn-two-two, #quiz-btn-two-three, 
-#quiz-btn-three-one, #quiz-btn-three-two, #quiz-btn-three-three,
-#quiz-btn-four-one, #quiz-btn-four-two, #quiz-btn-four-three,
-#quiz-btn-five-one, #quiz-btn-five-two, #quiz-btn-five-three,
-#quiz-btn-six-one, #quiz-btn-six-two, #quiz-btn-six-three {
+.quiz-btn {
     background-color: #082d58;
     border-radius: 20px; 
     width: 250px;
-    height: auto;
+    height: 40px;
 } 
+
+.quiz-btn-correct {
+    background-color: #f2993e;
+    color: #082d58;
+}
+
+.quiz-btn-incorrect {
+    background-color: #e4e4e4;
+}
+
+.quiz-btn:hover {
+    background-color: #FFFF00;
+}
 
 /* media clip */
 
