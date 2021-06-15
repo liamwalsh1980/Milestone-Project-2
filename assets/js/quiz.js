@@ -1,4 +1,4 @@
-var finalScore = 0;
+let finalScore = 0;
 
 $(document).ready(function(){
     $(".quiz-btn").click(function() {
@@ -12,6 +12,15 @@ $(document).ready(function(){
     $('.true').one('click', function() {
         finalScore ++;
     });
+
+    $("#submit-answers-btn").click(function() {
+        $("#submit-answers-btn").text('Your score is: ' + finalScore + ' out of 6');
+    });
+
+
+    // $('.quiz-btn').click(function() {
+    //     $(this).siblings.remove();
+    // })
 
 
     
