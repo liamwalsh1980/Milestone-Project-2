@@ -195,10 +195,11 @@ Date this project started: 3rd June 2020
     - Content header font size on desktop - 16px
 
     - Colour scheme: - 
-    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The text logo and navigation bar page titles change color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. 
+    - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The text logo changes color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. The navigation bar title name change color when hovered over to #f2993e (Bright Orange). 
     - Body: - Background color stays as default #409eb7 (Boston Blue) and font color is changed from the default #000 (Black) to #082d58 (Dark Blue). 
     - Footer: - Background color stays the same as the default body color #409eb7 (Boston Blue). The social media icons is #409eb7 (Boston Blue) and placed in #e4e4e4 (light grey) circles. When any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #082d58 (Dark Blue). The copyright text header h5 is also in #082d58 (Dark Blue). 
-    - #FFFF00 (Yellow) is also used when hovering over an event within the timeline on the homepage indicated that these area links that can be clicked. I also used Yellow as a border color around the homepage hero image, the media clip on the tournament page, the google map on the tournament page and as a hover for all buttons on all pages.
+    - #ffff00 (Yellow) is also used when hovering over an event within the timeline on the homepage indicated that these area links that can be clicked. I also used Yellow as a border color around the homepage hero image, the media clip on the tournament page, the google map on the tournament page and as a hover for all buttons on all pages.
+    - #f2993e (Bright Orange) is used 
     - After carefully testing and researching colors that works well together i am confident that the above colors chosen work to provide good UX and easy on the eye with some good overall contrasts.
 
 [Back to top ⇧](#the-euro-football-quiz)
@@ -215,7 +216,7 @@ Date this project started: 3rd June 2020
 
 * The header across all pages is the same.
 * The test logo 'THE EURO FOOTBALL QUIZ' is at the top left in uppercase using the font-family: 'Bebas Neue', cursive (fall back). The color is Boston Blue and when hovered over will turn Dark Blue to show its a link to the homepage.
-* The navigation bar is positioned to the right and highlights all pages for the user to click on. The font styling is the default font-family: 'Mukta', sans-serif (fall back). The color for the page titles within the navigation bar is the default Boston Blue. When hovering over any of the page titles the color of the page title changes to Dark Blue and increased in size from 20px to 30px. 
+* The navigation bar is positioned to the right and highlights all pages for the user to click on. The font styling is the default font-family: 'Mukta', sans-serif (fall back). The color for the page titles within the navigation bar is the default Boston Blue. When hovering over any of the page titles the color of the page title changes to Bright Orange and increased in size from 20px to 30px. 
 * The header is fixed to the top so that it will travel with the user as they scroll down the webpage. 
 * Bootstrap5 was used to create this header navigation bar with text logo.
 * I decided to add the bootstrap class container-fluid to the header for improved responsiveness on all screen sizes.
@@ -275,7 +276,7 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 ### Quiz page
 
-* Designing this page was the most challenging part of this project. I started with just adding a sub-header with questions and three possible answers to select from as each question would be multiple choice. I seperated each question/answers with a horizonal line but there was something missing. I decided to add an image clue to each question which not only would assist the user but also offers a better overal look. 
+* Designing this page was the most challenging part of this project. I started with just adding a sub-header with questions and three possible answers to select from as each question would be multiple choice. I seperated each question/answers with a horizonal line but there was something missing. I decided to add an image clue to each question which not only would assist the user but also offers a better overall look. 
 
 * I kept the color scheme and overall structure the same as the homepage and tournament page for good overall UX.
 
@@ -283,11 +284,11 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * I structured each question and selection of answers on the left side of laptop screen sizes and above and made sure that on smaller screen sizes the format would be veritcal with the question first then 3 possible answer buttons below with the image clue to finish. The horizontal line is very important here to seperate each question/answers/image. This was done using Bootstrap columns. 
 
-* All images were found online from different sources. Full details can be found in the credits section with links to each source. 
+* Each answer button turns yellow when hovered over. When an answer button is selected that button turns and stays bright orange if correct or light grey if incorrect.
 
-* Below the questions, users will find the submit answers button to click on once all questions have been selected with an answer. If this button is clicked with any question(s) not answered the user will be shown an error message indicating that at least one question in the quiz hasn't been answered yet. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). 
+* All images were found online from different sources. Full details can be found in the [credits](#credits) section with links to each source. 
 
-* JAVASCRIPT DOCUMENTATION TO BE ADDED HERE - users score and try again
+* Below the questions, users will find the submit answers button called 'see your score' to click on. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). Javascript has been added to this button so that when its clicked the users score becomes visable along with optional 'try again' and 'answers' buttons for the user to click on. The 'results' button background color is bright orange. The 'try again' and 'answers' button has a light grey background and when hovered turns yellow to show users that they can click these buttons. 
 
 * Below the user score and try again buttons users will find another buttons to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and quiz page (answer buttons) and do the following: -
 
