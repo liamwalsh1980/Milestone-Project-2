@@ -9,6 +9,7 @@ function initMap() {
     
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var hosts = [
+    // Relevant cities found using sites found via google i.e. https://www.latlong.net/place/seville-center-of-interpretation-seville-spain-23323.html
         {lat: 51.507359, lng: -0.136439},
         {lat: 59.9311, lng: 30.3609},
         {lat: 40.4093, lng: 49.8671},
@@ -22,17 +23,24 @@ function initMap() {
         {lat: 37.386276, lng: -5.988988},
     ];
 
+    // alphabetical labels used with google markers 
     var markers = hosts.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
     });
+
+    // marker and cluster images added to pinpoint each city
     var markerCluster = new MarkerClusterer(map, markers, {
         imagePath:
           "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
       });
 }
+
+// Source of code from GoogleMap Platform using a bespoke API key generated from 
+
+
 
 
 
