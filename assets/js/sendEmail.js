@@ -14,4 +14,4 @@ function sendMail (contactForm) {
         return false;
 }
 
-// Source of code from CI
+// Source of code from EmailJS using Email templates
