@@ -13,6 +13,7 @@ $(document).ready(function(){
         }
     });
 
+// create a function that either removes the other two answer once an answer has been selected, or locks in the answer once clicked
     
 
 // Increments the users score by 1 each time they get a question correct 
@@ -20,16 +21,14 @@ $(document).ready(function(){
         finalScore ++;
     });
 
-// 
+// Show users score by removing the submit answer button and showing the users score and options to look at the answer or try again
     $("#submit-answers-btn").click(function() {
         $('.hide-btn').show();
-        $(".results-btn").text(+ finalScore + ' out of 6');
+        $(".results-btn").text(finalScore + ' out of 6');
         $(".answers-btn");
         $(".try-again-btn");
-        
     });
 
-    
     $("#submit-answers-btn").click(function() {
         $("#submit-answers-btn").remove();
     });
