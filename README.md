@@ -290,13 +290,31 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * Below the questions, users will find the submit answers button called 'see your score' to click on. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). Javascript has been added to this button so that when its clicked the users score becomes visable along with optional 'try again' and 'answers' buttons for the user to click on. The 'results' button background color is bright orange. The 'try again' and 'answers' button has a light grey background and when hovered turns yellow to show users that they can click these buttons. 
 
-* Below the user score and try again buttons users will find another buttons to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and quiz page (answer buttons) and do the following: -
+* Below the 'results', 'try again' and 'answers' buttons, users will find another button to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and and further up on the quiz page (answer buttons) and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
-    - Leave feedback (takes the user to the feedback.html page to complete)
+* I used Horizontal Rules and Line Breaks to seperate all the questions/answers within the body of this webpage to make sure it was easy to navigate through offering users the best level of experience.
 
-* When a user hovers over either of these buttons the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
+* MORE JAVASCRIPT TO BE ADDED TO SET THE ANSWERS BUTTON TO FIXED OR DISAPPEAR ONCE ONE ANSWER PER QUESTION IS SELECTED
 
-* I used Horizontal Rules and Line Breaks to seperate all the secionts within the body of this webpage to make sure it was easier to read and to acheieve better UX. Also used is bootstrap container-fluid on all rows with paragraphs for structure and consistency.
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Feedback page
+
+* The page starts with a sub header above the form as a title
+
+* This page simply has a basic contact form for users to complete with their name, email and feedback required to submit.
+
+* I used Bootstrap to create the form with Bootstrap row and columns for responsive design on all screen sizes.
+
+* All three sections of the form i.e. name, email and feedback textarea required relevant information. If a user attempted to submit the form with information missing they will be shown an error message (please fill in this field). This is in place to make sure that all forms are received with complete information. The code applied within the first tag of all three elements of the form is the 'required' attribute. 
+
+* I decided to inbed the form on the webpage and not have it sit off the page. This makes it look clean and simple to use. 
+
+* The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage, tournament page and the feedback and answer buttons in the quiz page. Fo reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
+
+* MODAL MESSAGE TO BE ADDED
+
+* JAVASCRIPT TO BE ADDED REFERENCING EMAILJS
 
 [Back to top ⇧](#the-euro-football-quiz)
 
