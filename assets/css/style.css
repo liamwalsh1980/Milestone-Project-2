@@ -359,7 +359,7 @@ body {
 }
 
 .results-btn {
-    background-color: #e4e4e4;
+    background-color: #f2993e;
     color: #082d58;
     border-radius: 20px;
     width: 300px;
@@ -388,7 +388,18 @@ body {
     text-transform: uppercase;
 }
 
+.answers-btn:hover, .try-again-btn:hover {
+    background-color: #FFFF00;   
+}
 
+/* buttons at the bottom of the quiz adjusted in size on very small mobile screen sizes */
+
+@media screen and (max-width: 320px) {
+    .results-btn, .answers-btn, .try-again-btn, #submit-answers-btn {
+        width: 250px;
+        font-size: 20px;
+    }
+}
 
 .btn-color {
     color: #409eb7;
@@ -402,8 +413,6 @@ body {
 #submit-feedback-btn:hover {
     background-color: #FFFF00;
 }
-
-/* quiz buttons */
 
 .outer-quiz-btn {
     padding-top: 20px;
@@ -460,10 +469,18 @@ body {
     text-align: center;
 }
 
+.underline {
+    text-decoration: none;
+}
+
 /* form */
 
 textarea {
     height: 250px;
+}
+
+#form-header {
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
