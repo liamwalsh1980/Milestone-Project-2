@@ -7,7 +7,7 @@ function sendMail (contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            $(".modal-message").text("Thank you for your feedback " + contactForm.name.value + " We hope you enjoyed the quiz");
+            $(".modal-message").text("Thank you for your feedback " + contactForm.name.value +". We hope you enjoyed the quiz");
             $("#closing-btn").click(function() {
                 location.reload();
             });
