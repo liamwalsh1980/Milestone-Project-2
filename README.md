@@ -199,7 +199,7 @@ Date this project started: 3rd June 2020
     - Body: - Background color stays as default #409eb7 (Boston Blue) and font color is changed from the default #000 (Black) to #082d58 (Dark Blue). 
     - Footer: - Background color stays the same as the default body color #409eb7 (Boston Blue). The social media icons is #409eb7 (Boston Blue) and placed in #e4e4e4 (light grey) circles. When any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #082d58 (Dark Blue). The copyright text header h5 is also in #082d58 (Dark Blue). 
     - #ffff00 (Yellow) is also used when hovering over an event within the timeline on the homepage indicated that these area links that can be clicked. I also used Yellow as a border color around the homepage hero image, the media clip on the tournament page, the google map on the tournament page and as a hover for all buttons on all pages.
-    - #f2993e (Bright Orange) is used 
+    - #f2993e (Bright Orange) is used on the quiz.html page to highlight a correct answer when a user gets a question right. This color is also used as the background color of the 'see your score' submit button at below the questions on the same page. This shade of orange was chosen using the Chrome Development tools color selector feature. 
     - After carefully testing and researching colors that works well together i am confident that the above colors chosen work to provide good UX and easy on the eye with some good overall contrasts.
 
 [Back to top ⇧](#the-euro-football-quiz)
@@ -312,9 +312,16 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage, tournament page and the feedback and answer buttons in the quiz page. Fo reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
 
-* MODAL MESSAGE TO BE ADDED
+* MODAL MESSAGE TO BE ADDED or ADD ANSWERS PAGE
+ATTACHED SCREEN SHOTS AND EMAIL CONFIRMING CREDIT LIMITED REACHED ON EMAILJS
 
 * JAVASCRIPT TO BE ADDED REFERENCING EMAILJS
+
+https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
+
+### Media Queries
+
+* 
 
 [Back to top ⇧](#the-euro-football-quiz)
 

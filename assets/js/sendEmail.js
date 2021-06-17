@@ -7,6 +7,10 @@ function sendMail (contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            $(".modal-message").text("Thank you for your feedback " + contactForm.name.value + " We hope you enjoyed the quiz");
+            $("#closing-btn").click(function() {
+                location.reload();
+            });
         },
         function (error) {
             console.log("FAILED", error);
@@ -15,3 +19,4 @@ function sendMail (contactForm) {
 }
 
 // Source of code from EmailJS using Email templates
+// Testing completed as credit limited reached for monthly - see README for more information

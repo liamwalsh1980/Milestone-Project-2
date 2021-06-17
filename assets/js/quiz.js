@@ -32,6 +32,8 @@ $(document).ready(function(){
     $("#submit-answers-btn").click(function() {
         $("#submit-answers-btn").remove();
     });
+
+    
 })
 
 // $(".quiz-btn").click(function() {
