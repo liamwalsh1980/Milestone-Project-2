@@ -312,12 +312,25 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage, tournament page and the feedback and answer buttons in the quiz page. Fo reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
 
-* MODAL MESSAGE TO BE ADDED or ADD ANSWERS PAGE
 ATTACHED SCREEN SHOTS AND EMAIL CONFIRMING CREDIT LIMITED REACHED ON EMAILJS
 
 * JAVASCRIPT TO BE ADDED REFERENCING EMAILJS
 
 https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Answers page
+
+* This page isn't included in the navigation bar at the top of all other pages as its only available to click on once a user has completed the quiz and submitted their answers. 
+
+* The structure of this page is very simliar to the quiz page with the layout of the questions, correct answer and relevant clue image. 
+
+* The purpose of this page is to show just the correct answers. I chose to highlight the answers with a bright orange background color. 
+
+* At the bottom of the page users can click the 'Try Again' button where the user can try the quiz again. When the user hovers over this button the background color changes from light grey to yellow to show its a clickable button. 
+
+* Below the 'Try Again' button, users will find another button to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and quiz page and further up on the quiz page (answer buttons) and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
 ### Media Queries
 
