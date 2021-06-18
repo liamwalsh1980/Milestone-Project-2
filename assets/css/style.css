@@ -301,6 +301,11 @@ body {
     color: #082d58;
 }
 
+.ol-content span, .ol-content div {
+    color: #FFFF00;  
+    ;
+}
+
 /* buttons */
 
 #outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {
@@ -418,7 +423,7 @@ body {
     background-color: #FFFF00;
 }
 
-.outer-quiz-btn, .clue-btn {
+.outer-quiz-btn, .clue-btn, .outer-answers-btn {
     padding-top: 20px;
     text-align: center;
 }
@@ -440,6 +445,14 @@ body {
     background-color: #e4e4e4;
     color: #082d58;
 }
+
+.correct-answers-btn {
+    background-color: #f2993e;
+    border-radius: 20px; 
+    width: 250px;
+    height: 40px;
+    color: #082d58;
+} 
 
 /* media clip */
 
