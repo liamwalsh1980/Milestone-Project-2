@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 2
 
-![Image template](assets/images/responsive.png)
+![Image template](assets/images/testing/responsive.png)
 
 <a href="https://liamwalsh1980.github.io/Milestone-Project-2/" target="_blank">Click here to view The Euro Football Quiz live</a>
 
@@ -284,17 +284,17 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * I structured each question and selection of answers on the left side of laptop screen sizes and above and made sure that on smaller screen sizes the format would be veritcal with the question first then 3 possible answer buttons below with the image clue to finish. The horizontal line is very important here to seperate each question/answers/image. This was done using Bootstrap columns. 
 
-* Each answer button turns yellow when hovered over. When an answer button is selected that button turns and stays bright orange if correct or light grey if incorrect.
+* Using Javascript has allowed me to change and remove relevant answer buttons. When an answer button is selected that button turns and stays bright orange if correct or light grey if incorrect. When one answer is selected the other two answers disappear. Using HTML IDs and the Javascript remove method with the 'click function' achieves this.
 
 * All images were found online from different sources. Full details can be found in the [credits](#credits) section with links to each source. 
 
-* Below the questions, users will find the submit answers button called 'see your score' to click on. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). Javascript has been added to this button so that when its clicked the users score becomes visable along with optional 'try again' and 'answers' buttons for the user to click on. The 'results' button background color is bright orange. The 'try again' and 'answers' button has a light grey background and when hovered turns yellow to show users that they can click these buttons. 
+* Below the questions, users will find the submit answers button called 'see your score' to click on. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). Javascript methods - 'hasClass', 'addClass' and 'show' has been used so that when the 'see your score' button is clicked the users score becomes visable along with optional 'try again' and 'answers' buttons for the user to click on. The 'results' button background color is bright orange. The 'try again' and 'answers' button has a light grey background and when hovered turns yellow to show users that they can click these buttons. 
 
 * Below the 'results', 'try again' and 'answers' buttons, users will find another button to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and and further up on the quiz page (answer buttons) and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
 * I used Horizontal Rules and Line Breaks to seperate all the questions/answers within the body of this webpage to make sure it was easy to navigate through offering users the best level of experience.
 
-* MORE JAVASCRIPT TO BE ADDED TO SET THE ANSWERS BUTTON TO FIXED OR DISAPPEAR ONCE ONE ANSWER PER QUESTION IS SELECTED
+* Javascript has been added 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -310,13 +310,9 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * I decided to inbed the form on the webpage and not have it sit off the page. This makes it look clean and simple to use. 
 
-* The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage, tournament page and the feedback and answer buttons in the quiz page. Fo reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
+* The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage, tournament page and the feedback and answer buttons in the quiz page. For reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
 
-ATTACHED SCREEN SHOTS AND EMAIL CONFIRMING CREDIT LIMITED REACHED ON EMAILJS
-
-* JAVASCRIPT TO BE ADDED REFERENCING EMAILJS
-
-https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
+* Javascript used for this page was sourced from <a href="https://www.emailjs.com/" target="_blank">EmailJS</a>. I added some addditional JavaScript to the template to give users a bespoke message in the modal when the form is submitted. This message includes the users name making the message personal to them i.e. Thank you for your feedback 'John'. We hope you enjoyed the quiz. Whatever name the user puts in the form will be used within the modal message. <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Reload</a> code sourced to help with reloading the form when a user submits their details. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -380,6 +376,8 @@ https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
 * Quiz Question 5 - <a href="https://www.google.com/search?q=euro+2028+&tbm=isch&ved=2ahUKEwjZwbGnvpDxAhUE2xoKHVn9CNkQ2-cCegQIABAA&oq=euro+2028+&gs_lcp=CgNpbWcQAzICCAAyAggAMgQIABAeMgYIABAFEB4yBggAEAUQHjIECAAQHjIECAAQGDIECAAQGDIECAAQGDIECAAQGFDptBlY6bQZYNm9GWgAcAB4AIABlwGIAZcBkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=jNDDYNlLhLZr2fqjyA0&rlz=1C5CHFA_enGB821GB821#imgrc=8qk901TzJpe8HM" target="_blank">image</a>
 
 * Quiz Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:UEFA_Euro_2004_logo.svg" target="_blank">image</a>
+
+* On the feedback page Javascript code was sourced using <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Stack Overflow</a>. This helped with making sure that when the form was completed the page reloaded properly after a user has finished submitting their details.    
 
 [Back to top ⇧](#the-euro-football-quiz)
 
