@@ -301,11 +301,6 @@ body {
     color: #082d58;
 }
 
-.ol-content span, .ol-content div {
-    color: #FFFF00;  
-    ;
-}
-
 /* buttons */
 
 #outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {

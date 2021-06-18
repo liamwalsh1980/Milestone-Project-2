@@ -27,11 +27,9 @@ function sendMail(contactForm) {
                     location.reload();
                 });
             });
-
-
     return false;
 }
 
-// Source of code from EmailJS using Email templates
+// Source of code from EmailJS using Email templates. This enables all successful feedback forms to be sent as an email
 // Testing completed as credit limited reached for monthly - see README for more information
 // Used to source the code for reloading the form - https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery

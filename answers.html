@@ -6,27 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="The Euro football quiz is full of knowledge about the tournament with a fun questions to answer">
-    <meta name="keywords" content="Euros football, European football, International football cup, UEFA Euros">
+        content="The Euro football quiz is full of information about all Euro tournaments with a fun quiz to try">
+    <meta name="keywords" content="Euros football, European football, European nationals cup, International football cup, UEFA Euros">
     <meta name="author" content="Liam Walsh">
+    <!-- External script from Bootstrap5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- External link from fontawesome for icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Local script for CSS -->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css">
     <title>The Euro Football Quiz</title>
 </head>
 
 <body class="d-flex flex-column h-100">
-    <!--
-        Header includes a logo name at the top within the Navbar template from Bootstrap 5. Nav bar is fixed at the top of all pages. 
+   <!--
+        Header includes a logo name at the top within the Navbar template from Bootstrap 5. Nav bar is fixed at the top of all visable pages using the class fixed-top. Note: this page doesn't not appear on the Navbar. 
     -->
     <header>
         <nav id="header-color" class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -73,7 +72,7 @@
         </div>
         <hr>
         <!-- 
-            quiz question 1 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness  
+            Quiz question 1 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness  
         -->
         <div class="row">
             <div class="col-12 col-md-6">
@@ -95,7 +94,7 @@
         <br>
         <hr>
         <!-- 
-            quiz question 2 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness  
+            Quiz question 2 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness  
         -->
         <div class="row">
             <div class="col-12 col-md-6">
@@ -118,7 +117,7 @@
         <br>
         <hr>
         <!-- 
-            quiz question 3 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
+            Quiz question 3 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
         -->
         <div class="row">
             <div class="col-12 col-md-6">
@@ -141,7 +140,7 @@
         <br>
         <hr>
         <!-- 
-            quiz question 4 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
+            Quiz question 4 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
         -->
         <div class="row">
             <div class="col-12 col-md-6">
@@ -163,7 +162,7 @@
         <br>
         <hr>
         <!-- 
-            quiz question 5 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
+            Quiz question 5 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
         -->
         <div class="row">
             <div class="col-12 col-md-6">
@@ -186,7 +185,7 @@
         <br>
         <hr>
         <!-- 
-            quiz question 6 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
+            Quiz question 6 with image and correct answer. Bootstrap rows and columns used for good UX and responsiveness   
         -->
         <div class="row">
             <div class="col-12 col-md-6">
@@ -207,9 +206,7 @@
         </div>
         <br>
         <hr>
-        <!-- 
-            Once the above button is clicked the below buttons appear. JavaScript code used for interaction to reveal the users score out of 6, the option to try the quiz again or see the answers
-        -->
+        <!-- Large 'try again' button below for users to click on and try the quiz again -->
         <div class="row">
             <div class="col-12" id="try-again-btn">
                 <a href="quiz.html" class="underline">
@@ -217,7 +214,7 @@
             </div>
         </div>
         <hr>
-        <!-- Below button for users to click on to take them to the feedback page -->
+        <!-- Button for users to click on to take them to the feedback page -->
         <div class="row">
             <div class="col" id="outer-feedback-btn">
                 <button id="feedback-btn"><a class="nav-link" href="feedback.html"
