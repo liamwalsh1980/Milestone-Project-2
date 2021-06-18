@@ -33,12 +33,16 @@ $(document).ready(function(){
         $("#submit-answers-btn").remove();
     });
 
+    $(".quiz-btn").click(function() {
+        $(this).siblings.remove();
+    });
+
     
 })
 
 // $(".quiz-btn").click(function() {
-    //     $(this).siblings.remove();
-    // })
+//         $(this).siblings.remove();
+//     })
 
 // $("#submit-answers-btn").click(function() {
 //     $("#submit-answers-btn").text("hello");
