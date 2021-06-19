@@ -1,7 +1,7 @@
-/* fonts chosen using Google Fonts */
+/* Fonts chosen using Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
-/* overall default css setup */
+/* Overall default css setup */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     background-color: #409eb7;
 }
 
-/* header including text logo and navigation bar which is also a hamburger menu for smaller device screens */
+/* Header including text logo and navigation bar which is also a hamburger menu for smaller device screens */
 
 #header-color {
     background-color: #e4e4e4;
@@ -46,15 +46,15 @@ body {
 }
 
 #menulist a:hover {
-    color: #f2993e;
+    color: #082d58;
     font-size: 30px;
 }
 
 #menulist .active {
-    color: #082d58;
+    color: #f2993e;
 }
 
-/* media queries for logo and hamburger menu on smaller screens*/
+/* Media queries for logo and hamburger menu on smaller screens*/
 
 @media screen and (max-width: 365px) {
     #logo {
@@ -66,7 +66,7 @@ body {
     }
 }
 
-/* images */
+/* Images */
 
 #hero-image {
     background: url("../images/hero-image.jpg") no-repeat center center;  
@@ -144,7 +144,7 @@ body {
     margin-top: 20px;
 }
 
-/* media queries for euro logo image on bigger screen sizes */
+/* Media queries for euro logo image on bigger screen sizes */
 
 @media screen and (min-width: 768px) {
     #euro-logo {
@@ -153,7 +153,7 @@ body {
     }
 }
 
-/* media queries for hero image on smaller screen sizes */
+/* Media queries for hero image on smaller screen sizes */
 
 @media screen and (max-width: 767px) {
     #hero-image {
@@ -167,7 +167,7 @@ body {
     }
 }
 
-/* media queries for euro logo image on smaller and screen sizes */
+/* Media queries for euro logo image on smaller and screen sizes */
 
 @media screen and (max-width: 375px) {
     #euro-logo {
@@ -175,7 +175,7 @@ body {
     }
 }
 
-/* media queries for euro trophy image on bigger screen sizes */
+/* Media queries for euro trophy image on bigger screen sizes */
 
 @media screen and (min-width: 768px) and (max-width: 850px) {
     #euro-trophy {
@@ -198,7 +198,7 @@ body {
     }
 }
 
-/* media queries for quiz image one on smaller screen sizes */
+/* Media queries for quiz image one on smaller screen sizes */
 
 @media screen and (max-width: 375px) {
     #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five {
@@ -212,7 +212,7 @@ body {
     }
 }
 
-/* timeline */
+/* Timeline */
 
 .timeline-title {
     color: #082d58;
@@ -268,7 +268,7 @@ body {
     background: #082d58;
 }
 
-/* media queries for timeline for smaller screen sizes*/
+/* Media queries for timeline for smaller screen sizes*/
 
 @media screen and (max-width: 767px) and (min-width: 343px) {
     .timeline-item p {
@@ -282,7 +282,7 @@ body {
     }
 }
 
-/* headers */
+/* Headers */
 
 .sub-header {
     color: #082d58;
@@ -295,13 +295,13 @@ body {
     padding-bottom: 20px;
 }
 
-/* paragraphs and ordered list */
+/* Paragraphs and Ordered List */
 
 .para-content, .ol-content {
     color: #082d58;
 }
 
-/* buttons */
+/* Buttons */
 
 #outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {
     padding-top: 20px;
@@ -393,7 +393,7 @@ body {
     background-color: #FFFF00;   
 }
 
-/* buttons at the bottom of the quiz adjusted in size on very small mobile screen sizes */
+/* Buttons at the bottom of the quiz adjusted in size on very small mobile screen sizes */
 @media screen and (max-width: 320px) {
     .results-btn, .answers-btn, .try-again-btn, #submit-answers-btn {
         width: 250px;
@@ -449,14 +449,14 @@ body {
     color: #082d58;
 } 
 
-/* media clip */
+/* Media Clip */
 
 #media-clip {
     border: solid 2px #FFFF00;
     padding: 0;
 }
 
-/* google map API key used - AIzaSyAQda9xmJ0kfmy2w5QsV2WTol9pY-iTWxo sourced from Google Maps Cloud Platform*/
+/* Google map API key used - AIzaSyAQda9xmJ0kfmy2w5QsV2WTol9pY-iTWxo sourced from Google Maps Cloud Platform*/
 
 #map2020 {
     height: 400px;
@@ -466,7 +466,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* quiz */
+/* Quiz */
 
 .quiz-question {
     color: #e4e4e4;
@@ -483,7 +483,7 @@ body {
     text-decoration: none;
 }
 
-/* feedback form */
+/* Feedback form */
 
 textarea {
     height: 250px;
@@ -493,6 +493,13 @@ textarea {
     margin-bottom: 30px;
 }
 
+.form-control {
+    border: 1px solid #FFFF00;
+    border-radius: 1rem;
+    background-color: #e4e4e4;
+    color: #082d58
+}
+
 /* Media query giving margin on smaller screen sizes between the name and email text boxes in the contact form */
 @media screen and (max-width: 767px) {
     #email-box {
@@ -500,7 +507,7 @@ textarea {
     }
 }
 
-/* footer */
+/* Footer */
 
 footer {
     margin: 20px;
@@ -534,7 +541,7 @@ footer {
     font-size: 20px;
 }
 
-/* media queries for copright text in footer for small screen sizes */
+/* Media queries for copright text in footer for small screen sizes */
 
 @media screen and (max-width: 300px) {
     .copyright {
@@ -542,11 +549,11 @@ footer {
     }
 }
 
-/* Media queries for being screen sizes */
+/* Media queries for being screen sizes at 2000px and above */
 
 @media screen and (min-width: 2000px) {
     #logo {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     #menulist a {
@@ -554,59 +561,106 @@ footer {
     }
 
     .sub-header {
-        padding-top: 150px;
-        font-size: 40px;
+        padding-top: 200px;
+        padding-bottom: 50px;
+        font-size: 56px;
     }
 
     #hero-image {
-        height: 1350px; 
+        height: 1600px; 
     }
 
-    .timeline-title {
-        font-size: 30px;
+    .timeline-title, .host-sub-header, .quiz-question, .quiz-center {
+        font-size: 40px;
     }
 
     .timeline-item {
-        font-size: 24px;
+        font-size: 28px;
     }
     
     .timeline-item p {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .timeline-item::before {
-        font-size: 24px;
+        font-size: 28px;
     }
 
-    #quiz-btn, #feedback-btn, #find-out-more-btn {
-        width: 400px;
-        height: auto;
-        border-radius: 30px;
+    #quiz-btn, #feedback-btn, #find-out-more-btn, .quiz-btn, .correct-answers-btn {
+        width: 500px;
+        height: 76px;
+        border-radius: 40px;
+        font-size: 32px;
     }
 
     .btn-color {
-        font-size: 30px;
+        font-size: 32px;
     }
 
+    .nav-link {
+        padding: 0px;
+    }
 
+    #euro-logo, #euro-trophy, #media-clip, #map2020 { 
+        height: 800px; 
+    }
 
+    .para-content, .ol-content {
+        font-size: 32px;
+    }
 
+    .outer-quiz-btn, .clue-btn, .outer-answers-btn {
+        padding-top: 32px;
+    }
+
+    #submit-answers-btn, .results-btn, .answers-btn, .try-again-btn {
+        border-radius: 50px;
+        width: 600px;
+        height: 100px;
+        font-size: 50px;
+    }
+
+    #outer-answers-btn, #try-again-btn {
+        padding: 20px;
+    }
+
+    #quiz-image-one, #quiz-image-two, #quiz-image-three, #quiz-image-four, #quiz-image-five, #quiz-image-six {
+        height: 500px;
+    }
+
+    #submit-feedback-btn {
+        font-size: 32px;
+        border-radius: 40px;
+        width: 500px;
+        height: 80px;
+    }
+
+    textarea {
+        height: 700px;
+    }
+    
+    #form-header {
+        margin-bottom: 60px;
+    }
+
+    .form-control {
+        font-size: 2rem;
+    }
 
     .icon-balls {
-        height: 60px;
-        width: 60px;
-        margin: 50px 15px 20px auto;
+        height: 70px;
+        width: 70px;
+        margin: 50px 10px 20px auto;
     }
 
     .icons, a {
-       font-size: 30px;
+       font-size: 35px;
     }
 
     .copyright {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
-
 
 /* End of CSS */
 
