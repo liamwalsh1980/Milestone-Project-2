@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for good SEO -->
     <meta name="description"
         content="The Euro football quiz is full of information about all Euro tournaments with a fun quiz to try">
     <meta name="keywords" content="Euros football, European football, European nationals cup, International football cup, UEFA Euros">
@@ -86,7 +87,7 @@
                 <div id="euro-logo"></div>
             </div>
             <!-- 
-                Paragraphs with intro and general information about the tournament taking up two thirds on big screens and full width on screens below 992px 
+                Paragraphs with intro and general information about the tournament taking up two thirds on big screens and full width on screens below 1200px 
             -->
             <div class="col-12 col-xl-8">
                 <p class="para-content">
@@ -120,11 +121,9 @@
         </div>
         <hr>
         <br>
-
         <!-- 
-            Paragraphs about the countries that hosted the tournament taking up one half on big screens and full width on screens below 1400px 
+            Paragraphs about the countries that hosted the tournament taking up one half on big screens and full width on screens below 768px 
         -->
-
         <div class="row container-fluid">
             <div class="col-12 col-md-6">
                 <p class="para-content">
@@ -149,16 +148,14 @@
                     time in 1988 in eight different stadiums, each of which had a capacity of more than 60,000.
                 </p>
             </div>
-
-            <!-- image of the Euro trophy -->
-
+            <!-- image of the Euro trophy taking up one half on big screens and full width on screens below 768px -->
             <div class="col-12 col-md-6">
                 <div id="euro-trophy"></div>
             </div>
         </div>
-
-        <!-- Cont. Paragraphs about the countries that hosted the tournament taking full width on all screen sizes -->
-
+        <!-- 
+            Cont. Paragraphs about the countries that hosted the tournament taking full width on all screen sizes below the Euro trophy image 
+        -->
         <div class="row container-fluid">
             <div class="col">
                 <p class="para-content">
@@ -186,9 +183,7 @@
         </div>
         <hr>
         <br>
-
         <!-- Media clip sourced on YouTube to show users all the winners of the Euros since it began -->
-
         <div class="row">
             <div class="col-1 col-md-2"></div>
             <iframe id="media-clip" class="col-10 col-md-8" width="500" height="400"
@@ -206,60 +201,64 @@
                     UEFA EURO 2020 is being held across Europe for the first time in the competition's 60-year
                     history, with 11 host cities in all.
                 </h4>
-                <!-- changing the ordered list default numbers to uppercase letters -->
+                <!-- Ordered list with default numbers has been changed to uppercase letters -->
                 <ol type="A" class="ol-content">
                     <li>
                         Final & semi-finals, two round of 16 games, three group games
-                        <div>London England: Wembley Stadium</div>
+                        <strong>London England: Wembley Stadium</strong>
                     </li>
                     <li>
                         Six group games, one quarter-final
-                        <span>Saint Petersburg, Russia: Saint Petersburg Stadium</span>
+                        <strong>Saint Petersburg, Russia: Saint Petersburg Stadium</strong>
                     </li>
                     <li>
                         One quarter-final
-                        <span>Baku, Azerbaijan: Baku Olympic Stadium</span>
+                        <strong>Baku, Azerbaijan: Baku Olympic Stadium</strong>
                     </li>
                     <li>
                         One quarter-final
-                        <span>Munich, Germany: Football Arena Munich</span>
+                        <strong>Munich, Germany: Football Arena Munich</strong>
                     </li>
                     <li>
                         One quarter-final
-                        <span>Rome, Italy: Olimpico in Rome</span>
+                        <strong>Rome, Italy: Olimpico in Rome</strong>
                     </li>
                     <li>
                         Three group games, one round of 16 game
-                        <span>Amsterdam, Netherlands: Johan Cruijff ArenA</span>
+                        <strong>Amsterdam, Netherlands: Johan Cruijff ArenA</strong>
                     </li>
                     <li>
                         Three group games, one round of 16 game
-                        <span>Bucharest, Romania: National Arena Bucharest</span>
+                        <strong>Bucharest, Romania: National Arena Bucharest</strong>
                     </li>
                     <li>
                         Three group games, one round of 16 game
-                        <span>Budapest, Hungary: Puskás Aréna</span>
+                        <strong>Budapest, Hungary: Puskás Aréna</strong>
                     </li>
                     <li>
                         Three group games, one round of 16 game
-                        <span>Copenhagen, Denmark: Parken Stadium</span>
+                        <strong>Copenhagen, Denmark: Parken Stadium</strong>
                     </li>
                     <li>
                         Three group games, one round of 16 game
-                        <span>Glasgow, Scotland: Hampden Park</span>
+                        <strong>Glasgow, Scotland: Hampden Park</strong>
                     </li>
                     <li>
                         Three group games, one round of 16 game
-                        <span>Seville, Spain: Stadium La Cartuja Sevilla</span>
+                        <strong>Seville, Spain: Stadium La Cartuja Sevilla</strong>
                     </li>
                 </ol>
             </div>
+            <!-- 
+                Google Maps map. Javascript applied using local file maps.js. Map includes 11 destinations relevant to the above list of cities using markers and clusters 
+            -->
             <div class="col-12 col-xl-6">
                 <div id="map2020"></div>
             </div>
         </div>
         <hr>
         <br>
+        <!-- Two Paragraphs of information for future tournaments -->
         <div class="row container-fluid">
             <div class="col-12 col-xxl-12"></div>
             <h4 class="host-sub-header">
@@ -280,7 +279,7 @@
         </div>
         <hr>
         <!-- 
-            Two buttons for users to click on to take them to the quiz and/or feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On screen sizes below 768px the buttons are sitting vertically. This is done using the Bootstrap grid
+            Two buttons for users to click on to take them to the quiz and/or feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On smaller screen sizes these buttons re-position according to the size of the screen to continue good UX. On mobile screen sizes the buttons are sitting vertically. This is done using the Bootstrap grid.
         -->
         <div class="row">
             <div class="col col-md-6" id="outer-quiz-btn">
@@ -295,9 +294,7 @@
             </div>
         </div>
     </section>
-
     <!-- Footer includes social media icons sourced from fontawesome and a paragraph for copyright using the shortcut &copy; -->
-
     <footer class="mt-auto">
         <div>
             <div class=icons>
@@ -329,9 +326,10 @@
             </div>
         </div>
         <div>
-            <p class="copyright"s>&copy; 2021 The Euro Football Quiz</p>
+            <p class="copyright">&copy; 2021 The Euro Football Quiz</p>
         </div>
     </footer>
+    <!-- External script for JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>

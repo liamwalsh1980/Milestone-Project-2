@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for good SEO -->
     <meta name="description"
         content="The Euro football quiz is full of information about all Euro tournaments with a fun quiz to try">
-    <meta name="keywords" content="Euros football, European football, European nationals cup, International football cup, UEFA Euros">
+    <meta name="keywords"
+        content="Euros football, European football, European nationals cup, International football cup, UEFA Euros">
     <meta name="author" content="Liam Walsh">
     <!-- External script and link from Bootstrap5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,7 +26,7 @@
 </head>
 
 <body class="d-flex flex-column h-100">
-     <!--
+    <!--
         Header includes a logo name at the top within the Navbar template from Bootstrap 5. Nav bar is fixed at the top of all visable pages using the class fixed-top 
     -->
     <header>
@@ -62,7 +64,7 @@
             </div>
         </nav>
     </header>
-     <!-- Main section starts here with a Sub-header title. Bootstrap container used for structure -->
+    <!-- Main section starts here with a Sub-header title. Bootstrap container used for structure -->
     <section class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -82,11 +84,12 @@
                     <div class="col-12">
                         <p class="timeline-title">
                             To celebrate 60 years of the European Championships, try this quiz and find out how much
-                            you know about the European Championships. Below is a timeline of some important moments to remember. Feel free to click on the moments in history for more information.
+                            you know about the European Championships. Below is a timeline of some important moments to
+                            remember. Feel free to click on the moments in history for more information.
                         </p>
                     </div>
                 </div>
-                <!-- Timeline -->
+                <!-- Timeline with external links to relevant Wikipedia articles -->
                 <div class="timeline-item" data-dates="1960">
                     <a class="timeline-link" href="https://en.wikipedia.org/wiki/UEFA_European_Championship#Beginnings"
                         aria-label="Read more about when the Tournament began (opens in new tab)" target="_blank">
@@ -141,7 +144,7 @@
         <br>
         <hr>
         <!-- 
-            Three buttons for users to click on to take them to the tournaments, quiz, feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On screen sizes below 768px the buttons are sitting vertically. This is done using the Bootstrap grid
+            Three buttons for users to click on to take them to the tournaments, quiz, feedback pages. The buttons change position depending on the screensize the user is on. Large screens the button are side by side. On smaller screen sizes these buttons re-position according to the size of the screen to continue good UX. On mobile screen sizes the buttons are sitting vertically. This is done using the Bootstrap grid.
         -->
         <div class="row">
             <div class="col col-lg-4" id="outer-quiz-btn">
@@ -161,9 +164,7 @@
             </div>
         </div>
     </section>
-
     <!-- Footer includes social media icons sourced from fontawesome and a paragraph for copyright using the shortcut &copy; -->
-
     <footer class="mt-auto">
         <div>
             <div class=icons>
