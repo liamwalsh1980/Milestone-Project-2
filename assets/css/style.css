@@ -321,6 +321,7 @@ body {
     text-align: center;
 }
 
+/* Media queries for screen sizes up to 1300px */
 @media screen and (max-width: 1300px) {
     #outer-results-btn, #outer-answers-btn, #try-again-btn {
         margin-top: 10px;
@@ -393,7 +394,6 @@ body {
 }
 
 /* buttons at the bottom of the quiz adjusted in size on very small mobile screen sizes */
-
 @media screen and (max-width: 320px) {
     .results-btn, .answers-btn, .try-again-btn, #submit-answers-btn {
         width: 250px;
@@ -483,7 +483,7 @@ body {
     text-decoration: none;
 }
 
-/* form */
+/* feedback form */
 
 textarea {
     height: 250px;
@@ -493,6 +493,7 @@ textarea {
     margin-bottom: 30px;
 }
 
+/* Media query giving margin on smaller screen sizes between the name and email text boxes in the contact form */
 @media screen and (max-width: 767px) {
     #email-box {
         margin-top: 20px;
@@ -540,6 +541,74 @@ footer {
         font-size: 15px;
     }
 }
+
+/* Media queries for being screen sizes */
+
+@media screen and (min-width: 2000px) {
+    #logo {
+        font-size: 50px;
+    }
+
+    #menulist a {
+        font-size: 40px;  
+    }
+
+    .sub-header {
+        padding-top: 150px;
+        font-size: 40px;
+    }
+
+    #hero-image {
+        height: 1350px; 
+    }
+
+    .timeline-title {
+        font-size: 30px;
+    }
+
+    .timeline-item {
+        font-size: 24px;
+    }
+    
+    .timeline-item p {
+        font-size: 24px;
+    }
+
+    .timeline-item::before {
+        font-size: 24px;
+    }
+
+    #quiz-btn, #feedback-btn, #find-out-more-btn {
+        width: 400px;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .btn-color {
+        font-size: 30px;
+    }
+
+
+
+
+
+    .icon-balls {
+        height: 60px;
+        width: 60px;
+        margin: 50px 15px 20px auto;
+    }
+
+    .icons, a {
+       font-size: 30px;
+    }
+
+    .copyright {
+        font-size: 30px;
+    }
+}
+
+
+/* End of CSS */
 
 
 
