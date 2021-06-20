@@ -303,6 +303,8 @@ body {
 
 /* Buttons */
 
+
+
 #outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {
     padding-top: 20px;
     text-align: center;
@@ -337,11 +339,20 @@ body {
     margin-top: 20px;
 }
 
-#find-out-more-btn, #quiz-btn, #feedback-btn, #submit-feedback-btn {
+#find-out-more-btn, #quiz-btn, #submit-feedback-btn {
     background-color: #082d58;
     border-radius: 20px; 
     width: 250px;
     height: 40px;
+}
+
+#feedback-btn {
+    color:#409eb7;
+    background-color: #082d58;
+    border-radius: 20px; 
+    width: 250px;
+    height: 40px;
+    padding-top: 8px;
 }
 
 #submit-answers-btn {
@@ -377,6 +388,7 @@ body {
     height: 50px;
     font-size: 25px;
     text-transform: uppercase;
+    padding-top: 5px;
 }
 
 .try-again-btn {
@@ -387,6 +399,7 @@ body {
     height: 50px;
     font-size: 25px;
     text-transform: uppercase;
+    padding-top: 5px;
 }
 
 .answers-btn:hover, .try-again-btn:hover {
@@ -416,6 +429,7 @@ body {
 #find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, #submit-answers-btn:hover, 
 #submit-feedback-btn:hover {
     background-color: #FFFF00;
+    color: #082d58;
 }
 
 .outer-quiz-btn, .clue-btn, .outer-answers-btn {
