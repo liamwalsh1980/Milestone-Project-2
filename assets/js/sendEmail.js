@@ -11,7 +11,7 @@ function sendMail(contactForm) {
                 console.log("SUCCESS", response);
                 // Bespoke message to the user specifically to the 'name' of the user within the Modal
                 $(".modal-message").text("Thank you for your feedback " + contactForm.name.value + ". We hope you enjoyed the quiz");
-                modal.style.display = "block"
+                modal.style.display = "block";
                 // reloads the form once the user clicks the close button in the Modal
                 $("#closing-btn").click(function () {
                     location.reload();
@@ -21,7 +21,7 @@ function sendMail(contactForm) {
                 console.log("FAILED", error);
                 // Bespoke message to the user specifically to the 'name' of the user within the Modal
                 $(".modal-message").text("Sorry " + contactForm.name.value + " something went wrong. Please try submitting your feedback again!");
-                modal.style.display = "block"
+                modal.style.display = "block";
                 // reloads the form once the user clicks the close button in the Modal
                 $("#closing-btn").click(function () {
                     location.reload();

@@ -1,5 +1,5 @@
 // Sets up all users score to be zero before starting the quiz questions
-let finalScore = 0;
+var finalScore = 0;
 
 // Function will only run when the page is fully loaded
 $(document).ready(function () {
@@ -125,9 +125,8 @@ $(document).ready(function () {
         $("#q6a1").remove();
         $("#q6a2").remove();
     });
-})
+});
 
-    // $(".quiz-btn").click(function() {
-    //     $(this).siblings.remove();
-    // });
-
+// $(".quiz-btn").click(function() {
+//     $(this).siblings.remove();
+// });

@@ -6,25 +6,58 @@ function initMap() {
             lng: 18.2551
         }
     });
-    
+
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var hosts = [
-    // Relevant cities found using sites found via google i.e. https://www.latlong.net/place/seville-center-of-interpretation-seville-spain-23323.html
-        {lat: 51.507359, lng: -0.136439},
-        {lat: 59.9311, lng: 30.3609},
-        {lat: 40.4093, lng: 49.8671},
-        {lat: 48.1351, lng: 11.5820},
-        {lat: 41.9028, lng: 12.4964},
-        {lat: 52.3676, lng: 4.9041},
-        {lat: 44.4268, lng: 26.1025},
-        {lat: 47.4979, lng: 19.0402},
-        {lat: 55.6761, lng: 12.5683},
-        {lat: 55.858700, lng: -4.251433},
-        {lat: 37.386276, lng: -5.988988},
+        // Relevant cities found using sites found via google i.e. https://www.latlong.net/place/seville-center-of-interpretation-seville-spain-23323.html
+        {
+            lat: 51.507359,
+            lng: -0.136439
+        },
+        {
+            lat: 59.9311,
+            lng: 30.3609
+        },
+        {
+            lat: 40.4093,
+            lng: 49.8671
+        },
+        {
+            lat: 48.1351,
+            lng: 11.5820
+        },
+        {
+            lat: 41.9028,
+            lng: 12.4964
+        },
+        {
+            lat: 52.3676,
+            lng: 4.9041
+        },
+        {
+            lat: 44.4268,
+            lng: 26.1025
+        },
+        {
+            lat: 47.4979,
+            lng: 19.0402
+        },
+        {
+            lat: 55.6761,
+            lng: 12.5683
+        },
+        {
+            lat: 55.858700,
+            lng: -4.251433
+        },
+        {
+            lat: 37.386276,
+            lng: -5.988988
+        },
     ];
 
     // alphabetical labels used with google markers 
-    var markers = hosts.map(function(location, i) {
+    var markers = hosts.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
@@ -33,18 +66,8 @@ function initMap() {
 
     // marker and cluster images added to pinpoint each city
     var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath:
-          "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-      });
+        imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
 }
 
 // Source of code from GoogleMap Platform using a bespoke API key generated from 
-
-
-
-
-
-
-
-
-
