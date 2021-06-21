@@ -303,10 +303,12 @@ body {
 
 /* Buttons */
 
+#outer-find-out-more-btn, #outer-feedback-btn {
+    padding-top: 20px;
+}
 
 
 #outer-find-out-more-btn, #outer-quiz-btn, #outer-feedback-btn {
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -342,7 +344,7 @@ body {
 #find-out-more-btn, #quiz-btn, #submit-feedback-btn {
     background-color: #082d58;
     border-radius: 20px; 
-    width: 250px;
+    width: 200px;
     height: 40px;
 }
 
@@ -352,7 +354,7 @@ body {
     border-radius: 20px; 
     width: 250px;
     height: 40px;
-    padding-top: 8px;
+    padding: 7px 60px;
 }
 
 #submit-answers-btn {
@@ -388,7 +390,7 @@ body {
     height: 50px;
     font-size: 25px;
     text-transform: uppercase;
-    padding-top: 5px;
+    padding: 5px 80px;
 }
 
 .try-again-btn {
@@ -400,6 +402,13 @@ body {
     font-size: 25px;
     text-transform: uppercase;
     padding-top: 5px;
+}
+
+/* Media queries for small mobile screen sizes - padding to align text inside buttons */
+@media screen and (max-width: 320px) {
+    .try-again-btn, .answers-btn {
+        padding-top: 10px;
+    }
 }
 
 .answers-btn:hover, .try-again-btn:hover {
@@ -601,9 +610,12 @@ footer {
     }
 
     #quiz-btn, #feedback-btn, #find-out-more-btn, .quiz-btn, .correct-answers-btn {
-        width: 500px;
-        height: 76px;
+        width: 450px;
+        height: 60px;
         border-radius: 40px;
+    }
+
+    .quiz-btn, .correct-answers-btn {
         font-size: 32px;
     }
 
@@ -630,7 +642,7 @@ footer {
     #submit-answers-btn, .results-btn, .answers-btn, .try-again-btn {
         border-radius: 50px;
         width: 600px;
-        height: 100px;
+        height: 80px;
         font-size: 50px;
     }
 
