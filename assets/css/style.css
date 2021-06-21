@@ -201,13 +201,13 @@ body {
 /* Media queries for quiz image one on smaller screen sizes */
 
 @media screen and (max-width: 375px) {
-    #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five {
+    #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five, #quiz-image-six {
         height: 180px;
     }
 }
 
-@media screen and (max-width: 769px) and (max-width: 1200px) {
-    #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    #quiz-image-one, #quiz-image-two, #quiz-image-three #quiz-image-four, #quiz-image-five, #quiz-image-six {
         margin-top: 50px;
     }
 }
