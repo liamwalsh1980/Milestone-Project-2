@@ -127,6 +127,3 @@ $(document).ready(function () {
     });
 });
 
-// $(".quiz-btn").click(function() {
-//     $(this).siblings.remove();
-// });

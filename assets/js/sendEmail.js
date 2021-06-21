@@ -1,4 +1,5 @@
 function sendMail(contactForm) {
+    // sets a new variable ready to use further down the code
     var modal = document.getElementById("modal");
 
     emailjs.send("service_vg5bikj", "the_euro_football_quiz", {
@@ -10,7 +11,7 @@ function sendMail(contactForm) {
             function (response) {
                 console.log("SUCCESS", response);
                 // Bespoke message to the user specifically to the 'name' of the user within the Modal
-                $(".modal-message").text("Thank you for your feedback " + contactForm.name.value + ". We hope you enjoyed the quiz");
+                $(".modal-message").text("Thank you for your feedback " + contactForm.name.value + ". We hope you enjoyed the quiz!");
                 modal.style.display = "block";
                 // reloads the form once the user clicks the close button in the Modal
                 $("#closing-btn").click(function () {
@@ -27,6 +28,7 @@ function sendMail(contactForm) {
                     location.reload();
                 });
             });
+    // Blocks the form from loading 
     return false;
 }
 
