@@ -40,18 +40,18 @@
     * [Features Left to Implement](#features-left-to-implement)
 1. [Technology Used](#technology-used)
     * [Languages Used](#languages)
-    * [Frameworks and other Technologies](#frameworks-and-other-technologies)
+    * [Frameworks and libraries](#frameworks-and-libraries)
+    * [Other technologies](#other-technologies)
 1. [Testing](#testing)
 1. [Deployment](#deployment)
     * [Github pages](#github-pages)
     * [Forking the GitHub Repository](#forking-the-github-repository)
     * [Making a Local Clone](#making-a-local-clone)
 1. [Credits](#credits)
-    * [Content](#content)
-    * [Code](#code)
-    * [Media clip](#media-clip)
     * [Images](#images)
-    * [Other](#other)
+    * [Content](#content)
+    * [Media clip](#media-clip)
+    * [Javascript](#javascript)
 1. [Acknowledgements](#acknowledgements)
 1. [Notes](#notes)
 
@@ -216,15 +216,17 @@ Date this project started: 3rd June 2020
 
 * The header across all pages is the same.
 * The test logo 'THE EURO FOOTBALL QUIZ' is at the top left in uppercase using the font-family: 'Bebas Neue', cursive (fall back). The color is Boston Blue and when hovered over will turn Dark Blue to show its a link to the homepage.
-* The navigation bar is positioned to the right and highlights all pages for the user to click on. The font styling is the default font-family: 'Mukta', sans-serif (fall back). The color for the page titles within the navigation bar is the default Boston Blue. When hovering over any of the page titles the color of the page title changes to Bright Orange and increased in size from 20px to 30px. 
+* The navigation bar is positioned to the right and highlights all pages for the user to click on. The font styling is the default font-family: 'Mukta', sans-serif (fall back). The color for the page titles within the navigation bar is the default Boston Blue. When hovering over any of the page titles the color of the page title changes to Dark blue and increased in size from 20px to 30px. Whichever page the user is on will be shown in the navigaton bar with the relevant page title shown in bright orange.
 * The header is fixed to the top so that it will travel with the user as they scroll down the webpage. 
+* The navigation bar is titled with pages on large screen sizes. On smaller screen sizes there is a burger bar menu and when clicked on users will see the page titles which are centred. The menu can be collapsed when clicked on again for good user experience. 
 * Bootstrap5 was used to create this header navigation bar with text logo.
 * I decided to add the bootstrap class container-fluid to the header for improved responsiveness on all screen sizes.
 
 ### Footer
 
-* The footer holds five social media icons found using <a href="https://www.fontawesome.com" target="_blank">Font Awesome</a> for the images. The images sit inside a small round light grey background. The color of all images is dark blue and when hovering over any of the icons the background color changes to yellow. Each icon image is linked to the relevant websites and when clicked will take the user to the whichever social media platform chosen. 
-* Below the social media icons there is some copyright text in the Dark Blue color.
+* The footer holds five social media icons found using <a href="https://www.fontawesome.com" target="_blank">Font Awesome</a> for the images. The images sit inside a small round light grey background. The color of all images is dark blue and when hovering over any of the icons the background color changes to yellow. Each icon image is linked to the relevant websites and when clicked will take the user to the whichever social media platform chosen. A new webpage tab will open when taking the user to whichever social media icon is clicked. This is done so that the user can return to this website easily. 
+* Below the social media icons there is some copyright text in the Dark Blue color. 
+* The following code is used to create the official copy right logo symbol - &copy;
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -234,15 +236,11 @@ Date this project started: 3rd June 2020
 
 * On bigger screen sizes users will see to the right of the hero image a sub title paragraph and a timeline of important moments throughout the tournamenets history in chronological order. All information in the timeline is also a link to an external source for more reading. This is indicated when a user hovers over any timeline sentence,to find it turns yellow. On smaller screen sizes the timeline is below the image for better UX. All external sources of information on the timeline was sourced using Wikipedia. 
 
-* Below the hero image and timeline users will find three buttons to click on. These buttons are identical in size, shape and color (Dark blue background with boston blue font) and do the following: -
+* I originally placed three buttons below the hero image and timeline. These buttons would take users to the tournament, quiz or feedback pages. All buttons were identical in size, shape and color (Dark blue background with boston blue font). I decided that with lots of button coming up on the the quiz page i thought less buttons would be better on this page and therefore the key button i kept and positioned after the timeline is the 'Find out more' button which is linked to the tournament.html page. This guides the user naturally to the next page in order to read more about the Euro tournamenets. 
 
-    - Take the quiz (takes the user to the quiz.html page to start the multiple choice quiz)
-    - Leave feedback (takes the user to the feedback.html page to complete)
-    - Find out more (takes the user to the tournaments.html page for more information)
+* When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
-* When a user hovers over any of these buttons the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
-
-* Bootstrap column grid and Media queries is used to make sure that across all screen sizes the image, timeline, text and buttons work well. 
+* Bootstrap column grid and Media queries is used to make sure that across all screen sizes the image, timeline, text and button work well. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -259,18 +257,17 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * Below is a media clip showing all winners from 1960 to 2016. The media clip was sourced on YouTube. I made sure this took up the whole row using Bootstrap columns accordingly with good space either side. The <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> was sourced from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to youtube channel <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a>. 
 
-* Below is a sub header and an ordered list (alphabetical) of cities that are due to host the Euro 2020. On the same row and to compliment the list there is an interactive google map. The map is rendered using an API key from the Google Maps Platform. The map also has markers and clusters in place showering users where the hosting cities are in Europe. The content for this row was sourced from the official <a href="https://www.uefa.com/uefaeuro-2020/news/0255-0d9f2f2c93bf-ad932fd5ee55-1000--euro-all-you-need-to-know/" target="_blank">UEFA Euro 2020</a> website.
+* Below is a sub header and an ordered list (alphabetical) of cities that are due to host the Euro 2020. On the same row and to compliment the list there is an interactive google map. Javascript has been used to create this feature. The file name for this is maps.js. The map is rendered using an API key from the Google Maps Platform. The map also has markers and clusters in place showering users where the hosting cities are in Europe. The content for this row was sourced from the official <a href="https://www.uefa.com/uefaeuro-2020/news/0255-0d9f2f2c93bf-ad932fd5ee55-1000--euro-all-you-need-to-know/" target="_blank">UEFA Euro 2020</a> website.
 
 * Below the map there is two short paragraphs confirming where future tournaments will be held. I sourced this information for the <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2024" target="_blank">Euro 2024</a> and <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2028" target="_blank">Euro 2028</a> on Wikipedia.
 
-* Below the future tournaments paragraphs users will find two buttons to click on. These buttons are identical in size, shape and color (Dark blue background with boston blue font) and do the following: -
+* Below the future tournaments paragraph users will find a button to click on which takes them to the quiz.html page. This button is the same ad the button on the homepage with a Dark blue background with boston blue font.
 
-    - Take the quiz (takes the user to the quiz.html page to start the multiple choice quiz)
-    - Leave feedback (takes the user to the feedback.html page to complete)
-
-* When a user hovers over either of these buttons the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
+* When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
 * I used Horizontal Rules and Line Breaks to seperate all the secionts within the body of this webpage to make sure it was easier to read and to acheieve better UX. Also used is bootstrap container-fluid on all rows with paragraphs for structure and consistency. 
+
+* On large screen sizes the layout is split. Images and paragraphs are even across the screen. On smaller screen sizes everything is set veritcally with images, paragraphs, media clip and google map covering the whole of the width of the screeen. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -290,11 +287,11 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * Below the questions, users will find the submit answers button called 'see your score' to click on. This button is larger than all other buttons and is in a different background color of bright orange (#f2993e). Javascript methods - 'hasClass', 'addClass' and 'show' has been used so that when the 'see your score' button is clicked the users score becomes visable along with optional 'try again' and 'answers' buttons for the user to click on. The 'results' button background color is bright orange. The 'try again' and 'answers' button has a light grey background and when hovered turns yellow to show users that they can click these buttons. 
 
-* Below the 'results', 'try again' and 'answers' buttons, users will find another button to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and and further up on the quiz page (answer buttons) and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
+* Below the 'results', 'try again' and 'answers' buttons, users will find another button to click on. This button is in Dark blue background with boston blue font and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
 * I used Horizontal Rules and Line Breaks to seperate all the questions/answers within the body of this webpage to make sure it was easy to navigate through offering users the best level of experience.
 
-* Javascript has been added 
+* Javascript has been used on this page to make sure that users can click their answers and obtain their score immediately at the press of a button. For reference the Javascript file for this page is quiz.js
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -310,9 +307,13 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * I decided to inbed the form on the webpage and not have it sit off the page. This makes it look clean and simple to use. 
 
-* The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage, tournament page and the feedback and answer buttons in the quiz page. For reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
+* The submit button below is idential in size, shape and color to all other buttons throughout the websites homepage and tournament page. For reference these buttons have a dark blue background with boston blue font. The background color changes to yellow and the font color of the text changes to dark blue when hovered over showing the user the button can be clicked when the information in the form is added correctly. 
 
-* Javascript used for this page was sourced from <a href="https://www.emailjs.com/" target="_blank">EmailJS</a>. I added some addditional JavaScript to the template to give users a bespoke message in the modal when the form is submitted. This message includes the users name making the message personal to them i.e. Thank you for your feedback 'John'. We hope you enjoyed the quiz. Whatever name the user puts in the form will be used within the modal message. <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Reload</a> code sourced to help with reloading the form when a user submits their details. 
+* The form looked a little basic, however, at the same time i didn't want to overload this page with to much information. I therefore looked at changing the style of the form boxes. I added a yellow colored border and a border radius to curve the corners of the boxes. The boxes are shaded with the same light grey color as the header background and only turns back to white when a user has clicked on a box to type. 
+
+* Javascript used for this page was sourced from <a href="https://www.emailjs.com/" target="_blank">EmailJS</a> to create the three boxes, 'name', 'email' and 'feedback' with the form. I added some additional JavaScript to the template to give users a bespoke message in the modal when the form is submitted successfully. This message includes the users name making the message personal to them i.e. 'Thank you for your feedback 'John'. We hope you enjoyed the quiz!' If the feedback form isn't submitted correctly for whatever reason, the user will see a different Modal message come up i.e. 'Sorry 'John' something went wrong. Please try submitting your feedback again!' Whatever name the user puts in the form will be used within the modal message shown. 
+
+* Once the user reads the modal message and clicks the close button, the form refreshes. I used a click function and the location.reload method to acheieve this. This was sourced using <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Stack overflow</a> to help with reloading the form when a user submits their details. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -326,42 +327,116 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * At the bottom of the page users can click the 'Try Again' button where the user can try the quiz again. When the user hovers over this button the background color changes from light grey to yellow to show its a clickable button. 
 
-* Below the 'Try Again' button, users will find another button to click on. This button is identical in size, shape and color (Dark blue background with boston blue font) to the other buttons on the homepage, tournament page and quiz page and further up on the quiz page (answer buttons) and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
+* Below the 'Try Again' button, users will find another button to click on. This button is in Dark blue background with boston blue font and will take the user to the feedback.html page to complete. When a user hovers over this button the background color changes to Yellow and the font color changes to Dark Blue. This indicates to the user that they will move to another page if clicked.
 
 ### Media Queries
 
-* 
+* On smaller screen sizes the logo at the top left of all pages and the navbar toggle has been reduced in size to make sure that on very small mobile screens they fit on one row. Without this code the burger bar menu drops to a new row below the logo and doesn't look good. 
+
+* The hero image size has been adjusted according to different screen sizes.
+
+* The euro trophy image on the tournaments page has been adjusted in size and positioning for the purpose of different screen sizes. 
+
+* The six quiz clue images on the quiz.com page has been adjusted in size with top margin added on different screen sizes for better UX.
+
+* The font size for the text on the timeline found on the home page is asjusted to fit better on smaller screen sizes.
+
+* Margins have been added to certain buttons on the quiz page for larger screen sizes.
+
+* On certain screen sizes i've applied relevant padding and margins to buttons and the form.
+
+* Within the footer the copyright text font size has been adjusted on small screen sizes.
+
+* On large screen sizes above 2000px alot of ajustments have been made throughout the website to make it more accessibile on large screens. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
+## Features
+
+### Existing features
+
+#### All pages
+* Text Logo at the top left of the header which is also a link to the homepage
+* A navigation menu bar at the top right of the header which shows page links to all pages accept for the answers.html page. 
+* Five icon links to social media sites i.e. facebook, instagram, twitter, spotify and youtube. 
+* Copyright text 
+
+#### Homepage
+* A main header - Welcome to The Euro Football Quiz
+* Hero image of a football stadium
+* Timeline sub header
+* Timeline of key moments in history of the tournament
+* A 'find out more' link button to move to the next page - tournaments.html
+
+#### Tournaments page
+* A sub header - 'The History, Trophy, Hosts, and Future Tournaments'
+* Official Euro 2020 logo
+* Four paragraphs of content about the football tournament
+* Six paragraphs of content about the history of tournaments
+* An image of the official trophy
+* Media clip supported by youtube of all the tournaments winners 
+* Sub header with a list of cities thats hosting Euro 2020
+* Google map with markers showing where the cities are in Europe based on the list mentioned
+* Sub header referencing future tournaments
+* Two short paragraphs referencing 2024 and 2028 tournaments
+* A 'take the quiz' link button to move to the next page - quiz.html
+
+#### Quiz page
+* A sub header - 'The Quiz'
+* Six questions with 3 multible choice answers
+* All questions come with a image clue 
+* A 'SEE YOUR SCORE' button to click on which does the following: - 
+    - reveal the users score
+    - reveal an 'ANSWERS' button which takes the user to a hidden webpage - answers.html
+    - reveal a "TRY AGAIN' button which restarts the quiz from the beginning
+    - reveal a 'Leave feedback' button which takes the user to the feedback.html page
+
+#### Feedback page
+* A sub header - 'Give your feedback'
+
+#### Answers page
+
 ## Technology Used
 
-* Font Awesome (link to add)
+### Languages
+* <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML5</a> - The HyperText Markup Language used to provide content to the website. 
+* <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS3</a> - Cascading Style Sheet used to provide style to all web pages with fonts, colors, images, positioning and unique features like the timeline on the homepage.
+* <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a> - used to add interactive behavior to a static website.  
+
+### Frameworks and libraries
+* <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank">JQuery</a> - used as a JavaScript library to assist with Javascript to reduce coding and maximise interaction by manipulating the <a href="https://en.wikipedia.org/wiki/Document_Object_Model" target="_blank">DOM</a> (Document Object Model).
+* <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a> - Used for the navigation menu, buttons, grid system, rows, columns, feedback form, certain classes that had inbuilt styling and to structure the overall website.
+* <a href="https://developers.google.com/maps" target="_blank">Google Maps Platform</a> - Used to setup a interactive google map on the website with an API key.  
+
+### Other technologies
+* <a href="https://codeinstitute.net/" target="_blank">Code Institute</a> - I reverted back to lessons and videos to help with some coding.
+* <a href="https://slack.com/intl/en-gb/" target="_blank">Slack</a> - To communicate with my mentor and other students to get help at times.
+* <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome DevTools</a> - This tool was very useful for amending code, finding where bugs were coming from and help with Javascript code and console errors during the time of being the feedback form page. Used to examine the overall performance of the site with Lighthouse aswell. 
+* <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> -  Used to create wireframes for all pages on all screen sizes. 
+* <a href="https://fontawesome.com/" target="_blank">Fontawesome</a> - I used five 'free of charge' icons across all pages of the website footer.
+* <a href="https://pexels.com/" target="_blank">Pexels</a> - I used one "free' <a href="https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/" target="_blank">image</a> from this site for the homepage.
+* <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - I used two font families on my website. I used the font Mukta with sans-serif and fallback for most of the website content and Bebas Neue with cursive as a fallback for the text logo. Fallback will only work if the main fonts, Mukta and Bebas Neue failed.
+* <a href="https://www.lipsum.com/feed/html" target="_blank">Lipsum</a> - Used to copy and paste Lorem Ipsum text at the beginning of my project to assist in the structure and layout.
+* <a href="https://gitpod.io/" target="_blank">Gitpod</a> - Used to complete my HTML, CSS and Javascript/JQuery coding for my MS2 project.
+* <a href="https://github.com/" target="_blank">Github</a> - GitHub is used to store the projects code after being pushed from Git.
+* <a href="https://git-scm.com/" target="_blank">Git</a> - Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
+* <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> - Used to test all HTML coding for all five pages.
+* <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> - Used to test all CSS coding.
+* <a href="https://jshint.com/" target="_blank">JS Hint</a> - Used to test all Javascript coding.
+* <a href="https://www.emailjs.com/" target="_blank">Email JS</a> - Used to 
+send email directly from JavaScript - free of charge for upto 200 emails per month.
 
 [Back to top ⇧](#the-euro-football-quiz)
 
 ## Credits
 
+### Images
 * Hero image on the homepage - Photo by Dom Le Roy from Pexels
 <a href="https://www.pexels.com/photo/people-sitting-on-stadium-seats-3991976/" target="_blank">Click here to view image from its source</a>
 
-* Wikipedia for all European Football history
-<a href="https://en.wikipedia.org/wiki/UEFA_European_Championship" target="_blank">click here to see the page</a>
+* <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2020" target="_blank">Wikipedia</a> page where the
+<a href="https://www.google.com/search?q=euro+2020+images&rlz=1C5CHFA_enGB821GB821&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiOvtGLoqnxAhWhCmMBHUhkCQwQ_AUoAXoECAEQAw&biw=1440&bih=821#imgrc=JJyZWk_7mb5qgM" target="_blank">Euro 2020 logo</a> came from.
 
-* Wikipedia image for the 
-<a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved=2ahUKEwif26nwlIjxAhX-gc4BHRXLDEMQ2-cCegQIABAA&oq=uefa+euro+2020+trophy&gs_lcp=CgNpbWcQAzICCAAyBAgAEBgyBAgAEBg6BAgjECc6BggAEAcQHjoGCAAQCBAeUMZoWKSMAWCajQFoBnAAeACAAUWIAbkGkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=XHO_YJ-9L_6Dur4PlZazmAQ&bih=821&biw=1440&rlz=1C5CHFA_enGB821GB821#imgrc=JJyZWk_7mb5qgM" target="_blank">Euro 2020 logo</a> on the tournament page
-
-* Wikipedia page where the
-<a href="https://en.wikipedia.org/wiki/UEFA_Euro_2020" target="_blank">Euro 2020 logo</a> came from.
-
-* I sourced the paragraph content for previous hosts from 
-<a href="https://www.worldsoccer.com/euro-2020/past-european-championship-hosts-409195" target="_blank">World Soccer</a> 
-
-* I sourced the <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a> 
-
-* I sourced the content to support the Google Map image in the tournament page using <a href="https://www.uefa.com/uefaeuro-2020/news/0255-0d9f2f2c93bf-ad932fd5ee55-1000--euro-all-you-need-to-know/" target="_blank">UEFA Euro 2020</a> website.
-
-* I sourced the content for <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2024" target="_blank">Euro 2024</a> and <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2028" target="_blank">Euro 2028</a>  tournaments from Wikipedia.
 
 * The <a href="https://www.uefa.com/uefaeuro-2020/news/0258-0e51de1a172f-12472925ce41-1000/" target="_blank"> trophy image</a> was sourced from the official UEFA Euro 2020 website.
 
@@ -377,20 +452,32 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * Quiz Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:UEFA_Euro_2004_logo.svg" target="_blank">image</a>
 
-* On the feedback page Javascript code was sourced using <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Stack Overflow</a>. This helped with making sure that when the form was completed the page reloaded properly after a user has finished submitting their details.    
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Content
+* Wikipedia for all European Football history
+<a href="https://en.wikipedia.org/wiki/UEFA_European_Championship" target="_blank">click here to see the page</a>
+
+* I sourced the paragraph content for previous hosts from 
+<a href="https://www.worldsoccer.com/euro-2020/past-european-championship-hosts-409195" target="_blank">World Soccer</a> 
+
+* I sourced the content to support the Google Map image in the tournament page using <a href="https://www.uefa.com/uefaeuro-2020/news/0255-0d9f2f2c93bf-ad932fd5ee55-1000--euro-all-you-need-to-know/" target="_blank">UEFA Euro 2020</a> website.
+
+* I sourced the content for <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2024" target="_blank">Euro 2024</a> and <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2028" target="_blank">Euro 2028</a>  tournaments from Wikipedia.
+
+### Media Clip
+* I sourced the <a href="https://www.youtube.com/watch?v=F6RTd4TJOhA" target="_blank">media clip</a> from <a href="https://www.youtube.com/" target="_blank">YouTube</a> with thanks to <a href="https://www.youtube.com/channel/UCQnyQjCjufnqKL4dKBuqlOQ" target="_blank">Julian 87</a> 
+
+### Javascript
+
+* On the sendEmail.js file the location.reload method was sourced using <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Stack Overflow</a>. This helped with making sure that when the form was completed the page reloaded properly after a user has finished submitting their details.    
+
+* On the sendEmail.js file i sourced code from <a href="https://www.w3schools.com/jsref/prop_style_display.asp" target="_blank">W3 Schools</a> to help with form to function properly. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
-## Bugs
 
-* API key issues 
-https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
 
-* Borders around quiz question images. Using the background size property with the cover value would cause an issue with the images on smaller screen sizes. I changed the value for all images from cover to contain which worked for what i wanted to acheieve which was to make sure that all of the image is shown on screen sizes. 
-
-* On the feedback html page and within the form there was an issue with the content wasn't refreshing after the 'Leave feedback' submit button was clicked. 
-
-[Back to top ⇧](#the-euro-football-quiz)
 
 
 
