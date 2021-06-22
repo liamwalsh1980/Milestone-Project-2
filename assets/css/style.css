@@ -431,10 +431,6 @@ body {
     color: #082d58;
 }
 
-#submit-feedback-btn {
-    color: #082d58;
-}
-
 #find-out-more-btn:hover, #quiz-btn:hover, #feedback-btn:hover, #submit-answers-btn:hover, 
 #submit-feedback-btn:hover {
     background-color: #FFFF00;
