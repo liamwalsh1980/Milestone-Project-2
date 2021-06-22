@@ -111,7 +111,7 @@ Date this project started: 3rd June 2020
 
 1. I like taking my children to sports events and would like to know whether this football tournament is due to be hosted at some point soon that's close enough to travel to and attend a couple of games.  
 
-1. I’m from America and have little knowledge of Soccer (football). The sports I played at school and watch now are mainly Baseball and Basketball. My wife is from France and says that Football is the best sport on the planet. I would like to find out more about the tournaments connected with this sport and find out if football is the biggest and best sport on the planet as my Wife says. 
+1. I would like to been notified of future tournaments relating to International European football.
 
 [Back to top ⇧](#the-euro-football-quiz)
 
