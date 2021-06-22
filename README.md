@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 2
 
-![Image template](assets/images/testing/responsive.png)
+![Image template](assets/images/readme/responsive.png)
 
 <a href="https://liamwalsh1980.github.io/Milestone-Project-2/" target="_blank">Click here to view The Euro Football Quiz live</a>
 
@@ -121,13 +121,13 @@ Date this project started: 3rd June 2020
 
 * With the Euro Championships starting on the 11th June 2021, I knew I wanted to create a website to celebrate this tournament with it being a 60-year anniversary. I already have good knowledge of the sport and this tournament in particular, and therefore I wanted to showcase the history and success of this sporting event whilst giving all users a chance to answer some questions about it in a form of multiple-choice. The user stories created above kept me focused on what the website should look like and offer. I therefore complete a trade-off between importance and viability/feasibility based on key areas I would like the website to have.  
 
-![Image template]()
+![Image template](assets/images/readme/strategy.png)
 
 ### Scope Plane
 
 * As I refined the features of the website, I knew I wanted to offer users some good knowledge of this football tournament and offer the option to interact with answering some multiple-choice questions. I wanted to make sure that I got the chance to showcase JavaScript and therefore I decided that the quiz page, markers on a google map and a feedback form would successful achieve this. I also decided to add a vertical timeline which would highlight key milestones of the tournament which I believe would look appealing and interesting to users. 
 
-![Image template]()
+![Image template](assets/images/readme/scope.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -137,8 +137,8 @@ Date this project started: 3rd June 2020
 
 * The below spreadsheet gave me real focus on what I wanted to add to each page. This was also used to guide me through each step of the design giving me the chance to include everything I wanted without missing any feature out. I would highlight in a different colour each feature once it's completed to show what's left to finish.  
 
-![Image template](before)
-![Image template](after)
+![Image template](assets/images/readme/structure-before.png)
+![Image template](assets/images/readme/structure-after.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -153,15 +153,15 @@ Date this project started: 3rd June 2020
 #### Please click <a href="" target="_blank">PDF Wireframes </a> to see all versions 
 
 #### Homepage - wireframe
-![template]()
+![template](assets/images/readme/wireframes/wireframe-home.png)
 #### Tournament page - wireframe
-![template]()
+![template](assets/images/readme/wireframes/wireframe-tournaments.png)
 #### Quiz page - wireframe
-![template]()
-#### Answerts page - wireframe
-![template]()
+![template](assets/images/readme/wireframes/wireframe-quiz.png)
+#### Answers page - wireframe
+![template](assets/images/readme/wireframes/wireframe-answers.png)
 #### Feedback page - wireframe
-![template]()
+![template](assets/images/readme/wireframes/wireframe-feedback.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -179,28 +179,17 @@ Date this project started: 3rd June 2020
 
 * To offer an attractive website for users to visit, I decided to use the following fonts and colours 
 
-    - Main header font-family: 'Bebas Neue', cursive (fallback)
-    - Main header font size on mobile -  
-    - Main header font size on tablet -  
-    - Main header font size on desktop - 30px
- 
-    - Sub header font-family: 'Mukta', sans-serif (fallback)
-    - Sub header font size on mobile -  
-    - Sub header font size on tablet -  
-    - Sub header font size on desktop - h3 header
-
+    - Main logo in the header: font-family: 'Bebas Neue', cursive (fallback)
+    - Sub header font-family: - 'Mukta', sans-serif (fallback)
     - Content font-family: 'Mukta', sans-serif (fallback)
-    - Content header font size on mobile -  
-    - Content header font size on tablet -  
-    - Content header font size on desktop - 16px
-
-    - Colour scheme: - 
     - Header: - Background color is #e4e4e4 (light grey) and font color is #409eb7 (Boston Blue). The text logo changes color when hovered over to #082d58 (Dark Blue). The same color is used to highlight which page the user is currently on aswell. The navigation bar title name change color when hovered over to #f2993e (Bright Orange). 
     - Body: - Background color stays as default #409eb7 (Boston Blue) and font color is changed from the default #000 (Black) to #082d58 (Dark Blue). 
-    - Footer: - Background color stays the same as the default body color #409eb7 (Boston Blue). The social media icons is #409eb7 (Boston Blue) and placed in #e4e4e4 (light grey) circles. When any icon is hovered over the background color of the small circles change to #FFFF00 (Yellow) with the font color changing to #082d58 (Dark Blue). The copyright text header h5 is also in #082d58 (Dark Blue). 
+    - Footer: - Background color stays the same as the default body color #409eb7 (Boston Blue). The social media icons is #409eb7 (Boston Blue) and placed in #e4e4e4 (light grey) circles. When any icon is hovered over the background color of the small circles change to #ffff00 (Yellow) with the font color changing to #082d58 (Dark Blue). The copyright text header h5 is also in #082d58 (Dark Blue). 
     - #ffff00 (Yellow) is also used when hovering over an event within the timeline on the homepage indicated that these area links that can be clicked. I also used Yellow as a border color around the homepage hero image, the media clip on the tournament page, the google map on the tournament page and as a hover for all buttons on all pages.
     - #f2993e (Bright Orange) is used on the quiz.html page to highlight a correct answer when a user gets a question right. This color is also used as the background color of the 'see your score' submit button at below the questions on the same page. This shade of orange was chosen using the Chrome Development tools color selector feature. 
     - After carefully testing and researching colors that works well together i am confident that the above colors chosen work to provide good UX and easy on the eye with some good overall contrasts.
+
+![Image template](assets/images/readme/colors.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -357,44 +346,61 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 #### All pages
 * Text Logo at the top left of the header which is also a link to the homepage
-* A navigation menu bar at the top right of the header which shows page links to all pages accept for the answers.html page. 
+* A navigation menu bar at the top right of the header which shows page links to all pages accept for the answers.html page.
 * Five icon links to social media sites i.e. facebook, instagram, twitter, spotify and youtube. 
-* Copyright text 
+* Copyright text.
 
 #### Homepage
-* A main header - Welcome to The Euro Football Quiz
-* Hero image of a football stadium
-* Timeline sub header
-* Timeline of key moments in history of the tournament
-* A 'find out more' link button to move to the next page - tournaments.html
+* A main header - Welcome to The Euro Football Quiz.
+* Hero image of a football stadium.
+* Timeline sub header.
+* Timeline of key moments in history of the tournament.
+* A 'find out more' link button to move to the next page - tournaments.html.
 
 #### Tournaments page
-* A sub header - 'The History, Trophy, Hosts, and Future Tournaments'
-* Official Euro 2020 logo
-* Four paragraphs of content about the football tournament
-* Six paragraphs of content about the history of tournaments
-* An image of the official trophy
-* Media clip supported by youtube of all the tournaments winners 
-* Sub header with a list of cities thats hosting Euro 2020
-* Google map with markers showing where the cities are in Europe based on the list mentioned
-* Sub header referencing future tournaments
-* Two short paragraphs referencing 2024 and 2028 tournaments
-* A 'take the quiz' link button to move to the next page - quiz.html
+* A sub header - 'The History, Trophy, Hosts, and Future Tournaments'.
+* Official Euro 2020 logo.
+* Four paragraphs of content about the football tournament.
+* Six paragraphs of content about the history of tournaments.
+* An image of the official trophy.
+* Media clip supported by youtube of all the tournaments winners.
+* Sub header with a list of cities thats hosting Euro 2020.
+* Google map with markers showing where the cities are in Europe based on the list mentioned.
+* Sub header referencing future tournaments.
+* Two short paragraphs referencing 2024 and 2028 tournaments.
+* A 'take the quiz' link button to move to the next page - quiz.html.
 
 #### Quiz page
-* A sub header - 'The Quiz'
-* Six questions with 3 multible choice answers
-* All questions come with a image clue 
+* A sub header - 'The Quiz'.
+* Six questions with 3 multible choice answers.
+* All questions come with a image clue.
 * A 'SEE YOUR SCORE' button to click on which does the following: - 
-    - reveal the users score
-    - reveal an 'ANSWERS' button which takes the user to a hidden webpage - answers.html
-    - reveal a "TRY AGAIN' button which restarts the quiz from the beginning
-    - reveal a 'Leave feedback' button which takes the user to the feedback.html page
+    - reveal the users score.
+    - reveal an 'ANSWERS' button which takes the user to a hidden webpage - answers.html.
+    - reveal a "TRY AGAIN' button which restarts the quiz from the beginning.
+    - reveal a 'Leave feedback' button which takes the user to the feedback.html page.
 
 #### Feedback page
-* A sub header - 'Give your feedback'
+* A sub header - 'Give your feedback'.
+* Feedback form for users to complete - name, email and feedback.
+* 'Leave feedback' button to submit feedback.
+* If information is missing when the form is submitted the user will see a error message - 'Please fill in this field'.
+* Upon successfully submitting the feedback form the user will receive the following message - 'Thank you for your feedback {name}. We hope you enjoyed the quiz!'.
+* If the form is submitted with all fields completed but doesn't deliver properly the user will see the following message - 'Sorry {name} something went wrong. Please try submitting your feedback again!'.
+* In the message box the user will need to click the 'close' button at the bottom right which will close the message and reset the fields in the form. 
 
 #### Answers page
+* A sub header - 'The Answers'.
+* The same six questions from the quiz.html page with the correct answer nuttons shown in orange.
+* All questions with the answers come with a image clue for reference.
+* A 'TRY AGAIN' button to click on to try the quiz again. 
+* A 'Leave feedback' button which takes the user to the feedback.html page
+
+### Features Left to Implement
+* More questions in the form of catergories based on each EUROS tournament. 
+* More questions randomly chosen using a Javascript loop with the random method.
+* Live chat facility for fans to talk to each other
+* A news page giving fans up to date information about players fitness etc.
 
 ## Technology Used
 
@@ -425,6 +431,59 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 * <a href="https://jshint.com/" target="_blank">JS Hint</a> - Used to test all Javascript coding.
 * <a href="https://www.emailjs.com/" target="_blank">Email JS</a> - Used to 
 send email directly from JavaScript - free of charge for upto 200 emails per month.
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+## Testing
+
+Testing information can be found in a separate 
+[Testing document](TESTING.md)
+
+## Deployment 
+(Date this project was deployed: TBC)
+
+### Github pages
+The project was deployed to GitHub Pages doing the following: -
+
+1. <a href="https://github.com/liamwalsh1980/Milestone-Project-2" target="_blank">MS2 Project GitHub Repository</a>
+
+1. At the top of the Repository I clicked the settings option on the menu.
+
+1. I scrolled down the settings page to the GitHub Pages Section.
+
+1. Under Source, I clicked the dropdown option called none and selected Master Branch.
+
+1. The page automatically refreshed with a URL for me to use to show my live site.
+
+1. I Scrolled down the page to obtain the published site link to enable me to share with others. 
+
+1. <a href="https://liamwalsh1980.github.io/Milestone-Project-2/" target="_blank">Click here to view The Euro Football Quiz project live</a>
+
+For a more in-depth guide about Configuring a publishing source from Github pages please <a href="https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site" target="_blank">click here</a>.
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Forking the GitHub Repository
+By forking the GitHub Repository you can make a copy of my original repository on your GitHub account to view and/or make changes without affecting the original repository by doing the following: -
+
+1. Log in to GitHub and locate the GitHub Repository
+1. At the top of the Repository click the settings option on the menu, locate and click the "Fork" Button which is at the top right of the page.
+1. You should now have a copy of the original repository in your GitHub account.
+
+For a more in-depth guide about how to Fork a repo please <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo" target="_blank">click here</a>.
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+1. Next to the the green Gitpod button you will see the dropdown button "code". Click this to open up the option to clone.
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+    - $ git clone <a href="https://github.com/liamwalsh1980/Milestone-Project-2" target="_blank">Click here</a>
+1. Press Enter. Your local clone will be created.
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -476,6 +535,19 @@ send email directly from JavaScript - free of charge for upto 200 emails per mon
 
 [Back to top ⇧](#the-euro-football-quiz)
 
+## Acknowledgements    
+
+* A big thank you to my Mentor - Seun Owonikoko 
+* Code Institute tutors
+* The Slack community 
+* My family for taking the time to have a go at the quiz and provide good feedback
+
+## Notes
+
+This website is for educational purposes only and created for my Code Institute User Centric Frontend Development Milestone Project (MS2)
+
+### End of README Document
+[Back to top ⇧](#the-euro-football-quiz)
 
 
 
