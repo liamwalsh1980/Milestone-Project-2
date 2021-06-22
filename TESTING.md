@@ -335,6 +335,19 @@ In reference to the remaining error - Imported style sheets are not checked in d
 
 [Back to top ⇧](#the-euro-football-quiz)
 
+### JS Hint - Javascript code validator
+
+SHint, A Static Code Analysis Tool for JavaScript. This is a tool that detects errors and potential problems in JavaScript code.
+
+#### maps.js
+(0 errors found)
+
+#### quiz.js
+(0 errors found)
+
+#### sendEmail.js
+(0 errors found)
+
 ### Web Browsers
 
 #### Google Chrome 
@@ -363,7 +376,7 @@ In reference to the remaining error - Imported style sheets are not checked in d
 
 
 
-## Bugs
+## Bugs and issues
 
 * API key issues 
 https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
@@ -372,6 +385,9 @@ https://developers.google.com/maps/documentation/javascript/error-messages#api-n
 
 * On the feedback html page and within the form there was an issue with the content wasn't refreshing after the 'Leave feedback' submit button was clicked. 
 
-[Back to top ⇧](#the-euro-football-quiz)
+* emailJS reached credit limited
 
 ATTACHED SCREEN SHOTS AND EMAIL CONFIRMING CREDIT LIMITED REACHED ON EMAILJS
+
+[Back to top ⇧](#the-euro-football-quiz)
+

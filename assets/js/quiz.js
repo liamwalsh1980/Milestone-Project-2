@@ -126,4 +126,3 @@ $(document).ready(function () {
         $("#q6a2").remove();
     });
 });
-
