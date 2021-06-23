@@ -43,9 +43,10 @@
         * [Microsoft Edge](#microsoft-edge)
         * [Mozilla Firefox](#mozilla-firefox)
     * [Testing responsiveness](#testing-responsiveness)
-        * [Mobile](#mobile)
-        * [Tablet](#tablet)
-        * [Desktop](#desktop)
+        * [Mobile screenshots](#mobile-screenshots)
+        * [Tablet screenshots](#tablet-screenshots)
+        * [Desktop screenshots](#desktop-screenshots)
+        * [Large Desktop screenshots](#large-desktop-screenshots)
     * [Lighthouse testing](#lighthouse-testing)
         * [Desktop results](#desktop-results)
         * [Mobile results](#mobile-results)
@@ -359,6 +360,8 @@ JSHint, A Static Code Analysis Tool for JavaScript. This is a tool that detects 
 
 **Javascript Testing completed**
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 ### Web Browsers
 
 I tested the website across four different web browsers making sure that links worked and pages loaded properly. 
@@ -372,7 +375,7 @@ Homepage
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/homepage-bottom.png)
 
-Tournament page
+Tournaments page
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/tournament-page-top.png)
 
@@ -400,9 +403,15 @@ Answers page
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/answers-page-bottom.png)
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 - #### Apple Safari
 
 Using a Macbook to complete this project meant that i could test the webpages on Apple safari. 
+
+IMAGES TO FOLLOW ONCE SITE IS DEPLOYED AND RETESTED
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 - #### Microsoft Edge
 
@@ -414,7 +423,7 @@ Homepage
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/homepage-bottom.png)
 
-Tournament page
+Tournaments page
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/tournaments-page-top.png)
 
@@ -442,6 +451,8 @@ Answers page
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/answers-page-bottom.png)
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 #### Mozilla Firefox 
 
 I had Firefox downloaded already. I therefore, logged onto my gitpod workspace and tested the site in the Firefox browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Firefox.
@@ -452,7 +463,7 @@ Homepage
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/homepage-bottom.png)
 
-Tournament page
+Tournaments page
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/tournament-page-top.png)
 
@@ -480,10 +491,177 @@ Answers page
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/answers-page-bottom.png)
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 ### Testing responsiveness
-#### Mobile
-#### Tablet
-#### Desktop
+
+I tested the site using Chrome development tools on four different screen sizes to make sure that all features, content, images, media clip, google map, links, buttons and feedback form worked properly. 
+
+- #### Mobile screenshots
+
+Homepage
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/mobile-homepage-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/mobile-homepage-2.png)
+
+Tournaments page
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-3.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-4.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-5.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-6.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-3.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-4.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-5.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/feedback-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/feedback-page-2.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/answers-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/answers-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/answers-page-3.png)
+
+![Image template](assets/images/readme/testing/responsiveness/mobile/answers-page-4.png)
+
+- #### Tablet screenshots
+
+Homepage
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tablet-homepage-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tablet-homepage-2.png)
+
+Tournaments page
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-3.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-4.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-5.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/quiz-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/quiz-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/quiz-page-3.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/quiz-page-4.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/feedback-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/feedback-page-2.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/answers-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/answers-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/tablet/answers-page-3.png)
+
+- #### Desktop screenshots
+
+Homepage
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/desktop-homepage-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/desktop-homepage-2.png)
+
+Tournaments Page
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/tournament-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/tournament-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/tournament-page-3.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/quiz-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/quiz-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/quiz-page-3.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/feedback-page.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/answers-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/answers-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/desktop/answers-page-3.png)
+
+- #### Large Desktop screenshots
+
+Homepage
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-homepage-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-homepage-2.png)
+
+Tournaments page
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-tournament-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-tournament-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-tournament-page-3.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-quiz-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-quiz-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-quiz-page-3.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-feedback-page.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-answers-page-1.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-answers-page-2.png)
+
+![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-answers-page-3.png)
 
 ### Lighthouse testing 
 #### Desktop results
