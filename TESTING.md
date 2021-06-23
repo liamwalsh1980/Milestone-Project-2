@@ -400,16 +400,85 @@ Answers page
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/answers-page-bottom.png)
 
-#### Apple Safari
+- #### Apple Safari
 
 Using a Macbook to complete this project meant that i could test the webpages on Apple safari. 
 
+- #### Microsoft Edge
+
+I had Microsoft Edge downloaded already. I therefore, logged onto my gitpod workspace and tested the site in the Microsoft Edge browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Microsoft Edge.
+
 Homepage
 
+![Image template](assets/images/readme/testing/web-browsers/edge/homepage-top.png)
 
+![Image template](assets/images/readme/testing/web-browsers/edge/homepage-bottom.png)
 
-#### Microsoft Edge
+Tournament page
+
+![Image template](assets/images/readme/testing/web-browsers/edge/tournaments-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/edge/tournaments-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/edge/tournaments-page-bottom.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/web-browsers/edge/quiz-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/edge/quiz-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/edge/quiz-page-bottom.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/web-browsers/edge/feedback-page.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/web-browsers/edge/answers-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/edge/answers-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/edge/answers-page-bottom.png)
+
 #### Mozilla Firefox 
+
+I had Firefox downloaded already. I therefore, logged onto my gitpod workspace and tested the site in the Firefox browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Firefox.
+
+Homepage
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/homepage-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/homepage-bottom.png)
+
+Tournament page
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/tournament-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/tournament-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/tournament-page-bottom.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/quiz-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/quiz-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/quiz-page-bottom.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/feedback-page.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/answers-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/answers-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/firefox/answers-page-bottom.png)
 
 ### Testing responsiveness
 #### Mobile
