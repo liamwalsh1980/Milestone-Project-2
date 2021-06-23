@@ -210,6 +210,7 @@ Date this project started: 3rd June 2020
 * The navigation bar is titled with pages on large screen sizes. On smaller screen sizes there is a burger bar menu and when clicked on users will see the page titles which are centred. The menu can be collapsed when clicked on again for good user experience. 
 * Bootstrap5 was used to create this header navigation bar with text logo.
 * I decided to add the bootstrap class container-fluid to the header for improved responsiveness on all screen sizes.
+* One of the last features i added to the head element is a football icon that sits in the web browser tab which shows the user that the website is football focused. 
 
 ### Footer
 
@@ -401,6 +402,7 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 * More questions randomly chosen using a Javascript loop with the random method.
 * Live chat facility for fans to talk to each other
 * A news page giving fans up to date information about players fitness etc.
+* Google Map marker labels upon clicking each marker on the map
 
 ## Technology Used
 
@@ -496,7 +498,6 @@ For a more in-depth guide about how to Fork a repo please <a href="https://docs.
 * <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2020" target="_blank">Wikipedia</a> page where the
 <a href="https://www.google.com/search?q=euro+2020+images&rlz=1C5CHFA_enGB821GB821&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiOvtGLoqnxAhWhCmMBHUhkCQwQ_AUoAXoECAEQAw&biw=1440&bih=821#imgrc=JJyZWk_7mb5qgM" target="_blank">Euro 2020 logo</a> came from.
 
-
 * The <a href="https://www.uefa.com/uefaeuro-2020/news/0258-0e51de1a172f-12472925ce41-1000/" target="_blank"> trophy image</a> was sourced from the official UEFA Euro 2020 website.
 
 * Quiz Question 1 - <a href="https://cultofcalcio.com/the-history-of-the-uefa-euro-1960-the-humble-beginnings/" target="_blank">image</a> 
@@ -512,6 +513,19 @@ For a more in-depth guide about how to Fork a repo please <a href="https://docs.
 * Quiz Question 6 - <a href="https://en.wikipedia.org/wiki/UEFA_Euro_2004#/media/File:UEFA_Euro_2004_logo.svg" target="_blank">image</a>
 
 [Back to top ⇧](#the-euro-football-quiz)
+
+### Icons
+
+* <a href="https://gauger.io/fonticon/" target="_blank">Football Icon</a> positioned in the head of each HTML page which shows up within the browser tab, thanks to <a href="https://github.com/devgg" target="_blank">Florian Gauger</a>.
+
+
+
+* Social media icons sourced from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> for the footer on every HTML page.
+    * <a href="https://fontawesome.com/v5.15/icons/facebook-f?style=brands" target="_blank">Facebook</a>
+    * <a href="https://fontawesome.com/v5.15/icons/instagram?style=brands" target="_blank">Instagram</a>
+    * <a href="https://fontawesome.com/v5.15/icons/twitter?style=brands" target="_blank">Twitter</a>
+    * <a href="https://fontawesome.com/v5.15/icons/spotify?style=brands" target="_blank">Spotify</a>
+    * <a href="https://fontawesome.com/v5.15/icons/youtube-square?style=brands" target="_blank">Youtube</a>
 
 ### Content
 * Wikipedia for all European Football history
