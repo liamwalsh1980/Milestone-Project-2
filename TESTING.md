@@ -33,6 +33,10 @@
         * [answers page tested](#answers-page-tested)
     * [W3C CSS Validation Service](#w3c-css-validation-service)
         * [CSS coding tested](#css-coding-tested)
+    * [JS Hint Javascript code validator](#js-hint-javascript-code-validator)
+        * [Maps.js](#maps.js)
+        * [Quiz.js](#quiz.js)
+        * [sendEmail.js](#sendemail.js)
     * [Web Browsers](#web-browsers)
         * [Google Chrome](#google-chrome)
         * [Apple Safari](#apple-safari)
@@ -73,22 +77,22 @@ Return to my [README.md](README.md)
 #### Full screen navigation menu
 * On big screens the navigaton bar has page titles. Any page title thats hovered over increases slightly in size. I tested different options i.e. underlining the selected page, however, instead i dediced to go for different colors on pages selected or hovered over as well as the size increase as mentioned.
 
-![Image template](assets/images/readme/testing/navigation-bar.png)
+![Image template](assets/images/readme/testing/nav-bar/navigation-bar.png)
 
-![Image template](assets/images/readme/testing/navigation-bar-highlighted.png)
+![Image template](assets/images/readme/testing/nav-bar/navigation-bar-highlighted.png)
 
 #### Hamburger navigation bar
 * When testing the navigation bar i wanted to make sure that it collapses into a hamburger menu (3 horizontal bars) on smaller screens. This is common practice to have and offers the user the option to look and click onto another page within the website.
 
-![Image template](assets/images/readme/testing/hamburger-menu-collapsed.png)
+![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-collapsed.png)
 
-![Image template](assets/images/readme/testing/hamburger-menu-open.png)
+![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-open.png)
 
 * On smaller mobile screen sizes i needed to adjust the size of the logo text and hamburger navbar to fit as the hamburger menu. I used media queries to to acheive this. 
 
-![Image template](assets/images/readme/testing/hamburger-menu-without-media-queries.png)
+    ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-without-media-queries.png)
 
-![Image template](assets/images/readme/testing/hamburger-menu-with-media-queries.png)
+    ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-with-media-queries.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -97,16 +101,16 @@ Return to my [README.md](README.md)
 * I tested the media clip on the tournaments.html page on all screen sizes along with full screen size to make sure it loaded and played successfully. 
 
 #### Mobile screen
-![Image template](assets/images/readme/testing/media-clip-mobile.png)
+![Image template](assets/images/readme/testing/media-clip/media-clip-mobile.png)
 
 #### Tablet screen
-![Image template](assets/images/readme/testing/media-clip-tablet.png)
+![Image template](assets/images/readme/testing/media-clip/media-clip-tablet.png)
 
 #### Desktop screen
-![Image template](assets/images/readme/testing/media-clip-desktop.png)
+![Image template](assets/images/readme/testing/media-clip/media-clip-desktop.png)
 
 #### Full screen
-![Image template](assets/images/readme/testing/media-clip-full-screen.png)
+![Image template](assets/images/readme/testing/media-clip/media-clip-full-screen.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -120,27 +124,27 @@ Return to my [README.md](README.md)
 * #### Steps to take
     On the homepage the timeline can be found to the right of the main hero image on desktops and below the image on mobile screens.  
 
-    ![Image template](assets/images/readme/testing/user-story-1-homepage.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-1-homepage.png)
 
     Landing page for the yellow selected link as shown above
 
-    ![Image template](assets/images/readme/testing/user-story-1-wiki.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-1-wiki.png)
 
     For more information about the Euros, the user can also navigate to the tournaments page by clicking on the title page at the top right. 
 
-    ![Image template](assets/images/readme/testing/user-story-4-click-tournaments-page.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-4-click-tournaments-page.png)
 
-    ![Image template](assets/images/readme/testing/user-story-4-tournaments-page.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-4-tournaments-page.png)
 
     Alternatively, the user can click the 'Find out more' button found below the timeline on the homepage which also would take them to the tournaments.html page.
 
-    ![Image template](assets/images/readme/testing/user-story-3-homepage-button.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button.png)
 
-    ![Image template](assets/images/readme/testing/user-story-3-homepage-button-clicked.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button-clicked.png)
 
     Landling page - tournaments.html 
 
-    ![Image template](assets/images/readme/testing/user-story-1-tournaments.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-1-tournaments.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -152,15 +156,15 @@ Return to my [README.md](README.md)
 * #### Steps to take
     From the homepage click on the quiz link within the navigation menu found at the top right of the page. 
 
-     ![Image template](assets/images/readme/testing/user-story-2-homepage.png)
+     ![Image template](assets/images/readme/testing/user-stories/user-story-2-homepage.png)
 
     If the user is on the tournaments.html page they can also click the 'Take the quiz' button found at the bottom of the page 
 
-    ![Image template](assets/images/readme/testing/user-story-2-tournaments.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-2-tournaments.png)
 
     Landling page - quiz.html 
 
-    ![Image template](assets/images/readme/testing/user-story-2-quiz.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-2-quiz.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -172,28 +176,27 @@ Return to my [README.md](README.md)
 * #### Steps to take
     Click on the tournament title page at the top right within the navigation menu.  
 
-    ![Image template](assets/images/readme/testing/user-story-3-tournaments.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-tournaments.png)
 
     Alternatively, click the 'Find out more' button found below the timeline on the homepage.
 
-    ![Image template](assets/images/readme/testing/user-story-3-homepage-button.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button.png)
 
-    ![Image template](assets/images/readme/testing/user-story-3-homepage-button-clicked.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button-clicked.png)
 
     Landling page - tournaments.html 
 
-    ![Image template](assets/images/readme/testing/user-story-1-tournaments.png)
-
+    ![Image template](assets/images/readme/testing/user-stories/user-story-1-tournaments.png)
 
     The user can also test their knowledge before or afterwards by click on the quiz.html by either clicking the the quiz page on the top right navigation menu or clicking the 'Take the quiz' button at at the bottom of the tournaments page. 
 
-    ![Image template](assets/images/readme/testing/user-story-2-homepage.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-2-homepage.png)
 
-    ![Image template](assets/images/readme/testing/user-story-2-tournaments.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-2-tournaments.png)
 
     Landling page - quiz.html 
 
-    ![Image template](assets/images/readme/testing/user-story-2-quiz.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-2-quiz.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -204,21 +207,21 @@ Return to my [README.md](README.md)
 * #### Steps to take
     Click on the tournament title page at the top right of the navigation menu. 
 
-    ![Image template](assets/images/readme/testing/user-story-4-click-tournaments-page.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-4-click-tournaments-page.png)
 
-    ![Image template](assets/images/readme/testing/user-story-4-tournaments-page.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-4-tournaments-page.png)
 
     Alternatively, click the 'Find out more' button found below the timeline on the homepage
 
-    ![Image template](assets/images/readme/testing/user-story-3-homepage-button.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button.png)
 
-    ![Image template](assets/images/readme/testing/user-story-3-homepage-button-clicked.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button-clicked.png)
 
     Landling page - tournaments.html.
 
     Scroll down to the bottom of this page to see information about the current and future competitions. This will give the user geographical information of where the hosting nations are with contents and a google map to refer to.
 
-    ![Image template](assets/images/readme/testing/user-story-4-tournaments-page-info.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-4-tournaments-page-info.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -230,15 +233,15 @@ Return to my [README.md](README.md)
 * #### Steps to take
     From the homepage the user can click the feedback.html page from the top right of the navigation menu. 
 
-    ![Image template](assets/images/readme/testing/user-story-5-homepage.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-5-homepage.png)
 
     If the user goes to the quiz.html page and completes the quiz a 'Leave feedback' button appears. This button will also take the user to the feedback form to complete. 
 
-    ![Image template](assets/images/readme/testing/user-story-5-quiz-page.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-5-quiz-page.png)
 
     Landling page - feedback.html
 
-    ![Image template](assets/images/readme/testing/user-story-5-feedback-page.png)
+    ![Image template](assets/images/readme/testing/user-stories/user-story-5-feedback-page.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -255,7 +258,7 @@ The W3C Markup Validator was used to validate all coding on all five HTML pages 
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
-![Image template](assets/images/readme/testing/html-code-testing-homepage.png)
+![Image template](assets/images/readme/testing/code/html-code-testing-homepage.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -272,7 +275,7 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
-![Image template](assets/images/readme/testing/html-code-testing-tournament-page.png)
+![Image template](assets/images/readme/testing/code/html-code-testing-tournament-page.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -285,13 +288,13 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
-![Image template](assets/images/readme/testing/html-code-testing-quiz-page.png)
+![Image template](assets/images/readme/testing/code/html-code-testing-quiz-page.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
 #### Feedback page tested 
 (0 errors found)
-![Image template](assets/images/readme/testing/html-code-testing-feedback-page.png)
+![Image template](assets/images/readme/testing/code/html-code-testing-feedback-page.png)
 
 
 #### Answers page tested 
@@ -303,7 +306,7 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
-![Image template](assets/images/readme/testing/html-code-testing-answers-page.png)
+![Image template](assets/images/readme/testing/code/html-code-testing-answers-page.png)
 
  **HTML Testing completed**
 
@@ -319,15 +322,15 @@ The W3C CSS Validator was used to validate all CSS used for my project.
     - Imported style sheets are not checked in direct input and file upload modes (line 2)
     - Same color for background-color and color (line 345 reference: #submit-feedback-btn)
 
-![Image template](assets/images/readme/testing/css-tested-copy-1.png)
+![Image template](assets/images/readme/testing/code/css-tested-copy-1.png)
 
-![Image template](assets/images/readme/testing/css-tested-2-warnings.png)
+![Image template](assets/images/readme/testing/code/css-tested-2-warnings.png)
 
 I removed the code that was causing the issue with the same color for the background as the font color. This resolved the 2nd warning and then re-tested the css code. 
 
-![Image template](assets/images/readme/testing/css-tested-copy-2.png)
+![Image template](assets/images/readme/testing/code/css-tested-copy-2.png)
 
-![Image template](assets/images/readme/testing/css-tested-1-warning.png)
+![Image template](assets/images/readme/testing/code/css-tested-1-warning.png)
 
 In reference to the remaining error - Imported style sheets are not checked in direct input and file upload modes (line 2). I found some information on <a href="https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error" target="_blank">Stack overflow</a> confirming that this was not an error just a warning to remind me that not checking the Google fonts is okay as this validator is used to check the CSS code. 
 
@@ -335,23 +338,76 @@ In reference to the remaining error - Imported style sheets are not checked in d
 
 [Back to top ⇧](#the-euro-football-quiz)
 
-### JS Hint - Javascript code validator
+### JS Hint Javascript code validator
 
-SHint, A Static Code Analysis Tool for JavaScript. This is a tool that detects errors and potential problems in JavaScript code.
+JSHint, A Static Code Analysis Tool for JavaScript. This is a tool that detects errors and potential problems in JavaScript code.
 
 #### maps.js
-(0 errors found)
+* (0 errors found)
+
+![Image template](assets/images/readme/testing/code/jshint-map.png)
 
 #### quiz.js
-(0 errors found)
+* (0 errors found)
+
+![Image template](assets/images/readme/testing/code/jshint-quiz.png)
 
 #### sendEmail.js
-(0 errors found)
+* (0 errors found)
+
+![Image template](assets/images/readme/testing/code/jshint-sendemail.png)
+
+**Javascript Testing completed**
 
 ### Web Browsers
 
-#### Google Chrome 
+I tested the website across four different web browsers making sure that links worked and pages loaded properly. 
+
+- #### Google Chrome 
+The site was developed using Chrome and therefore testing was being done daily on this browser.
+
+Homepage
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/homepage-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/homepage-bottom.png)
+
+Tournament page
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/tournament-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/tournament-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/tournament-page-bottom.png)
+
+Quiz page
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/quiz-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/quiz-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/quiz-page-bottom.png)
+
+Feedback page
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/feedback-page.png)
+
+Answers page
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/answers-page-top.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/answers-page-middle.png)
+
+![Image template](assets/images/readme/testing/web-browsers/chrome/answers-page-bottom.png)
+
 #### Apple Safari
+
+Using a Macbook to complete this project meant that i could test the webpages on Apple safari. 
+
+Homepage
+
+
+
 #### Microsoft Edge
 #### Mozilla Firefox 
 

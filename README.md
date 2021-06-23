@@ -350,6 +350,7 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 * A navigation menu bar at the top right of the header which shows page links to all pages accept for the answers.html page.
 * Five icon links to social media sites i.e. facebook, instagram, twitter, spotify and youtube. 
 * Copyright text.
+* In the web browser the tab shows a boston blue football icon with the title 'The Euro Football Quiz'
 
 #### Homepage
 * A main header - Welcome to The Euro Football Quiz.
