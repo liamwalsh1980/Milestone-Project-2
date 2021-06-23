@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 2 (testing)
 
-![Image template](assets/images/readme/testing/responsive-all-pages.png)
+![Image template](assets/images/readme/testing/responsiveness/responsive-all-pages.png)
 
 <a href="https://liamwalsh1980.github.io/Milestone-Project-2/" target="_blank">Click here to view The Euro Football Quiz live</a>
 
@@ -51,12 +51,11 @@
         * [Desktop results](#desktop-results)
         * [Mobile results](#mobile-results)
     * [Issues found](#issues-found)
-        * [Modal](#modal)
-        * [Navigation bar](#navigation-bar)
-        * [Responsiveness](#responsiveness)
-            * [Mobile responsiveness](#mobile-responsiveness)
-            * [Tablet responsiveness](#tablet-responsiveness)
-            * [Desktop responsiveness](#desktop-responsiveness)
+        * [API key](#api-key)
+        * [Quiz images](#quiz-images)
+        * [Feedback form](#feedback-form)
+        * [Modal issues](#modal-issues)
+        * [EmailJS](#emailjs)
     * [Further testing](#further-testing)
         * [Mobile first](#mobile-first)
         * [External links](#external-links)
@@ -547,6 +546,8 @@ Answers page
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/answers-page-4.png)
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 - #### Tablet screenshots
 
 Homepage
@@ -591,6 +592,8 @@ Answers page
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/answers-page-3.png)
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 - #### Desktop screenshots
 
 Homepage
@@ -626,6 +629,8 @@ Answers page
 ![Image template](assets/images/readme/testing/responsiveness/desktop/answers-page-2.png)
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/answers-page-3.png)
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 - #### Large Desktop screenshots
 
@@ -663,34 +668,117 @@ Answers page
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-answers-page-3.png)
 
+[Back to top ⇧](#the-euro-football-quiz)
+
 ### Lighthouse testing 
+
 #### Desktop results
+
+* Performance 94%
+* Accessibility 97%
+* Best Practices 93%
+* SEO 100%
+
+![Image template](assets/images/readme/testing/lighthouse/lighthouse-test-desktop.png)
+
 #### Mobile results
 
-### Issues found
-#### Modal
+* Performance 74% (Issues: Largest Contentful Paint)
+* Accessibility 97%
+* Best Practices 93%
+* SEO 100%
 
+![Image template](assets/images/readme/testing/lighthouse/lighthouse-test-mobile.png)
 
-
-
-
-
-
-
-
-
-## Bugs and issues
-
-* API key issues 
-https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error
-
-* Borders around quiz question images. Using the background size property with the cover value would cause an issue with the images on smaller screen sizes. I changed the value for all images from cover to contain which worked for what i wanted to acheieve which was to make sure that all of the image is shown on screen sizes. 
-
-* On the feedback html page and within the form there was an issue with the content wasn't refreshing after the 'Leave feedback' submit button was clicked. 
-
-* emailJS reached credit limited
-
-ATTACHED SCREEN SHOTS AND EMAIL CONFIRMING CREDIT LIMITED REACHED ON EMAILJS
+In reference to the performance score on the mobile lighthouse results (74%), i would look to try and fix this using <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a> found online. 
 
 [Back to top ⇧](#the-euro-football-quiz)
+
+## Issues found
+
+### API key
+* API key for the google map on the tournaments page wasn't working at first. All the code looked right however the map still wasn't importing onto the html page. I found this <a href="https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error" target="_blank">document</a> that helped me in fixing the issue which was to do with the API restrictions that wasn't set. 
+
+### Quiz images
+* The Quiz question clue images didn't look great when using the background size property with the cover value as it caused an issue with the images on different screen sizes. I changed the value for all images from cover to contain which worked for what i wanted to acheieve which was to make sure that all of images can be shown on clearly on all screen sizes. 
+
+Before
+![Image template](assets/images/readme/testing/issues/image-issues.png)
+
+After
+![Image template](assets/images/readme/testing/issues/image-issues-fixed.png)
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Feedback form
+* Feedback html page - name, email and feedback sections wasn't refreshing after clicking the submit button. I added a modal and with some Javascript this fixed the issue. Unfortunately, this led to another issue with the modal - documented below. 
+
+![Image template](assets/images/readme/testing/issues/modal-javascript.png)
+
+[Modal Javascript](assets/js/sendEmail.js)
+
+![Image template](assets/images/readme/testing/issues/modal.png)
+
+![Image template](assets/images/readme/testing/issues/feedback-form-refreshed.png)
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+### Modal issues
+* I added a modal for a message to appear when a user completes the form and clicks submit. This didn't work properly at first. The issue was that with or without the form being filled in, when clicking the submit button the modal message would appear empty everytime. Additionally if the form was completed without details filled in the modal message would still appear along with the warning message 'Please fill in this field'. The warning message was applied using the 'required' attribute in the HTML code. What i wanted to achieve was for the user to only see a modal message when the form was filled in correctly without any warning messages. I also wanted only the warning message to appear and not the modal message if a user didn't complete all fields correctly. 
+
+Image of the modal issue
+![Image template](assets/images/readme/testing/issues/modal-issues.png)
+
+Javascript before fixing the issues
+![Image template](assets/images/readme/testing/issues/modal-issues-javascript-code.png)
+* After researching what Javascript i needed to use for the modal and feedback form to work I spoke briefly with a Code Institute tutor and my mentor. I worked out the i needed to create a variable to get the modal ID and then apply the style.display method to it. I added the location.reload method to the close button in the modal and then added a second modal message for any forms that were completed properly but for whatever didn't successfully deliver. This all worked well and with some testing and making sure the HTML code was correct i acheieved what i wanted. 
+
+Javascript after fixing the issues
+![Image template](assets/images/readme/testing/issues/modal-javascript.png)
+
+Full Javascript code
+[Modal Javascript](assets/js/sendEmail.js)
+
+Full HTML code
+[HTML Feedback form code](feedback.html)
+
+Feedback form submitted with feedback text missing
+![Image template](assets/images/readme/testing/issues/feedback-form-with-error-1.png)
+
+Feedback form submitted with email text missing
+![Image template](assets/images/readme/testing/issues/feedback-form-with-error-2.png)
+
+Feedback form submitted with name text missing
+![Image template](assets/images/readme/testing/issues/feedback-form-with-error-3.png)
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+### EmailJS
+* With the EmailJS account the maximium amount of free emails you can receive each month is 200. I reached this limited during testing. This means that until the account is either upgraded or refreshed next month every feedback form completed will receive a modal message saying - Sorry {name} something went wrong. Please try submitting your feedback again!
+
+Feedback form sent with all fields completed
+![Image template](assets/images/readme/testing/issues/email-not-received.png)
+
+Email from EmailJS referencing the issue
+![Image template](assets/images/readme/testing/issues/emailjs.png)
+
+Example of what the user should see when submitting the feedback form correctly
+![Image template](assets/images/readme/testing/issues/email-sent.png)
+
+What would be received based on the above example via EmailJS
+![Image template](assets/images/readme/testing/issues/email-received.png)
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+## Further testing
+
+## Bugs outstanding
+
+
+
+[Back to top ⇧](#the-euro-football-quiz)
+
+Return to my [README.md](README.md) to continue reading
+
+### End of TESTING Document
 
