@@ -150,7 +150,7 @@ Date this project started: 3rd June 2020
 
 #### Balsamiq Wireframes
 
-#### Please click <a href="https://github.com/liamwalsh1980/Milestone-Project-2/tree/master/assets/readme/wireframes/euros" target="_blank">PDF Wireframes </a> to see all versions 
+#### Please click <a href="https://github.com/liamwalsh1980/Milestone-Project-2/blob/master/assets/images/readme/wireframes/euros.pdf" target="_blank">PDF Wireframes </a> to see all versions 
 
 #### Homepage - wireframe
 ![template](assets/images/readme/wireframes/wireframe-home.png)

@@ -9,8 +9,8 @@
 ## Table of contents
 1. [Testing](#testing)
     * [Screen sizes](#screen-sizes)
-        * [Desktop homepage](#desktop-homepage)
-        * [Mobile and tablet hompepage](#mobile-and-tablet-hompepage)
+        * [Large screens](#large-screens)
+        * [Small screens](#small-screens)
     * [Navigation bar menu](#navigation-bar-menu)
         * [Full screen navigation bar](#full-screen-navigation-bar)
         * [Hamburger navigation bar](#hamburger-navigation-bar)
@@ -28,9 +28,9 @@
     * [W3C Markup Validation Service](#w3c-markup-validation-service)
         * [Homepage tested](#homepage-tested)
         * [Tournament page tested](#tournament-page-tested) 
-        * [quiz page tested](#quiz-page-tested)
-        * [feedback page tested](#feedback-page-tested)
-        * [answers page tested](#answers-page-tested)
+        * [Quiz page tested](#quiz-page-tested)
+        * [Feedback page tested](#feedback-page-tested)
+        * [Answers page tested](#answers-page-tested)
     * [W3C CSS Validation Service](#w3c-css-validation-service)
         * [CSS coding tested](#css-coding-tested)
     * [JS Hint Javascript code validator](#js-hint-javascript-code-validator)
@@ -60,7 +60,6 @@
         * [Mobile first](#mobile-first)
         * [External links](#external-links)
         * [Internal links](#internal-links)
-        * [Contact form](#contact-form)
     * [Bugs outstanding](#bugs-outstanding)
 
 Return to my [README.md](README.md) 
@@ -70,11 +69,24 @@ Return to my [README.md](README.md)
 ## Testing
 
 ### Screen sizes
-* Desktop homepage
-* Mobile and tablet hompepage
+* I decided to use Bootstrap grid (rows and columns) to structure the website offering good UX on all screen sizes. On Laptop and Deskop screens (large) the layout is different to tablet and mobile screens (small). 
+
+#### Large screens
+
+![Image template](assets/images/readme/testing/structure/large-screen-structure-homepage-top.png)
+
+![Image template](assets/images/readme/testing/structure/large-screen-structure-homepage-bottom.png)
+
+#### Small screens
+
+![Image template](assets/images/readme/testing/structure/small-screen-structure-homepage-top.png)
+
+![Image template](assets/images/readme/testing/structure/small-screen-structure-homepage-bottom.png)
+
+[Back to top ⇧](#the-euro-football-quiz)
 
 ### Navigation bar menu
-#### Full screen navigation menu
+#### Full screen navigation bar
 * On big screens the navigaton bar has page titles. Any page title thats hovered over increases slightly in size. I tested different options i.e. underlining the selected page, however, instead i dediced to go for different colors on pages selected or hovered over as well as the size increase as mentioned.
 
 ![Image template](assets/images/readme/testing/nav-bar/navigation-bar.png)
@@ -772,7 +784,37 @@ What would be received based on the above example via EmailJS
 
 ## Further testing
 
+### Mobile first
+* I know its important to build a new site as a mobile first application, therefore, during the design process and building the site i made sure that extensive testing was done on all mobile screen sizes using <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome development tools</a>. I worked with the following screen sizes making sure that all users can enjoy the site using any type of smartphone device: - 
+
+    - 280px (Galaxy Fold size) 
+    - 320px (iPhone 5 size)
+    - 360px (Moto G4 and Galaxy S5) 
+    - 375px (iPhone 6/7/8/X size)
+    - 411px (Pixel 2/XL and iPhone 6/7/8 plus) 
+
+### External links
+
+* I tested all five social media links found in the footer. Testing was completed across all five pages on all screen sizes across multiple web browsers. All links worked and opened in a new browser tab which is what i wanted to achieve. 
+
+* I tested all seven timeline moments in history. Each is connected to a relevant wikipedia page giving users more information. When click these links are clicked a new browser tab opens which again is what i wanted to achieve. All testing for these links were tested across different screen sizes and different web browsers. 
+ 
+### Internal links
+
+* I tested all navigation menu links found in the header. All links worked successfully throughout the website and across all screen sizes and web browsers. I did further testing to make sure that the navigation bar on smaller screens worked as the menu turns into a hamburger bar (three horizontal lines) and therefore a dropdown menu opens and closes when the hamburger menu is clicked.
+
+* I tested all internal buttons found on all web pages. Testing was completed across all screen sizes and web browsers. All buttons work based on their purpose i.e. moving to another part of the website or revealing the score on the quiz page once answers are selected.
+
+[Back to top ⇧](#the-euro-football-quiz)
+
 ## Bugs outstanding
+
+* Lighthouse testing on mobile devices: -
+With the performance results coming out a little lower than i wanted at 74%, i decided to start investigating this. The results confirmed that the issue is with Largest Contentful Paint. I found some useful <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a>. A couple of other sites i found to look into this further were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a>. Another site i found which could help resolve this issue is the <a href="https://web.dev/optimize-lcp/#render-blocking-resources" target="_blank">Optimize LCP</a>. This issue is something i will need to look into ready for my next project. 
+
+* Safari - missing images
+
+
 
 
 
