@@ -459,7 +459,7 @@ Testing information can be found in a separate
 [Testing document](TESTING.md)
 
 ## Deployment 
-(Date this project was deployed: TBC)
+(Date this project was deployed: 25th June 2021)
 
 ### Github pages
 The project was deployed to GitHub Pages doing the following: -
