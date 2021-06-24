@@ -102,7 +102,11 @@ Return to my [README.md](README.md)
 
 * On smaller mobile screen sizes I needed to adjust the size of the logo text and hamburger navbar to fit as the hamburger menu. I used media queries to achieve this. 
 
+    **Before**
+
     ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-without-media-queries.png)
+
+    **After**
 
     ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-with-media-queries.png)
 
@@ -138,7 +142,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-1-homepage.png)
 
-    Landing page for the yellow selected link as shown above
+    **Landing page for the yellow selected link as shown above**
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-1-wiki.png)
 
@@ -154,7 +158,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button-clicked.png)
 
-    Landling page - tournaments.html 
+    **Landling page - tournaments.html**
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-1-tournaments.png)
 
@@ -174,7 +178,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-2-tournaments.png)
 
-    Landling page - quiz.html 
+    **Landling page - quiz.html**
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-2-quiz.png)
 
@@ -196,7 +200,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button-clicked.png)
 
-    Landling page - tournaments.html 
+    **Landling page - tournaments.html**
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-1-tournaments.png)
 
@@ -206,7 +210,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-2-tournaments.png)
 
-    Landling page - quiz.html 
+    **Landling page - quiz.html**
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-2-quiz.png)
 
@@ -230,7 +234,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-3-homepage-button-clicked.png)
 
-    Landling page - tournaments.html.
+    **Landling page - tournaments.html**
 
     Scroll down to the bottom of this page to see information about the current and future competitions. This will give the user geographical information of where the hosting nations are with contents and a google map to refer to.
 
@@ -252,7 +256,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-5-quiz-page.png)
 
-    Landling page - feedback.html
+    **Landling page - feedback.html**
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-5-feedback-page.png)
 
@@ -381,13 +385,13 @@ I tested the website across four different web browsers making sure that links w
 - #### Google Chrome 
 The site was developed using Chrome and therefore testing was being done daily on this browser.
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/homepage-top.png)
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/homepage-bottom.png)
 
-Tournaments page
+**Tournaments page**
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/tournament-page-top.png)
 
@@ -395,7 +399,7 @@ Tournaments page
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/tournament-page-bottom.png)
 
-Quiz page
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/quiz-page-top.png)
 
@@ -403,11 +407,11 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/quiz-page-bottom.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/feedback-page.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/web-browsers/chrome/answers-page-top.png)
 
@@ -421,21 +425,19 @@ Answers page
 
 Using a MacBook to complete this project meant that I could test the webpages on Apple safari. 
 
-IMAGES TO FOLLOW ONCE SITE IS DEPLOYED AND RETESTED
-
 [Back to top ⇧](#the-euro-football-quiz)
 
 - #### Microsoft Edge
 
 I had Microsoft Edge downloaded already. I therefore, logged onto my Gitpod workspace and tested the site in the Microsoft Edge browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Microsoft Edge.
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/homepage-top.png)
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/homepage-bottom.png)
 
-Tournaments page
+**Tournaments page**
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/tournaments-page-top.png)
 
@@ -443,7 +445,7 @@ Tournaments page
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/tournaments-page-bottom.png)
 
-Quiz page
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/quiz-page-top.png)
 
@@ -451,11 +453,11 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/quiz-page-bottom.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/feedback-page.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/web-browsers/edge/answers-page-top.png)
 
@@ -469,13 +471,13 @@ Answers page
 
 I had Firefox downloaded already. I therefore, logged onto my Gitpod workspace and tested the site in the Firefox browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Firefox.
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/homepage-top.png)
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/homepage-bottom.png)
 
-Tournaments page
+**Tournaments page**
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/tournament-page-top.png)
 
@@ -483,7 +485,7 @@ Tournaments page
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/tournament-page-bottom.png)
 
-Quiz page
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/quiz-page-top.png)
 
@@ -491,11 +493,11 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/quiz-page-bottom.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/feedback-page.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/web-browsers/firefox/answers-page-top.png)
 
@@ -511,7 +513,7 @@ I tested the site using Chrome development tools on four different screen sizes 
 
 - #### Mobile screenshots
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/mobile-homepage-1.png)
 
@@ -531,7 +533,9 @@ Tournaments page
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/tournament-page-6.png)
 
-Quiz page
+[Back to top ⇧](#the-euro-football-quiz)
+
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-1.png)
 
@@ -543,13 +547,13 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/quiz-page-5.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/feedback-page-1.png)
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/feedback-page-2.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/responsiveness/mobile/answers-page-1.png)
 
@@ -563,13 +567,13 @@ Answers page
 
 - #### Tablet screenshots
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/tablet-homepage-1.png)
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/tablet-homepage-2.png)
 
-Tournaments page
+**Tournaments page**
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-1.png)
 
@@ -581,7 +585,9 @@ Tournaments page
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/tournament-page-5.png)
 
-Quiz page
+[Back to top ⇧](#the-euro-football-quiz)
+
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/quiz-page-1.png)
 
@@ -591,13 +597,13 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/quiz-page-4.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/feedback-page-1.png)
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/feedback-page-2.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/responsiveness/tablet/answers-page-1.png)
 
@@ -609,13 +615,13 @@ Answers page
 
 - #### Desktop screenshots
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/desktop-homepage-1.png)
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/desktop-homepage-2.png)
 
-Tournaments Page
+**Tournaments Page**
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/tournament-page-1.png)
 
@@ -623,7 +629,9 @@ Tournaments Page
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/tournament-page-3.png)
 
-Quiz page
+[Back to top ⇧](#the-euro-football-quiz)
+
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/quiz-page-1.png)
 
@@ -631,11 +639,11 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/quiz-page-3.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/feedback-page.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/responsiveness/desktop/answers-page-1.png)
 
@@ -647,13 +655,13 @@ Answers page
 
 - #### Large Desktop screenshots
 
-Homepage
+**Homepage**
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-homepage-1.png)
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-homepage-2.png)
 
-Tournaments page
+**Tournaments page**
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-tournament-page-1.png)
 
@@ -661,7 +669,9 @@ Tournaments page
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-tournament-page-3.png)
 
-Quiz page
+[Back to top ⇧](#the-euro-football-quiz)
+
+**Quiz page**
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-quiz-page-1.png)
 
@@ -669,11 +679,11 @@ Quiz page
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-quiz-page-3.png)
 
-Feedback page
+**Feedback page**
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-feedback-page.png)
 
-Answers page
+**Answers page**
 
 ![Image template](assets/images/readme/testing/responsiveness/large-desktop/large-desktop-answers-page-1.png)
 
@@ -781,7 +791,7 @@ Example of what the user should see when submitting the feedback form correctly
 What would be received based on the above example via EmailJS
 ![Image template](assets/images/readme/testing/issues/email-received.png)
 
-* I decided to signup to a new EmailJS account with a new gmail account. I then re-developed the email template on EmailJS and assigned the new API key user ID (user_72YpepHSLHlF3N4Wn6Vnw) within the feedback.html page and the new service ID (gmail) within the sendEmail.js file.
+* I decided to signup to a new EmailJS account with a new gmail account. I then re-developed the email template on the new EmailJS account and assigned a new API key user ID (user_72YpepHSLHlF3N4Wn6Vnw) within the feedback.html page and a new service ID (gmail) within the sendEmail.js file.
 
 * I then tested the feedback form and all worked perfectly. 
 
@@ -824,13 +834,15 @@ Email details received successfully
 ## Bugs outstanding
 
 * Lighthouse testing on mobile devices: -
-With the performance results coming out a little lower than I wanted at 74%, I decided to start investigating this. The results confirmed that the issue is with Largest Contentful Paint. I found some useful <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a>. A couple of other sites i found to look into this further were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a>. Another site I found which could help resolve this issue is the <a href="https://web.dev/optimize-lcp/#render-blocking-resources" target="_blank">Optimize LCP</a>. This issue is something I will need to look into ready for my next project. 
+With the performance results coming out a little lower than I wanted at 74%, I decided to start investigating this. The results confirmed that the issue is to do with the LCP (Largest Contentful Paint). I found some useful <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a> which gave me some guide toward fixing this issue. A couple of other sites i found to look into this further were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a>. Another site I found which could help resolve this issue is the <a href="https://web.dev/optimize-lcp/#render-blocking-resources" target="_blank">Optimize LCP</a> webpage. This issue is something I will need to look into ready for my next project as i ran out of time to look into this time around. 
 
-* Safari - missing images
+* On Safari web browser and using the MacBook to test the website, it seemed that some images were missing from the tournaments and quiz page. With more time i would look to resolve this by doing some investigating into why the images aren't working on this particular browser.
 
+Tournaments page
+![Image template](assets/images/readme/testing/bugs-outstanding/safari-tournaments-page.png)
 
-
-
+Quiz page
+![Image template](assets/images/readme/testing/bugs-outstanding/safari-quiz-page.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 
