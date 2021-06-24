@@ -767,7 +767,7 @@ Feedback form submitted with name text missing
 [Back to top ⇧](#the-euro-football-quiz)
 
 ### EmailJS
-* With the EmailJS account, the maximum number of free emails you can receive each month is 200. I reached this limited during testing. This means that until the account is either upgraded or refreshed next month every feedback form completed will receive a modal message saying - Sorry {name} something went wrong. Please try submitting your feedback again!
+* With the EmailJS account, the maximum number of free emails you can receive each month is 200. I reached this limited during testing. This means that until the account is either upgraded or refreshed on the 1st July 2021 every feedback form completed will receive a modal message saying - Sorry {name} something went wrong. Please try submitting your feedback again!
 
 Feedback form sent with all fields completed
 ![Image template](assets/images/readme/testing/issues/email-not-received.png)
@@ -780,6 +780,19 @@ Example of what the user should see when submitting the feedback form correctly
 
 What would be received based on the above example via EmailJS
 ![Image template](assets/images/readme/testing/issues/email-received.png)
+
+* I decided to signup to a new EmailJS account with a new gmail account. I then re-developed the email template on EmailJS and assigned the new API key user ID (user_72YpepHSLHlF3N4Wn6Vnw) within the feedback.html page and the new service ID (gmail) within the sendEmail.js file.
+
+* I then tested the feedback form and all worked perfectly. 
+
+Feedback form completed
+![Image template](assets/images/readme/testing/issues/feedback-form-completed.png)
+
+Feedback form successfully submitted
+![Image template](assets/images/readme/testing/issues/feedback-form-successfully-sent.png)
+
+Email details received successfully
+![Image template](assets/images/readme/testing/issues/fixed-emailjs-received.png)
 
 [Back to top ⇧](#the-euro-football-quiz)
 

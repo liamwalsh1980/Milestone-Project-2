@@ -288,6 +288,8 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * JavaScript has been used on this page to make sure that users can click their answers and obtain their score immediately at the press of a button. For reference the JavaScript file for this page is quiz.js
 
+* I was going to include down arrows as a feature on this page. The idea was to have down arrows as links below each question so that the user could click. This would then take the user to the next question. I decided not to include this feature at this stage. It may be a feature that could be introduced as more questions are added over time as this would be more relevant to keep the user connected to the right part of the page whilst answering the quiz questions.  
+
 [Back to top ⇧](#the-euro-football-quiz)
 
 ### Feedback page design
