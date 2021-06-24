@@ -2,7 +2,7 @@ function sendMail(contactForm) {
     // sets a new variable ready to use further down the code
     var modal = document.getElementById("modal");
 
-    emailjs.send("service_vg5bikj", "the_euro_football_quiz", {
+    emailjs.send("gmail", "the_euro_football_quiz", {
             "from_name": contactForm.name.value,
             "from_email": contactForm.emailaddress.value,
             "feedback": contactForm.feedback.value
@@ -33,5 +33,4 @@ function sendMail(contactForm) {
 }
 
 // Source of code from EmailJS using Email templates. This enables all successful feedback forms to be sent as an email
-// Testing completed as credit limited reached for monthly - see README for more information
 // Used to source the code for reloading the form - https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
