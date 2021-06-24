@@ -468,7 +468,11 @@ The project was deployed to GitHub Pages doing the following: -
 
 1. At the top of the Repository I clicked the settings option on the menu.
 
-1. I scrolled down the settings page to the GitHub Pages Section.
+1. I checked that the name of the Repository was correct - Milestone-Project-2
+
+1. I scrolled down the settings page to the GitHub Pages Section where there now is a dedicated tab for the Pages settings. 
+
+1. I clicked on the new tab - Check it out here!
 
 1. Under Source, I clicked the dropdown option called none and selected Master Branch.
 
