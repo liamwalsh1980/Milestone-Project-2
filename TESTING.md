@@ -69,7 +69,7 @@ Return to my [README.md](README.md)
 ## Testing
 
 ### Screen sizes
-* I decided to use Bootstrap grid (rows and columns) to structure the website offering good UX on all screen sizes. On Laptop and Deskop screens (large) the layout is different to tablet and mobile screens (small). 
+* I decided to use the  Bootstrap grid (rows and columns) to structure the website offering good UX on all screen sizes. On Laptop and Desktop screens (large) the layout is different to tablet and mobile screens (small). 
 
 #### Large screens
 
@@ -87,20 +87,20 @@ Return to my [README.md](README.md)
 
 ### Navigation bar menu
 #### Full screen navigation bar
-* On big screens the navigaton bar has page titles. Any page title thats hovered over increases slightly in size. I tested different options i.e. underlining the selected page, however, instead i dediced to go for different colors on pages selected or hovered over as well as the size increase as mentioned.
+* On big screens the navigation bar has page titles. Any page title that's hovered over increases slightly in size. I tested different options i.e., underlining the selected page, however, instead I decided to go for different colors on pages selected or hovered over as well as the size increase as mentioned.
 
 ![Image template](assets/images/readme/testing/nav-bar/navigation-bar.png)
 
 ![Image template](assets/images/readme/testing/nav-bar/navigation-bar-highlighted.png)
 
 #### Hamburger navigation bar
-* When testing the navigation bar i wanted to make sure that it collapses into a hamburger menu (3 horizontal bars) on smaller screens. This is common practice to have and offers the user the option to look and click onto another page within the website.
+* When testing the navigation bar I wanted to make sure that it collapses into a hamburger menu (3 horizontal bars) on smaller screens. This is common practice to have and offers the user the option to look and click onto another page within the website.
 
 ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-collapsed.png)
 
 ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-open.png)
 
-* On smaller mobile screen sizes i needed to adjust the size of the logo text and hamburger navbar to fit as the hamburger menu. I used media queries to to acheive this. 
+* On smaller mobile screen sizes I needed to adjust the size of the logo text and hamburger navbar to fit as the hamburger menu. I used media queries to achieve this. 
 
     ![Image template](assets/images/readme/testing/nav-bar/hamburger-menu-without-media-queries.png)
 
@@ -131,7 +131,7 @@ Return to my [README.md](README.md)
 * ### Story 1
     I am an England Football fan. I have always followed England since I starting watching football as a young boy in the early 1980’s. I would like to know more about the tournament going back before I was born to get a better understanding of who hosted and who won the tournament. 
     
-    - **The homepage has a timeline with lots of information to start with. Each moment in history on the timeline is also a link to a wikipedia page for even more information. Each link opens in a new tab making it easy for the user to go back to The Euro football quiz site. The tournament.html page also would give the user more information about the history of the competition.**
+    - **The homepage has a timeline with lots of information to start with. Each moment in history on the timeline is also a link to a Wikipedia page for even more information. Each link opens in a new tab making it easy for the user to go back to The Euro football quiz site. The tournament.html page also would give the user more information about the history of the competition.**
 
 * #### Steps to take
     On the homepage the timeline can be found to the right of the main hero image on desktops and below the image on mobile screens.  
@@ -183,7 +183,7 @@ Return to my [README.md](README.md)
 * #### Story 3 
     I’m part of a weekly pub quiz team. I would like to know more about international football and gain more general knowledge to improve my contribution when I'm with my pub quiz team. 
 
-    - **This user would find the tournaments.html page useful to get some top level information about the competition that would most likely help when it comes to questions being asked in a pub quiz environment. The quiz.html page may be useful to test their knowledge before and after reading the tournaments information.**
+    - **This user would find the tournaments.html page useful to get some top-level information about the competition that would most likely help when it comes to questions being asked in a pub quiz environment. The quiz.html page may be useful to test their knowledge before and after reading the tournaments information.**
 
 * #### Steps to take
     Click on the tournament title page at the top right within the navigation menu.  
@@ -200,7 +200,7 @@ Return to my [README.md](README.md)
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-1-tournaments.png)
 
-    The user can also test their knowledge before or afterwards by click on the quiz.html by either clicking the the quiz page on the top right navigation menu or clicking the 'Take the quiz' button at at the bottom of the tournaments page. 
+    The user can also test their knowledge before or afterwards by click on the quiz.html by either clicking the quiz page on the top right navigation menu or clicking the 'Take the quiz' button at the bottom of the tournaments page. 
 
     ![Image template](assets/images/readme/testing/user-stories/user-story-2-homepage.png)
 
@@ -216,6 +216,7 @@ Return to my [README.md](README.md)
     I like taking my children to sports events and would like to know whether this football tournament is due to be hosted at some point soon that's close enough to travel to and attend a couple of games.  
 
     - **This user can navigate to the tournements.html page where the title is 'The History, Trophy, Hosts, and Future Tournaments'.  They can then find information about the current tournament being played as of 11th June to 11th July 2021 and future tournaments to be played. The user can plan trips to a future Euros game convenient to them.**
+
 * #### Steps to take
     Click on the tournament title page at the top right of the navigation menu. 
 
@@ -266,7 +267,7 @@ The W3C Markup Validator was used to validate all coding on all five HTML pages 
 
 1. The element 'a' must not appear as a descendant of the button element. 
 
-    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the button where i wanted it to be. 
+    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the button where I wanted it to be. 
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
@@ -279,7 +280,7 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 1. The element 'a' must not appear as a descendant of the button element. 
 
-    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the button where i wanted it to be. 
+    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the button where I wanted it to be. 
 
 1. The frameborder attribute on the iframe element is obsolete. Use CSS instead.
 
@@ -296,7 +297,7 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 1. 3 x The element 'a' must not appear as a descendant of the button element. 
 
-    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the buttons where i wanted it to be. This was very important as this page is interactive and certain buttons which are now divs would disappear when the "SEE YOUR SCORE' button is clicked. 
+    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the buttons where I wanted it to be. This was very important as this page is interactive and certain buttons which are now div elements would disappear when the "SEE YOUR SCORE' button is clicked. 
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
@@ -314,7 +315,7 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 1. 2 x The element 'a' must not appear as a descendant of the button element. 
 
-    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the buttons where i wanted it to be.  
+    - **How I resolved this error:** I decided to change the button element to a div element making sure that the link was maintained. A little work using CSS was required to position the buttons where I wanted it to be.  
 
 I re-tested the code on W3C Markup validator and no errors were found.
 
@@ -338,7 +339,7 @@ The W3C CSS Validator was used to validate all CSS used for my project.
 
 ![Image template](assets/images/readme/testing/code/css-tested-2-warnings.png)
 
-I removed the code that was causing the issue with the same color for the background as the font color. This resolved the 2nd warning and then re-tested the css code. 
+I removed the code that was causing the issue with the same color for the background as the font color. This resolved the 2nd warning and then re-tested the CSS code. 
 
 ![Image template](assets/images/readme/testing/code/css-tested-copy-2.png)
 
@@ -350,7 +351,7 @@ In reference to the remaining error - Imported style sheets are not checked in d
 
 [Back to top ⇧](#the-euro-football-quiz)
 
-### JS Hint Javascript code validator
+### JS Hint JavaScript code validator
 
 JSHint, A Static Code Analysis Tool for JavaScript. This is a tool that detects errors and potential problems in JavaScript code.
 
@@ -369,7 +370,7 @@ JSHint, A Static Code Analysis Tool for JavaScript. This is a tool that detects 
 
 ![Image template](assets/images/readme/testing/code/jshint-sendemail.png)
 
-**Javascript Testing completed**
+**JavaScript Testing completed**
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -418,7 +419,7 @@ Answers page
 
 - #### Apple Safari
 
-Using a Macbook to complete this project meant that i could test the webpages on Apple safari. 
+Using a MacBook to complete this project meant that I could test the webpages on Apple safari. 
 
 IMAGES TO FOLLOW ONCE SITE IS DEPLOYED AND RETESTED
 
@@ -426,7 +427,7 @@ IMAGES TO FOLLOW ONCE SITE IS DEPLOYED AND RETESTED
 
 - #### Microsoft Edge
 
-I had Microsoft Edge downloaded already. I therefore, logged onto my gitpod workspace and tested the site in the Microsoft Edge browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Microsoft Edge.
+I had Microsoft Edge downloaded already. I therefore, logged onto my Gitpod workspace and tested the site in the Microsoft Edge browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Microsoft Edge.
 
 Homepage
 
@@ -466,7 +467,7 @@ Answers page
 
 #### Mozilla Firefox 
 
-I had Firefox downloaded already. I therefore, logged onto my gitpod workspace and tested the site in the Firefox browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Firefox.
+I had Firefox downloaded already. I therefore, logged onto my Gitpod workspace and tested the site in the Firefox browser. I checked to make sure that all pages loaded, the colors, images, content, links and button all looked and worked fine. I tested this across different screen sizes within Firefox.
 
 Homepage
 
@@ -695,14 +696,14 @@ Answers page
 
 #### Mobile results
 
-* Performance 74% (Issues: Largest Contentful Paint)
+* Performance 74% (Issue: Largest Contentful Paint)
 * Accessibility 97%
 * Best Practices 93%
 * SEO 100%
 
 ![Image template](assets/images/readme/testing/lighthouse/lighthouse-test-mobile.png)
 
-In reference to the performance score on the mobile lighthouse results (74%), i would look to try and fix this using <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a> found online. 
+In reference to the performance score on the mobile lighthouse results (74%), I would look to try and fix this using <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a> found online. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
@@ -712,7 +713,7 @@ In reference to the performance score on the mobile lighthouse results (74%), i 
 * API key for the google map on the tournaments page wasn't working at first. All the code looked right however the map still wasn't importing onto the html page. I found this <a href="https://developers.google.com/maps/documentation/javascript/error-messages#api-not-activated-map-error" target="_blank">document</a> that helped me in fixing the issue which was to do with the API restrictions that wasn't set. 
 
 ### Quiz images
-* The Quiz question clue images didn't look great when using the background size property with the cover value as it caused an issue with the images on different screen sizes. I changed the value for all images from cover to contain which worked for what i wanted to acheieve which was to make sure that all of images can be shown on clearly on all screen sizes. 
+* The Quiz question clue images didn't look great when using the background size property with the cover value as it caused an issue with the images on different screen sizes. I changed the value for all images from cover to contain which worked for what I wanted to achieve  which was to make sure that all of images can be shown on clearly on all screen sizes. 
 
 Before
 ![Image template](assets/images/readme/testing/issues/image-issues.png)
@@ -723,11 +724,11 @@ After
 [Back to top ⇧](#the-euro-football-quiz)
 
 ### Feedback form
-* Feedback html page - name, email and feedback sections wasn't refreshing after clicking the submit button. I added a modal and with some Javascript this fixed the issue. Unfortunately, this led to another issue with the modal - documented below. 
+* Feedback html page - name, email and feedback sections weren't refreshing after clicking the submit button. I added a modal and with some JavaScript this fixed the issue. Unfortunately, this led to another issue with the modal - documented below. 
 
 ![Image template](assets/images/readme/testing/issues/modal-javascript.png)
 
-[Modal Javascript](assets/js/sendEmail.js)
+[Modal JavaScript](assets/js/sendEmail.js)
 
 ![Image template](assets/images/readme/testing/issues/modal.png)
 
@@ -736,20 +737,20 @@ After
 [Back to top ⇧](#the-euro-football-quiz)
 
 ### Modal issues
-* I added a modal for a message to appear when a user completes the form and clicks submit. This didn't work properly at first. The issue was that with or without the form being filled in, when clicking the submit button the modal message would appear empty everytime. Additionally if the form was completed without details filled in the modal message would still appear along with the warning message 'Please fill in this field'. The warning message was applied using the 'required' attribute in the HTML code. What i wanted to achieve was for the user to only see a modal message when the form was filled in correctly without any warning messages. I also wanted only the warning message to appear and not the modal message if a user didn't complete all fields correctly. 
+* I added a modal for a message to appear when a user completes the form and clicks submit. This didn't work properly at first. The issue was that with or without the form being filled in, when clicking the submit button the modal message would appear empty every time. Additionally, if the form was completed without details filled in the modal message would still appear along with the warning message 'Please fill in this field'. The warning message was applied using the 'required' attribute in the HTML code. What I wanted to achieve was for the user to only see a modal message when the form was filled in correctly without any warning messages. I also wanted only the warning message to appear and not the modal message if a user didn't complete all fields correctly. 
 
 Image of the modal issue
 ![Image template](assets/images/readme/testing/issues/modal-issues.png)
 
 Javascript before fixing the issues
 ![Image template](assets/images/readme/testing/issues/modal-issues-javascript-code.png)
-* After researching what Javascript i needed to use for the modal and feedback form to work I spoke briefly with a Code Institute tutor and my mentor. I worked out the i needed to create a variable to get the modal ID and then apply the style.display method to it. I added the location.reload method to the close button in the modal and then added a second modal message for any forms that were completed properly but for whatever didn't successfully deliver. This all worked well and with some testing and making sure the HTML code was correct i acheieved what i wanted. 
+* After researching what JavaScript I needed to use for the modal and feedback form to work I spoke briefly with a Code Institute tutor and my mentor. I worked out the I needed to create a variable to get the modal ID and then apply the style.display method to it. I added the location.reload method to the close button in the modal and then added a second modal message for any forms that were completed properly but for whatever didn't successfully deliver. This all worked well and with some testing and making sure the HTML code was correct I achieved what I wanted. 
 
-Javascript after fixing the issues
+JavaScript after fixing the issues
 ![Image template](assets/images/readme/testing/issues/modal-javascript.png)
 
-Full Javascript code
-[Modal Javascript](assets/js/sendEmail.js)
+Full JavaScript code
+[Modal JavaScript](assets/js/sendEmail.js)
 
 Full HTML code
 [HTML Feedback form code](feedback.html)
@@ -766,7 +767,7 @@ Feedback form submitted with name text missing
 [Back to top ⇧](#the-euro-football-quiz)
 
 ### EmailJS
-* With the EmailJS account the maximium amount of free emails you can receive each month is 200. I reached this limited during testing. This means that until the account is either upgraded or refreshed next month every feedback form completed will receive a modal message saying - Sorry {name} something went wrong. Please try submitting your feedback again!
+* With the EmailJS account, the maximum number of free emails you can receive each month is 200. I reached this limited during testing. This means that until the account is either upgraded or refreshed next month every feedback form completed will receive a modal message saying - Sorry {name} something went wrong. Please try submitting your feedback again!
 
 Feedback form sent with all fields completed
 ![Image template](assets/images/readme/testing/issues/email-not-received.png)
@@ -785,7 +786,7 @@ What would be received based on the above example via EmailJS
 ## Further testing
 
 ### Mobile first
-* I know its important to build a new site as a mobile first application, therefore, during the design process and building the site i made sure that extensive testing was done on all mobile screen sizes using <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome development tools</a>. I worked with the following screen sizes making sure that all users can enjoy the site using any type of smartphone device: - 
+* I know it's important to build a new site as a mobile first application, therefore, during the design process and building the site I made sure that extensive testing was done on all mobile screen sizes using <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome development tools</a>. I worked with the following screen sizes making sure that all users can enjoy the site using any type of smartphone device: - 
 
     - 280px (Galaxy Fold size) 
     - 320px (iPhone 5 size)
@@ -795,22 +796,22 @@ What would be received based on the above example via EmailJS
 
 ### External links
 
-* I tested all five social media links found in the footer. Testing was completed across all five pages on all screen sizes across multiple web browsers. All links worked and opened in a new browser tab which is what i wanted to achieve. 
+* I tested all five social media links found in the footer. Testing was completed across all five pages on all screen sizes across multiple web browsers. All links worked and opened in a new browser tab which is what I wanted to achieve. 
 
-* I tested all seven timeline moments in history. Each is connected to a relevant wikipedia page giving users more information. When click these links are clicked a new browser tab opens which again is what i wanted to achieve. All testing for these links were tested across different screen sizes and different web browsers. 
+* I tested all seven timeline moments in history. Each is connected to a relevant Wikipedia page giving users more information. When click these links are clicked a new browser tab opens which again is what I wanted to achieve. All testing for these links were tested across different screen sizes and different web browsers. 
  
 ### Internal links
 
 * I tested all navigation menu links found in the header. All links worked successfully throughout the website and across all screen sizes and web browsers. I did further testing to make sure that the navigation bar on smaller screens worked as the menu turns into a hamburger bar (three horizontal lines) and therefore a dropdown menu opens and closes when the hamburger menu is clicked.
 
-* I tested all internal buttons found on all web pages. Testing was completed across all screen sizes and web browsers. All buttons work based on their purpose i.e. moving to another part of the website or revealing the score on the quiz page once answers are selected.
+* I tested all internal buttons found on all web pages. Testing was completed across all screen sizes and web browsers. All buttons work based on their purpose i.e., moving to another part of the website or revealing the score on the quiz page once answers are selected.
 
 [Back to top ⇧](#the-euro-football-quiz)
 
 ## Bugs outstanding
 
 * Lighthouse testing on mobile devices: -
-With the performance results coming out a little lower than i wanted at 74%, i decided to start investigating this. The results confirmed that the issue is with Largest Contentful Paint. I found some useful <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a>. A couple of other sites i found to look into this further were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a>. Another site i found which could help resolve this issue is the <a href="https://web.dev/optimize-lcp/#render-blocking-resources" target="_blank">Optimize LCP</a>. This issue is something i will need to look into ready for my next project. 
+With the performance results coming out a little lower than I wanted at 74%, I decided to start investigating this. The results confirmed that the issue is with Largest Contentful Paint. I found some useful <a href="https://web.dev/lcp/#how-to-improve-largest-contentful-paint-on-your-site" target="_blank">Information</a>. A couple of other sites i found to look into this further were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a>. Another site I found which could help resolve this issue is the <a href="https://web.dev/optimize-lcp/#render-blocking-resources" target="_blank">Optimize LCP</a>. This issue is something I will need to look into ready for my next project. 
 
 * Safari - missing images
 
