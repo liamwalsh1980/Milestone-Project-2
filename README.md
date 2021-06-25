@@ -569,13 +569,9 @@ For a more in-depth guide about how to Fork a repo please <a href="https://docs.
 
 * sendEmail.js - the location.reload method was sourced using <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Stack Overflow</a>. This helped with making sure that when the form was completed the page reloaded properly after a user has finished submitting their details.    
 
-* sendEmail.js - I sourced code from <a href="https://www.w3schools.com/jsref/prop_style_display.asp" target="_blank">W3 Schools</a> to help with form to function properly. 
+* sendEmail.js - I sourced code from <a href="https://www.w3schools.com/jsref/prop_style_display.asp" target="_blank">W3 Schools</a> to help the function in JavaScript work properly. 
 
 * maps.js - i sourced the Latitude and Longitude units for the relevant cities in Europe thats hosting the Euro 2020 tournament using a general <a href="https://www.latlong.net/place/seville-center-of-interpretation-seville-spain-23323.html" target="_blank">google</a> search.
-
-<a href="https://www.latlong.net/place/seville-center-of-interpretation-seville-spain-23323.html" target="_blank">google</a>
-
-
 
 [Back to top ⇧](#the-euro-football-quiz)
 
