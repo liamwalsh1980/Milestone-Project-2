@@ -804,6 +804,9 @@ Feedback form successfully submitted
 Email details received successfully
 ![Image template](assets/images/readme/testing/issues/fixed-emailjs-received.png)
 
+Auto-reply sent to user
+![Image template](assets/images/readme/testing/issues/auto-reply-received.png)
+
 [Back to top ⇧](#the-euro-football-quiz)
 
 ## Further testing
@@ -843,6 +846,8 @@ Tournaments page
 
 Quiz page
 ![Image template](assets/images/readme/testing/bugs-outstanding/safari-quiz-page.png)
+
+Note: This issue was only on MacBook Safari and with further testing on ipad and iphone using Safari all images display correctly. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 

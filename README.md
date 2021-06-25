@@ -312,6 +312,8 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 
 * Once the user reads the modal message and clicks the close button, the form refreshes. I used a click function and the location.reload method to achieve this. This was sourced using <a href="https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery" target="_blank">Stack overflow</a> to help with reloading the form when a user submits their details. 
 
+* The user will then receive a bespoke auto-reply thanking them for their feedback and prompting them to have a go at the quiz. This is in the form a link back to the website quiz page. 
+
 [Back to top ⇧](#the-euro-football-quiz)
 
 ### Answers page design
@@ -401,6 +403,7 @@ This <a href="https://www.google.com/search?q=uefa+euro+2020+trophy&tbm=isch&ved
 * Upon successfully submitting the feedback form the user will receive the following message - 'Thank you for your feedback {name}. We hope you enjoyed the quiz!'.
 * If the form is submitted with all fields completed but doesn't deliver properly the user will see the following message - 'Sorry {name} something went wrong. Please try submitting your feedback again!'.
 * In the message box the user will need to click the 'close' button at the bottom right which will close the message and reset the fields in the form. 
+* Auto-reply sent to the user thanking them for their feedback and prompting them to revisit the site quiz section. 
 
 #### Answers page
 * A sub header - 'The Answers'.
