@@ -423,7 +423,7 @@ The site was developed using Chrome and therefore testing was being done daily o
 
 - #### Apple Safari
 
-Using a MacBook to complete this project meant that I could test the webpages on Apple safari. 
+Using a MacBook to complete this project meant that I could test the webpages on Apple safari. However, I found issues with three images not loading on the MacBook Safari. Please see the [Bugs outstanding](#bugs-outstanding) section for more information. 
 
 [Back to top ⇧](#the-euro-football-quiz)
 
